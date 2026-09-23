@@ -5,7 +5,7 @@
    - Il resto (catalogo e file del banco per l'importazione): dalla rete, con la cache solo se la rete manca.
    I piani aperti non passano di qui: stanno già nel deposito del dispositivo (IndexedDB, app/js/deposito.js).
    Cambiare VERSION a ogni modifica dei file elencati. */
-const VERSION = "wp-t2-2";
+const VERSION = "wp-t2-3";
 const APP = ["./", "./index.html", "./app.css", "./manifest.webmanifest", "./js/deposito.js", "./js/revisione.js", "./js/anteprima.js",
   "./js/viste.js", "./js/avvio.js", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png", "./icons/apple-touch-icon.png"];
 

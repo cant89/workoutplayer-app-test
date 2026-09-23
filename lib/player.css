@@ -1,7 +1,7 @@
 /* WorkoutPlayer · stili dei componenti (home, anteprima, player, dialog, schermata finale). Da src/style.css:28-193;
    aggiunte: il colore del passo libero (#player[data-kind="free"]); per l'API v1 il blocco a cronometro
    (#player[data-kind="block"]), il contatore dei giri (.count), le righe di riepilogo
-   che vanno a capo (.row.long). */
+   che vanno a capo (.row.long); T2: voci lunghe della scaletta che vanno a capo (.sl-item.long). */
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
@@ -159,6 +159,7 @@ dialog::backdrop { background: rgba(0, 0, 0, .55); }
 .sl-item.done { color: var(--ink-3); text-decoration: line-through; text-decoration-thickness: 1px; }
 .sl-item.now { font-weight: 600; }
 .sl-item.now span:first-child::before { content: "▸ "; color: var(--work); }
+.sl-item.long span:last-child { white-space: normal; text-align: right; min-width: 0; overflow-wrap: anywhere; }
 .set-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); }
 .set-row small { display: block; color: var(--ink-3); font-size: 13.5px; }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; flex: 0 0 auto; }

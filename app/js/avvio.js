@@ -41,9 +41,11 @@
     const plan = piano ? App.revisione.applica(rec) : rec.lib;
     document.title = plan.title + " · WorkoutPlayer";
     document.getElementById("app").hidden = true;
+    const marks = piano ? App.revisione.segni(rec, App.lang()) : {};
+    (rec.unverified || []).forEach(u => { (marks[u.k] = marks[u.k] || []).push({ field: u.field, state: "unverified", value: App.revisione.testoCampo(u.c, null, App.lang()) }); });
     const R = await WP().start({
       plan, images: rec.images || {}, composeSource: piano ? rec.compose : null,
-      lang: App.lang(), settingsKey: D.AUDIO_KEY, diary: true, editSets: true, marks: piano ? App.revisione.segni(rec, App.lang()) : {}
+      lang: App.lang(), settingsKey: D.AUDIO_KEY, diary: true, editSets: true, marks
     });
     App.runtime = R; // per le prove in headless
     const wrap = document.querySelector("#home .wrap"), back = document.createElement("button");

@@ -1,6 +1,9 @@
 {
   "name": "WorkoutPlayer",
   "short_name": "WorkoutPlayer",
+  "description": "La tua scheda di allenamento diventa un workout guidato: timer, riposi, voce e note del trainer.",
+  "lang": "it",
+  "dir": "ltr",
   "id": "./",
   "start_url": "./index.html",
   "scope": "./",

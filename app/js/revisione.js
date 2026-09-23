@@ -6,9 +6,17 @@
    invece il piano per la libreria (libreria.json, stesso ordine di sedute, fasi e voci: generator/converti_v1.py).
    - campo = un numero, oppure i due estremi di un intervallo (min/max) insieme; incerto = certezza "bassa";
    - destinazione = il campo del piano per la libreria che quel numero diventa (sets, reps, reps.min, dur, kg, rest, hold,
-     drops[n].reps, rounds, roundRest[n], work, every, time/cap, …); nessuna destinazione per ciò che la libreria non ha
-     (durata a intervallo, numero dei lati, serie nei circuiti e nei blocchi): la correzione resta nella revisione e nel
-     player la voce resta com'è scritta nella scheda;
+     drops[n].reps, rounds, roundRest[n], work, every, time/cap, sets di una voce di circuito, …). Quattro casi hanno una
+     destinazione "speciale", che trasforma la voce invece di copiare un numero:
+       sides     numero dei lati: 1 = la voce non è più per lato; lo stesso numero dei nomi dei lati = nessun cambio; un altro
+                 numero non si può rendere (la scheda non dà i nomi dei lati in più);
+       dropOn    serie che portano la scalata: 1 = l'ultima, tutte le serie = tutte; un altro numero non si può rendere;
+       durRange  durata a intervallo ("30 - 45’"): alla conferma o alla correzione la voce diventa a tempo con
+                 dur: { min, max } (conto alla rovescia sul massimo, minimo segnato);
+       lb        carico in libbre: il testo del carico nella voce ("225 lb") prende il valore corretto, sempre in libbre; la
+                 conversione in kg si mostra come tale (1 lb = 0,45359237 kg), mai come carico guidato;
+     nessuna destinazione per le serie dentro intervalli e blocchi a cronometro (lì le serie sono i giri della fase): la
+     correzione resta nella revisione e il segno nel player lo dice;
    - finché un campo incerto non è confermato o corretto il piano è "da rivedere" e non si apre nel player (D-U7);
    - la revisione registra per ogni campo toccato: stato ("confirmed" | "corrected"), valori nuovi e originali, data.
      I valori corretti entrano nel piano per il player (applica), mai in silenzio: il player li mostra marcati (segni). */
@@ -17,6 +25,7 @@
   const WP = () => globalThis.WorkoutPlayer;
   const BLOCK_FLOWS = ["intervalli", "tabata", "emom", "amrap", "a_tempo"];
   const RANGE = ["min", "max", "almeno"];
+  const LB_KG = 0.45359237; // 1 libbra in kg (definizione internazionale)
   const isNumero = o => !!o && typeof o === "object" && !Array.isArray(o) && "valore" in o && "tipo" in o;
   // campo dello schema → campo della libreria, per le etichette dei campi senza destinazione ("field.*" nei file di lingua)
   const FIELD = { serie: "sets", ripetizioni: "reps", durata: "dur", carico: "kg", recupero: "rest", tenuta: "hold", rilascio: "holdRest",
@@ -41,14 +50,16 @@
   function voceField(v, flusso, rest, api) {
     const f = rest[0], a = rest[1], b = rest[2], c = rest[3];
     switch (f) {
-      case "serie": return flusso === "circuito" || BLOCK_FLOWS.includes(flusso) || (v.lato && v.lato.modo === "serie_per_lato" && api !== "v1") ? null : ["sets"];
+      case "serie": return BLOCK_FLOWS.includes(flusso) || (v.lato && v.lato.modo === "serie_per_lato" && api !== "v1") ? null : ["sets"];
       case "ripetizioni": { const r = repsSub(a); return r && (api === "v1" || a == null) ? ["reps"].concat(r) : null; }
-      case "durata": return a == null ? ["dur"] : null;
-      case "carico": return a == null && (v.carico.unita == null || v.carico.unita === "kg") ? ["kg"] : null;
+      case "durata": return a == null ? ["dur"] : api === "v1" && (a === "min" || a === "max") ? { special: "durRange", field: "dur" } : null;
+      case "carico": return a == null && (v.carico.unita == null || v.carico.unita === "kg") ? ["kg"] : a == null && v.carico.unita === "lb" ? { special: "lb", field: "kg" } : null;
+      case "lato": return a === "lati" && api === "v1" && ["serie_per_lato", "alternato"].includes(v.lato.modo) ? { special: "sides", field: "sides" } : null;
       case "recupero": return a == null ? ["rest"] : null;
       case "tenuta": return api === "v1" && a == null ? ["hold"] : null;
       case "rilascio": return api === "v1" && a == null ? ["holdRest"] : null;
       case "scalate": {
+        if (api === "v1" && a === "serie") return { special: "dropOn", field: "drops" };
         if (api !== "v1" || a !== "parti") return null;
         if (c === "ripetizioni") { const r = repsSub(rest[4]); return r ? ["drops", b, "reps"].concat(r) : null; }
         return c === "carico" && rest[4] == null ? ["drops", b, "kg"] : null;
@@ -76,6 +87,7 @@
     const base = ["workouts", s.id, "phases", path[3]];
     if (path[4] === "voci") {
       const lp = voceField(ph.voci[path[5]], ph.flusso, path.slice(6), lib.api);
+      if (lp && lp.special) return { wid: s.id, pi: path[3], ii: path[5], field: lp.field, lib: null, special: lp.special };
       return lp ? { wid: s.id, pi: path[3], ii: path[5], field: lp[0], lib: base.concat(["items", path[5]], lp) } : null;
     }
     const lp = faseField(ph, path.slice(4));
@@ -127,16 +139,58 @@
   }
   function concludi(rec) { if (pending(rec)) return false; reviewOf(rec).confirmedAt = reviewOf(rec).confirmedAt || Date.now(); return true; }
 
+  const itemOf = (lib, t) => { const w = lib.workouts[t.wid], ph = w && w.phases[t.pi]; return ph && t.ii != null ? ph.items[t.ii] : null; };
+  const specialOf = c => { const p = c.parts.find(x => x.target && x.target.special); return p ? p.target : null; };
+  // un campo speciale nel piano per il player: true se applicato, false se la libreria non lo può rendere (effetto() dice perché)
+  function applySpecial(lib, c, t, r) {
+    const it = itemOf(lib, t), v = r.values, n = v[""];
+    if (!it) return false;
+    if (t.special === "durRange") {
+      if (!(v.min > 0 && v.max > 0)) return false;
+      if (it.dur == null) { it.mode = "timed"; it.dur = v.min < v.max ? { min: v.min, max: v.max } : v.min; }
+      return true;
+    }
+    if (r.state !== "corrected") return true; // confermato: il piano è già quello
+    if (t.special === "sides") {
+      const names = Array.isArray(it.sides) ? it.sides.length : 1;
+      if (n === names) return true;
+      if (n === 1) { delete it.perSide; delete it.sides; return true; }
+      return false;
+    }
+    if (t.special === "dropOn") {
+      if (!Array.isArray(it.drops)) return false;
+      if (n === 1) { it.dropOn = "last"; return true; }
+      if (n === it.sets) { it.dropOn = "all"; return true; }
+      return false;
+    }
+    if (t.special === "lb") {
+      const written = c.parts[0].n.scritto, i = Array.isArray(it.rx) ? it.rx.indexOf(written) : -1;
+      if (i < 0) return false;
+      it.rx[i] = n + " lb";
+      return true;
+    }
+    return false;
+  }
   // il piano per il player con i valori corretti dall'utente (solo dove la destinazione ha ancora il valore letto)
   function applica(rec) {
     const lib = copy(rec.lib);
     if (!rec.data) return lib;
     const fields = reviewOf(rec).fields;
     campi(rec.data, rec.lib).forEach(c => {
-      const r = fields[c.key]; if (!r || r.state !== "corrected") return;
+      const r = fields[c.key]; if (!r) return;
+      const sp = specialOf(c);
+      if (sp) { applySpecial(lib, c, sp, r); return; }
+      if (r.state !== "corrected") return;
       c.parts.forEach(p => { if (p.target && getAt(lib, p.target.lib) === p.n.valore) setAt(lib, p.target.lib, r.values[p.sub || ""]); });
     });
     return lib;
+  }
+  // se una correzione (o i valori letti, senza revisione) arriva al player: null = sì; altrimenti la chiave del motivo
+  function effetto(rec, c, values) {
+    const sp = specialOf(c);
+    if (!sp) return c.parts.some(p => p.target) ? null : "app.review.noEffect";
+    const r = { state: "corrected", values: values || Object.fromEntries(c.parts.map(p => [p.sub || "", p.n.valore])) };
+    return applySpecial(copy(rec.lib), c, sp, r) ? null : "app.review.noEffect." + sp.special;
   }
 
   /* ---- testi ---- */
@@ -148,7 +202,8 @@
       case "serie": return T("sum.sets", { n: v });
       case "ripetizioni": return T("sum.reps", { r: v });
       case "tempo": case "recupero": return U.durText(v);
-      case "carico": return U.fmtKg(v, T("num.decimal")) + " " + (unita || "kg");
+      case "carico": return U.fmtKg(v, T("num.decimal")) + " " + (unita || "kg") +
+        (unita === "lb" ? " (≈ " + U.fmtKg(Math.round(v * LB_KG * 10) / 10, T("num.decimal")) + " kg)" : ""); // conversione dichiarata
       case "giri": return T("block.rounds", { n: v });
       default: return String(v);
     }
@@ -193,5 +248,5 @@
     return Object.assign({ docName: doc ? doc.nome : f.doc }, f);
   }
 
-  App.revisione = { FIELD, numeri, target, campi, pending, playable, registra, concludi, applica, segni, formato, testoCampo, perche, fonte, getAt };
+  App.revisione = { FIELD, LB_KG, numeri, target, campi, pending, playable, registra, concludi, applica, effetto, segni, formato, testoCampo, perche, fonte, getAt };
 })(globalThis.WorkoutPlayerApp = globalThis.WorkoutPlayerApp || {});

@@ -5,14 +5,18 @@ arrivano dal server, T3). Scrive dist/banco-catalogo.json con, per ogni piano:
   lib (file del piano per la libreria), data (dati con provenienza e certezza, schema wp-plan/1, se ci sono),
   compose (script di composizione, se c'è), images (ritagli in images/), uncertain (numeri a certezza "bassa").
 Piani: le generazioni consegnate del giro 3 del banco v1 (banco/generati-v1/giro3/<documento>/1/) e i piani di plans/
-(cantelli = l'artifact del titolare, prova-v1 = piano sintetico con tutti i componenti). Nessuna chiamata a modelli.
-Le cartelle con i piani delle schede di terzi sono fuori da git: se mancano, il catalogo non le elenca.
-Uso: python3 app/catalogo_banco.py"""
+(cantelli = l'artifact del titolare, prova-v1 = piano sintetico con tutti i componenti, prova-revisione = piano sintetico con
+valori incerti, plans/prova-revisione/crea.py). Nessuna chiamata a modelli.
+Le schede di terzi (prefissi in TERZI: nomi di clienti nei titoli e nei testi) restano fuori dal catalogo; con
+--includi-terzi entrano, solo per le prove in locale: mai su un server raggiungibile da altri.
+Uso: python3 app/catalogo_banco.py [--includi-terzi]"""
+import argparse
 import json
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 IMG = {".webp", ".png", ".jpg", ".jpeg", ".gif", ".svg"}
+TERZI = ("trainerA-", "scheda-0")  # documenti di terzi (banco/README.md): trainer e clienti veri
 
 
 def bassa(o):
@@ -38,18 +42,26 @@ def voce(d, lib_file, data_file, gruppo):
 
 
 def main():
-    out = []
+    ap = argparse.ArgumentParser(description="Catalogo dei piani del banco per l'app (solo prove)")
+    ap.add_argument("--includi-terzi", action="store_true", help="includi le schede di terzi (solo in locale)")
+    a = ap.parse_args()
+    out, esclusi = [], []
     for d in sorted((ROOT / "banco/generati-v1/giro3").glob("*/1")):
-        if (d / "libreria.json").is_file() and (d / "plan.json").is_file():
-            out.append(voce(d, "libreria.json", "plan.json", "banco"))
-    for name in ("cantelli", "prova-v1"):
+        if not ((d / "libreria.json").is_file() and (d / "plan.json").is_file()):
+            continue
+        if d.parent.name.startswith(TERZI) and not a.includi_terzi:
+            esclusi.append(d.parent.name)
+            continue
+        out.append(voce(d, "libreria.json", "plan.json", "banco"))
+    for name, data in (("cantelli", None), ("prova-v1", None), ("prova-revisione", "dati.json")):
         d = ROOT / "plans" / name
         if (d / "plan.json").is_file():
-            out.append(voce(d, "plan.json", None, "plans"))
+            out.append(voce(d, "plan.json", data, "plans"))
     target = ROOT / "dist" / "banco-catalogo.json"
     target.parent.mkdir(exist_ok=True)
     target.write_text(json.dumps({"piani": out}, ensure_ascii=False, indent=1) + "\n")
-    print(target.relative_to(ROOT), len(out), "piani;", sum(1 for x in out if x["uncertain"]), "con valori incerti")
+    print(target.relative_to(ROOT), len(out), "piani;", sum(1 for x in out if x["uncertain"]), "con valori incerti;",
+          len(esclusi), "schede di terzi escluse" + (" (" + ", ".join(esclusi) + ")" if esclusi else ""))
 
 
 if __name__ == "__main__":

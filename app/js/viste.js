@@ -7,7 +7,8 @@
      #preview/<id>      anteprima (AC-V3-1): avviso di copertura e disclaimer in alto, i primi 2 esercizi giocabili,
                           il resto in elenco con numeri e istruzioni oscurati
      #unlock/<id>        segnaposto dello sblocco (il pagamento è di T3)
-   Il player di un piano si apre in index.html?p=<id> (app/js/avvio.js). Tipi di record: "plan" (piano) e "preview" (anteprima). Parole dai file di lingua (lib/lang/). */
+   Il player di un piano si apre in index.html?p=<id> (app/js/avvio.js). Tipi di record: "plan" (piano) e "preview" (anteprima);
+   un'anteprima porta anche i valori incerti dei suoi 2 esercizi (unverified), segnati "da verificare" nel player. Parole dai file di lingua (lib/lang/). */
 (function (App) {
   "use strict";
   const WP = () => globalThis.WorkoutPlayer;
@@ -68,7 +69,7 @@
     try {
       if (!state.catalog) state.catalog = (await (await fetch("../dist/banco-catalogo.json", { cache: "no-cache" })).json()).piani;
     } catch (e) {
-      return page(T("app.bank.title"), T("app.bank.eyebrow"), "#plans", '<div class="note">' + esc(T("app.bank.missing")) + "</div>");
+      return page(T("app.bank.title"), T("app.bank.eyebrow"), "#plans", '<div class="note">' + esc(T(navigator.onLine === false ? "app.bank.offline" : "app.bank.missing")) + "</div>");
     }
     const have = new Set((await D.all()).map(r => r.id));
     const btn = (x, i, kind) => {
@@ -93,7 +94,13 @@
       Object.assign(rec, { lib, compose: x.compose ? await get(x.compose, "text") : null, data: x.data ? await get(x.data) : null, review: { fields: {} } });
     } else {
       const a = App.anteprima.costruisci(lib), keep = new Set(a.chosen.map(ex => (lib.exercises[ex] || {}).img || ex));
-      Object.assign(rec, { lib: a.plan, compose: null, outline: a.outline, coverage: a.coverage });
+      // valori incerti dei 2 esercizi giocabili: nel player con il segno "da verificare" (solo il necessario per scriverlo)
+      const data = x.data ? await get(x.data) : null, unverified = [];
+      if (data) RV.campi(data, lib).filter(c => c.uncertain && c.labelField).forEach(c => {
+        const k = a.markKey(c.pos.wid, c.pos.pi, c.pos.ii);
+        if (k) unverified.push({ k, field: c.labelField, c: { tipo: c.tipo, parts: c.parts.map(p => ({ sub: p.sub, n: { valore: p.n.valore, unita: p.n.unita } })) } });
+      });
+      Object.assign(rec, { lib: a.plan, compose: null, outline: a.outline, coverage: a.coverage, unverified });
       wanted = x.images.filter(f => keep.has(stem(f)));
     }
     for (const f of wanted) rec.images[stem(f)] = await toDataURL(await get("images/" + f, "blob"));
@@ -154,7 +161,9 @@
     const lang = App.lang(), r = (rec.review.fields || {})[c.key], read = RV.testoCampo(c, null, lang);
     const where = [c.where.seduta, c.where.fase, exerciseName(rec, c.where.esercizio)].filter(Boolean).join(" · ");
     const status = r ? '<p class="app-status">' + esc(r.state === "corrected" ? T("app.review.corrected", { value: RV.testoCampo(c, r.values, lang), original: read }) : T("app.review.confirmed", { value: read })) + "</p>" : "";
-    const noEffect = c.parts.some(p => p.target) ? "" : '<p class="fine">' + esc(T("app.review.noEffect")) + "</p>";
+    const effect = RV.effetto(rec, c, r ? r.values : null);
+    const noEffect = (effect ? '<p class="fine">' + esc(T(effect)) + "</p>" : "") +
+      (c.tipo === "carico" && c.parts[0].n.unita === "lb" ? '<p class="fine">' + esc(T("app.review.lbNote")) + "</p>" : "");
     const actions = state.openKey === c.key ? editor(rec, c, r) : '<div class="app-row">' +
       (r ? "" : '<button type="button" class="btn" data-confirm="' + esc(c.key) + '">' + esc(T("app.review.confirm", { value: read })) + "</button>") +
       '<button type="button" class="btn ghost" data-fix="' + esc(c.key) + '">' + esc(T(r ? "app.review.change" : "app.review.fix")) + "</button></div>";

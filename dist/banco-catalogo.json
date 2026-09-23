@@ -242,6 +242,21 @@
     "squat_bulgaro.svg"
    ],
    "uncertain": 0
+  },
+  {
+   "id": "plans-prova-revisione",
+   "dir": "plans/prova-revisione",
+   "group": "plans",
+   "title": "Scheda di prova per la revisione",
+   "lang": "it-IT",
+   "api": "v1",
+   "sessions": 1,
+   "exercises": 7,
+   "lib": "plan.json",
+   "data": "dati.json",
+   "compose": null,
+   "images": [],
+   "uncertain": 4
   }
  ]
 }

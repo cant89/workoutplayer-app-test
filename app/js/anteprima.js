@@ -7,7 +7,8 @@
    - outline: tutte le sedute e le voci con il solo nome dell'esercizio (e quali sono giocabili): nessun numero né istruzione
      delle altre voci entra nel deposito, quindi nemmeno nella pagina;
    - coverage: stima di copertura dai dati con le regole della libreria (rendering di riserva): voci guidate e voci che
-     usciranno come passo libero, con i nomi. Nessuna chiamata AI. */
+     usciranno come passo libero, con i nomi. Nessuna chiamata AI.
+   - markKey: dove mettere, nel piano dell'anteprima, il segno "da verificare" di un valore incerto dei 2 esercizi giocabili. */
 (function (App) {
   "use strict";
   const WP = () => globalThis.WorkoutPlayer;
@@ -15,7 +16,7 @@
 
   function costruisci(lib) {
     const wids = Object.keys(lib.workouts), wid = wids[0], w = lib.workouts[wid];
-    const chosen = [], taken = new Set(), phases = [];
+    const chosen = [], taken = new Set(), phases = [], phaseIndex = {};
     let stop = false;
     w.phases.forEach((ph, pi) => {
       if (stop) return;
@@ -25,7 +26,7 @@
         if (!chosen.includes(it.ex)) { if (chosen.length >= MAX) { stop = true; break; } chosen.push(it.ex); }
         items.push(it); taken.add(pi + "." + ii);
       }
-      if (items.length) phases.push(Object.assign({}, ph, { items }));
+      if (items.length) { phaseIndex[pi] = phases.length; phases.push(Object.assign({}, ph, { items })); }
     });
     const exercises = {}, kgStep = {};
     chosen.forEach(ex => { exercises[ex] = lib.exercises[ex]; if (lib.kgStep && lib.kgStep[ex] != null) kgStep[ex] = lib.kgStep[ex]; });
@@ -42,7 +43,9 @@
       return { id, title: x.title, focus: x.focus || "", letter: x.letter || "",
         phases: x.phases.map((ph, pi) => ({ title: ph.title, items: ph.items.map((it, ii) => ({ name: name(it), playable: id === wid && taken.has(pi + "." + ii) })) })) };
     });
-    return { plan, outline, coverage: copertura(lib), chosen };
+    // voce del piano completo (seduta, fase, voce) → chiave del segno nel piano dell'anteprima, o null se non è nella prova
+    const markKey = (wid2, pi, ii) => (wid2 !== wid || phaseIndex[pi] == null || (ii != null && !taken.has(pi + "." + ii)) ? null : wid + "/" + phaseIndex[pi] + (ii != null ? "/" + ii : ""));
+    return { plan, outline, coverage: copertura(lib), chosen, markKey };
   }
 
   // voci guidate e voci che il player renderà come passo libero, con le regole della riserva della libreria

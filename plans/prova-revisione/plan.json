@@ -1,0 +1,210 @@
+{
+ "id": "prova-revisione",
+ "api": "v1",
+ "title": "Scheda di prova per la revisione",
+ "lang": "it-IT",
+ "storageKey": "workoutplayer-prova-revisione",
+ "rules": [
+  "questa settimana è di scarico, fai il 70% dei carichi soliti su tutto"
+ ],
+ "exercises": {
+  "panca_piana": {
+   "name": "panca piana",
+   "it": "Panca piana con bilanciere",
+   "gear": "panca piana, bilanciere",
+   "how": [
+    "Sdraiati sulla panca con i piedi ben appoggiati a terra",
+    "Abbassa il bilanciere controllato fino al petto",
+    "Spingi verso l'alto mantenendo le scapole retratte"
+   ]
+  },
+  "panca_inclinata": {
+   "name": "panca inclinata",
+   "it": "Panca inclinata con bilanciere",
+   "gear": "panca inclinata, bilanciere",
+   "how": [
+    "Regola la panca con inclinazione moderata",
+    "Abbassa il bilanciere verso la parte alta del petto",
+    "Spingi in alto senza bloccare di scatto i gomiti"
+   ]
+  },
+  "affondi_cammino": {
+   "name": "affondi in cammino",
+   "it": "Affondi camminati con manubri",
+   "gear": "manubri",
+   "how": [
+    "Tieni un manubrio per mano lungo i fianchi",
+    "Esegui un passo lungo in avanti flettendo entrambe le ginocchia",
+    "Spingi sul piede avanti per avanzare al passo successivo"
+   ]
+  },
+  "curl_fitball": {
+   "name": "curl su fitball",
+   "it": "Curl femorale su fitball",
+   "gear": "fitball",
+   "how": [
+    "Sdraiati supino con i talloni appoggiati sulla fitball",
+    "Solleva il bacino da terra",
+    "Fletti le ginocchia portando la palla verso i glutei"
+   ]
+  },
+  "plank_laterale": {
+   "name": "plank laterale",
+   "it": "Plank laterale",
+   "gear": "",
+   "how": [
+    "Appoggiati su avambraccio e bordo del piede, corpo in linea",
+    "Mantieni il bacino sollevato senza cedere",
+    "Respira in modo regolare durante la tenuta"
+   ]
+  },
+  "piegamenti": {
+   "name": "Piegamenti",
+   "it": "Piegamenti sulle braccia",
+   "gear": "",
+   "how": [
+    "Mani sotto le spalle, corpo in linea",
+    "Scendi fino a sfiorare il pavimento e risali"
+   ]
+  },
+  "crunch": {
+   "name": "Crunch",
+   "it": "Crunch a terra",
+   "gear": "",
+   "how": [
+    "Schiena a terra, ginocchia piegate",
+    "Solleva le spalle espirando"
+   ]
+  }
+ },
+ "workouts": {
+  "A1": {
+   "id": "A1",
+   "title": "Allenamento del giorno",
+   "focus": "Petto, gambe e core",
+   "letter": "A",
+   "doneMsg": "Buon lavoro, recuperati bene prima della prossima seduta",
+   "phases": [
+    {
+     "id": "petto",
+     "title": "Petto",
+     "notes": [],
+     "flow": "sets",
+     "items": [
+      {
+       "ex": "panca_piana",
+       "mode": "reps",
+       "sets": 4,
+       "reps": 8,
+       "kg": 60,
+       "rest": 0,
+       "drops": [
+        {
+         "reps": "max",
+         "text": "togli 10 kg"
+        }
+       ],
+       "dropOn": "last"
+      },
+      {
+       "ex": "panca_inclinata",
+       "mode": "reps",
+       "sets": 3,
+       "reps": 10,
+       "kg": 45,
+       "rest": 0,
+       "rx": [
+        "senza drop set"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "gambe",
+     "title": "Gambe",
+     "notes": [],
+     "flow": "sets",
+     "items": [
+      {
+       "ex": "affondi_cammino",
+       "mode": "reps",
+       "sets": 4,
+       "kg": 14,
+       "rest": 90,
+       "perSide": true,
+       "sides": [
+        "Lato sinistro",
+        "Lato destro"
+       ],
+       "note": "per mano"
+      }
+     ]
+    },
+    {
+     "id": "femorali",
+     "title": "Femorali",
+     "notes": [],
+     "flow": "sets",
+     "items": [
+      {
+       "ex": "curl_fitball",
+       "mode": "reps",
+       "sets": 3,
+       "kg": "BW",
+       "rest": 60,
+       "perSide": true,
+       "sides": [
+        "Lato sinistro",
+        "Lato destro"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "core",
+     "title": "Core",
+     "notes": [],
+     "flow": "sets",
+     "items": [
+      {
+       "ex": "plank_laterale",
+       "mode": "timed",
+       "sets": 2,
+       "dur": null,
+       "rest": 30,
+       "perSide": true,
+       "sides": [
+        "Lato sinistro",
+        "Lato destro"
+       ],
+       "text": "30 - 45’"
+      }
+     ]
+    },
+    {
+     "id": "finale",
+     "title": "Circuito finale",
+     "notes": [],
+     "flow": "circuit",
+     "rounds": 2,
+     "items": [
+      {
+       "ex": "piegamenti",
+       "mode": "reps",
+       "sets": 1,
+       "reps": 10,
+       "rest": 0
+      },
+      {
+       "ex": "crunch",
+       "mode": "reps",
+       "sets": 1,
+       "reps": 15,
+       "rest": 0
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
