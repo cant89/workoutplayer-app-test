@@ -1,0 +1,122 @@
+{
+  "id": "scheda-stampata-foto",
+  "api": "v1",
+  "title": "SCHEDA SETTIMANALE — SALA PESI",
+  "lang": "it-IT",
+  "storageKey": "wp-scheda-stampata-foto",
+  "kicker": "Seduta unica — full body",
+  "rules": [],
+  "exercises": {
+    "panca_piana": {
+      "name": "Panca piana",
+      "it": "Panca piana con bilanciere",
+      "gear": "bilanciere, panca piana",
+      "how": [
+        "Sdraiati sulla panca con i piedi ben appoggiati a terra",
+        "Abbassa il bilanciere al petto in modo controllato",
+        "Spingi verso l'alto senza bloccare di scatto i gomiti"
+      ]
+    },
+    "squat": {
+      "name": "Squat",
+      "it": "Squat con bilanciere",
+      "gear": "bilanciere, rack",
+      "how": [
+        "Posiziona il bilanciere sulle spalle",
+        "Scendi mantenendo la schiena dritta e le ginocchia in linea con i piedi",
+        "Risali spingendo sui talloni"
+      ]
+    },
+    "trazioni": {
+      "name": "Trazioni alla sbarra",
+      "it": "Trazioni alla sbarra",
+      "gear": "sbarra per trazioni",
+      "how": [
+        "Impugna la sbarra con presa salda",
+        "Tira il corpo verso l'alto fino a portare il mento sopra la sbarra",
+        "Scendi in modo controllato"
+      ]
+    },
+    "plank": {
+      "name": "Plank",
+      "it": "Plank su avambracci",
+      "gear": "",
+      "how": [
+        "Appoggia gli avambracci a terra e distendi il corpo",
+        "Mantieni addome e glutei contratti",
+        "Tieni la schiena dritta senza inarcarla"
+      ]
+    },
+    "affondi": {
+      "name": "Affondi con manubri",
+      "it": "Affondi camminati o in loco con manubri",
+      "gear": "manubri",
+      "how": [
+        "Tieni un manubrio per mano lungo i fianchi",
+        "Fai un passo avanti e scendi flettendo entrambe le ginocchia",
+        "Torna alla posizione di partenza e alterna il lato"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Seduta unica — full body",
+      "focus": "Allenamento completo per tutto il corpo",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, seduta completata!",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Full body",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "panca_piana",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 60,
+              "rest": 90
+            },
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "kg": 80,
+              "rest": 120
+            },
+            {
+              "ex": "trazioni",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "rest": 90
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 45,
+              "rest": 45
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "kg": 14,
+              "rest": 60,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

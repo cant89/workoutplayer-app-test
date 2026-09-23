@@ -1,0 +1,6315 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "settimane-emom",
+  "titolo": "MICROCICLO 4 SETTIMANE",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-settimane-emom",
+  "sopratitolo": {
+    "testo": "Palestra Nova Fitness — rivalutazione carichi ogni 4 settimane",
+    "fonti": [
+      "d1:f1:r2",
+      "d1:f2:r2",
+      "d1:f3:r2"
+    ]
+  },
+  "regole": [
+    {
+      "testo": "Rivalutazione carichi ogni 4 settimane",
+      "fonti": [
+        "d1:f1:r2",
+        "d1:f2:r2",
+        "d1:f3:r2"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "settimane-emom.xlsx",
+      "formato": "xlsx",
+      "sha256": "b7bab9bca113caa7071550ce72558db64c4f60b846d4ed716350b5e4383f6cf7"
+    }
+  ],
+  "fonti": {
+    "d1:f1:A12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": "FINISHER A CRONOMETRO — EMOM 10' (10 minuti, ogni minuto sul minuto)",
+      "foglio": "Seduta A - Full Body",
+      "cella": "A12"
+    },
+    "d1:f1:B5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "3x10 @ 40 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B5"
+    },
+    "d1:f1:B6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x10 @ 40 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B6"
+    },
+    "d1:f1:B7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x10 @ 35 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B7"
+    },
+    "d1:f1:B8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x12 per gamba @ 12 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B8"
+    },
+    "d1:f1:B9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x12 @ 12 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B9"
+    },
+    "d1:f1:B10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "3x40''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B10"
+    },
+    "d1:f1:B14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "8 kettlebell swing @ 16 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B14"
+    },
+    "d1:f1:B15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "9 kettlebell swing @ 16 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B15"
+    },
+    "d1:f1:B16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": "10 kettlebell swing @ 16 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B16"
+    },
+    "d1:f1:B17": {
+      "doc": "d1",
+      "riga": 17,
+      "testo": "10 kettlebell swing @ 18 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "B17"
+    },
+    "d1:f1:C5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "3x10 @ 42,5 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "C5"
+    },
+    "d1:f1:C6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x10 @ 42,5 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "C6"
+    },
+    "d1:f1:C7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x10 @ 37,5 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "C7"
+    },
+    "d1:f1:C8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x12 per gamba @ 14 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "C8"
+    },
+    "d1:f1:C9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x12 @ 13 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "C9"
+    },
+    "d1:f1:C10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "3x45''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "C10"
+    },
+    "d1:f1:D5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "4x8 @ 45 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "D5"
+    },
+    "d1:f1:D6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x8 @ 45 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "D6"
+    },
+    "d1:f1:D7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x8 @ 40 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "D7"
+    },
+    "d1:f1:D8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x10 per gamba @ 16 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "D8"
+    },
+    "d1:f1:D9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x10 @ 14 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "D9"
+    },
+    "d1:f1:D10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "4x40''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "D10"
+    },
+    "d1:f1:E5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "4x8 @ 47,5 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "E5"
+    },
+    "d1:f1:E6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x8 @ 47,5 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "E6"
+    },
+    "d1:f1:E7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x8 @ 42,5 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "E7"
+    },
+    "d1:f1:E8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x10 per gamba @ 18 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "E8"
+    },
+    "d1:f1:E9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x10 @ 15 kg",
+      "foglio": "Seduta A - Full Body",
+      "cella": "E9"
+    },
+    "d1:f1:E10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "4x45''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "E10"
+    },
+    "d1:f1:F5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "90''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "F5"
+    },
+    "d1:f1:F6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "90''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "F6"
+    },
+    "d1:f1:F7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "75''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "F7"
+    },
+    "d1:f1:F8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "60''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "F8"
+    },
+    "d1:f1:F9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "75''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "F9"
+    },
+    "d1:f1:F10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "45''",
+      "foglio": "Seduta A - Full Body",
+      "cella": "F10"
+    },
+    "d1:f1:G5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Scarpe piatte",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G5"
+    },
+    "d1:f1:G6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Presa media",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G6"
+    },
+    "d1:f1:G7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Schiena neutra",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G7"
+    },
+    "d1:f1:G8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "12 kg = per manubrio",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G8"
+    },
+    "d1:f1:G9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "Seduto, 12 kg per manubrio",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G9"
+    },
+    "d1:f1:G10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "Addominali in tensione",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G10"
+    },
+    "d1:f1:G14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "cambia mano ogni giro",
+      "foglio": "Seduta A - Full Body",
+      "cella": "G14"
+    },
+    "d1:f1:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "MICROCICLO 4 SETTIMANE — SEDUTA A (Full Body)",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Palestra Nova Fitness — rivalutazione carichi ogni 4 settimane",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Esercizio | Sett. 1 | Sett. 2 | Sett. 3 | Sett. 4 | Recupero | Note",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Squat al multipower | 3x10 @ 40 kg | 3x10 @ 42,5 kg | 4x8 @ 45 kg | 4x8 @ 47,5 kg | 90'' | Scarpe piatte",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Panca piana bilanciere | 4x10 @ 40 kg | 4x10 @ 42,5 kg | 4x8 @ 45 kg | 4x8 @ 47,5 kg | 90'' | Presa media",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Rematore bilanciere | 4x10 @ 35 kg | 4x10 @ 37,5 kg | 4x8 @ 40 kg | 4x8 @ 42,5 kg | 75'' | Schiena neutra",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "Affondi con manubri | 3x12 per gamba @ 12 kg | 3x12 per gamba @ 14 kg | 3x10 per gamba @ 16 kg | 3x10 per gamba @ 18 kg | 60'' | 12 kg = per manubrio",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "Military Press manubri | 3x12 @ 12 kg | 3x12 @ 13 kg | 3x10 @ 14 kg | 3x10 @ 15 kg | 75'' | Seduto, 12 kg per manubrio",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "Plank | 3x40'' | 3x45'' | 4x40'' | 4x45'' | 45'' | Addominali in tensione",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": "FINISHER A CRONOMETRO — EMOM 10' (10 minuti, ogni minuto sul minuto)",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "Settimana | Ogni minuto (min 1-10) | Note",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "Sett. 1 | 8 kettlebell swing @ 16 kg | cambia mano ogni giro",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "Sett. 2 | 9 kettlebell swing @ 16 kg",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": "Sett. 3 | 10 kettlebell swing @ 16 kg",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r17": {
+      "doc": "d1",
+      "riga": 17,
+      "testo": "Sett. 4 | 10 kettlebell swing @ 18 kg",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f1:r19": {
+      "doc": "d1",
+      "riga": 19,
+      "testo": "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque.",
+      "foglio": "Seduta A - Full Body"
+    },
+    "d1:f2:A11": {
+      "doc": "d1",
+      "riga": 11,
+      "testo": "CIRCUITO FINALE A GIRI (30''/15'' per esercizio, rec. a fine giro)",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "A11"
+    },
+    "d1:f2:B5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "4x8 @ 50 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B5"
+    },
+    "d1:f2:B6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x6",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B6"
+    },
+    "d1:f2:B7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x12 @ 100 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B7"
+    },
+    "d1:f2:B8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x15 @ 6 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B8"
+    },
+    "d1:f2:B9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x12 @ 20 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B9"
+    },
+    "d1:f2:B13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "3 giri",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B13"
+    },
+    "d1:f2:B14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "3 giri",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B14"
+    },
+    "d1:f2:B15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "4 giri",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B15"
+    },
+    "d1:f2:B16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": "4 giri",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "B16"
+    },
+    "d1:f2:C5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "4x8 @ 52,5 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "C5"
+    },
+    "d1:f2:C6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x7",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "C6"
+    },
+    "d1:f2:C7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x12 @ 110 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "C7"
+    },
+    "d1:f2:C8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x15 @ 7 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "C8"
+    },
+    "d1:f2:C9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x12 @ 22,5 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "C9"
+    },
+    "d1:f2:D5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "4x6 @ 55 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "D5"
+    },
+    "d1:f2:D6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x8",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "D6"
+    },
+    "d1:f2:D7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x10 @ 120 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "D7"
+    },
+    "d1:f2:D8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "3x12 @ 8 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "D8"
+    },
+    "d1:f2:D9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "3x10 @ 25 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "D9"
+    },
+    "d1:f2:E5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "4x6 @ 57,5 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "E5"
+    },
+    "d1:f2:E6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "4x9",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "E6"
+    },
+    "d1:f2:E7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "4x10 @ 130 kg",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "E7"
+    },
+    "d1:f2:F5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "90''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "F5"
+    },
+    "d1:f2:F6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "90''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "F6"
+    },
+    "d1:f2:F7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "90''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "F7"
+    },
+    "d1:f2:F8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "45''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "F8"
+    },
+    "d1:f2:F9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "60''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "F9"
+    },
+    "d1:f2:G5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Ginocchia morbide",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G5"
+    },
+    "d1:f2:G6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Stessa resistenza tutte le settimane",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G6"
+    },
+    "d1:f2:G7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Piedi larghi",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G7"
+    },
+    "d1:f2:G8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "Per manubrio",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G8"
+    },
+    "d1:f2:G9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "Presa stretta",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G9"
+    },
+    "d1:f2:G13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "90''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G13"
+    },
+    "d1:f2:G14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "75''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G14"
+    },
+    "d1:f2:G15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "90''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G15"
+    },
+    "d1:f2:G16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": "75''",
+      "foglio": "Seduta B - Upper Lower",
+      "cella": "G16"
+    },
+    "d1:f2:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "MICROCICLO 4 SETTIMANE — SEDUTA B (Upper/Lower)",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Palestra Nova Fitness — rivalutazione carichi ogni 4 settimane",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Esercizio | Sett. 1 | Sett. 2 | Sett. 3 | Sett. 4 | Recupero | Note",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Stacco rumeno bilanciere | 4x8 @ 50 kg | 4x8 @ 52,5 kg | 4x6 @ 55 kg | 4x6 @ 57,5 kg | 90'' | Ginocchia morbide",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Trazioni assistite (elastico verde) | 4x6 | 4x7 | 4x8 | 4x9 | 90'' | Stessa resistenza tutte le settimane",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Leg press | 4x12 @ 100 kg | 4x12 @ 110 kg | 4x10 @ 120 kg | 4x10 @ 130 kg | 90'' | Piedi larghi",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "Alzate laterali manubri | 3x15 @ 6 kg | 3x15 @ 7 kg | 3x12 @ 8 kg | 3x12 @ 8 kg | 45'' | Per manubrio",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "Curl bilanciere EZ | 3x12 @ 20 kg | 3x12 @ 22,5 kg | 3x10 @ 25 kg | 3x10 @ 25 kg | 60'' | Presa stretta",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r11": {
+      "doc": "d1",
+      "riga": 11,
+      "testo": "CIRCUITO FINALE A GIRI (30''/15'' per esercizio, rec. a fine giro)",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": "Settimana | Giri | Esercizi (30'' lavoro / 15'' cambio) | Rec. fra i giri",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "Sett. 1 | 3 giri | Burpee, mountain climber, jumping jack, squat a corpo libero | 90''",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "Sett. 2 | 3 giri | Burpee, mountain climber, jumping jack, squat a corpo libero | 75''",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "Sett. 3 | 4 giri | Burpee, mountain climber, jumping jack, squat a corpo libero | 90''",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f2:r16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": "Sett. 4 | 4 giri | Burpee, mountain climber, jumping jack, squat a corpo libero | 75''",
+      "foglio": "Seduta B - Upper Lower"
+    },
+    "d1:f3:A8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "METCON — AMRAP 15' (piu' giri possibili in 15 minuti)",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "A8"
+    },
+    "d1:f3:B5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "3x12 @ 16 kg",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "B5"
+    },
+    "d1:f3:B6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "3x10 @ 10 kg",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "B6"
+    },
+    "d1:f3:B10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "10 kettlebell swing @ 16 kg, 10 box step-up, 10 push-up",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "B10"
+    },
+    "d1:f3:B11": {
+      "doc": "d1",
+      "riga": 11,
+      "testo": "10 kettlebell swing @ 16 kg, 10 box step-up, 10 push-up",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "B11"
+    },
+    "d1:f3:B12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": "12 kettlebell swing @ 18 kg, 10 box step-up, 12 push-up",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "B12"
+    },
+    "d1:f3:B13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "12 kettlebell swing @ 18 kg, 10 box step-up, 12 push-up",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "B13"
+    },
+    "d1:f3:C5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "3x12 @ 18 kg",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "C5"
+    },
+    "d1:f3:C6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "3x10 @ 11 kg",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "C6"
+    },
+    "d1:f3:D5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "3x10 @ 20 kg",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "D5"
+    },
+    "d1:f3:D6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "3x8 @ 12 kg",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "D6"
+    },
+    "d1:f3:F5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "60''",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "F5"
+    },
+    "d1:f3:F6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "75''",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "F6"
+    },
+    "d1:f3:G5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Tallone a terra",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "G5"
+    },
+    "d1:f3:G6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Per manubrio",
+      "foglio": "Seduta C - Metabolico",
+      "cella": "G6"
+    },
+    "d1:f3:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "MICROCICLO 4 SETTIMANE — SEDUTA C (Metabolico)",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Palestra Nova Fitness — rivalutazione carichi ogni 4 settimane",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Esercizio | Sett. 1 | Sett. 2 | Sett. 3 | Sett. 4 | Recupero | Note",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Kettlebell goblet squat | 3x12 @ 16 kg | 3x12 @ 18 kg | 3x10 @ 20 kg | 3x10 @ 20 kg | 60'' | Tallone a terra",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Push press manubri | 3x10 @ 10 kg | 3x10 @ 11 kg | 3x8 @ 12 kg | 3x8 @ 12 kg | 75'' | Per manubrio",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "METCON — AMRAP 15' (piu' giri possibili in 15 minuti)",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "Settimana | Circuito (1 giro) | Obiettivo giri",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "Sett. 1 | 10 kettlebell swing @ 16 kg, 10 box step-up, 10 push-up | 5 giri",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r11": {
+      "doc": "d1",
+      "riga": 11,
+      "testo": "Sett. 2 | 10 kettlebell swing @ 16 kg, 10 box step-up, 10 push-up | 6 giri",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": "Sett. 3 | 12 kettlebell swing @ 18 kg, 10 box step-up, 12 push-up | 6 giri",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "Sett. 4 | 12 kettlebell swing @ 18 kg, 10 box step-up, 12 push-up | 7 giri",
+      "foglio": "Seduta C - Metabolico"
+    },
+    "d1:f3:r15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva.",
+      "foglio": "Seduta C - Metabolico"
+    }
+  },
+  "esercizi": {
+    "squat_multipower": {
+      "nome": "Squat al multipower",
+      "nome_esteso": "Squat al multipower",
+      "attrezzi": "Multipower (squat guidato)",
+      "istruzioni": [
+        "Posiziona il bilanciere sulle spalle sotto il supporto guidato",
+        "Scendi controllando ginocchia e busto",
+        "Spingi sui talloni per risalire"
+      ],
+      "fonti": [
+        "d1:f1:r5"
+      ]
+    },
+    "panca_piana_bilanciere": {
+      "nome": "Panca piana bilanciere",
+      "nome_esteso": "Panca piana con bilanciere",
+      "attrezzi": "Panca piana, bilanciere",
+      "istruzioni": [
+        "Sdraiati sulla panca con i piedi ben appoggiati",
+        "Scendi il bilanciere al petto controllando il movimento",
+        "Spingi verso l'alto senza bloccare di scatto i gomiti"
+      ],
+      "fonti": [
+        "d1:f1:r6"
+      ]
+    },
+    "rematore_bilanciere": {
+      "nome": "Rematore bilanciere",
+      "nome_esteso": "Rematore con bilanciere",
+      "attrezzi": "Bilanciere",
+      "istruzioni": [
+        "Busto inclinato in avanti, schiena neutra",
+        "Tira il bilanciere verso l'addome",
+        "Controlla la fase di ritorno"
+      ],
+      "fonti": [
+        "d1:f1:r7"
+      ]
+    },
+    "affondi_manubri": {
+      "nome": "Affondi con manubri",
+      "nome_esteso": "Affondi camminati o in loco con manubri",
+      "attrezzi": "Manubri",
+      "istruzioni": [
+        "Fai un passo avanti e scendi flettendo entrambe le ginocchia",
+        "Mantieni il busto eretto",
+        "Spingi per tornare alla posizione di partenza"
+      ],
+      "fonti": [
+        "d1:f1:r8"
+      ]
+    },
+    "military_press_manubri": {
+      "nome": "Military Press manubri",
+      "nome_esteso": "Military press con manubri da seduto",
+      "attrezzi": "Manubri, panca con schienale",
+      "istruzioni": [
+        "Siediti con schiena appoggiata",
+        "Spingi i manubri sopra la testa",
+        "Scendi controllando fino all'altezza delle spalle"
+      ],
+      "fonti": [
+        "d1:f1:r9"
+      ]
+    },
+    "plank": {
+      "nome": "Plank",
+      "nome_esteso": "Plank su avambracci",
+      "attrezzi": "",
+      "istruzioni": [
+        "Appoggiati sugli avambracci e sulle punte dei piedi",
+        "Mantieni il corpo allineato",
+        "Contrai l'addome per tutta la durata"
+      ],
+      "fonti": [
+        "d1:f1:r10"
+      ]
+    },
+    "kettlebell_swing": {
+      "nome": "Kettlebell swing",
+      "nome_esteso": "Kettlebell swing a due mani",
+      "attrezzi": "Kettlebell",
+      "istruzioni": [
+        "Spingi i fianchi indietro per caricare",
+        "Estendi i fianchi con forza per portare il kettlebell in avanti",
+        "Mantieni la schiena neutra"
+      ],
+      "fonti": [
+        "d1:f1:r14",
+        "d1:f1:r15",
+        "d1:f1:r16",
+        "d1:f1:r17",
+        "d1:f3:r10",
+        "d1:f3:r11",
+        "d1:f3:r12",
+        "d1:f3:r13"
+      ]
+    },
+    "stacco_rumeno": {
+      "nome": "Stacco rumeno bilanciere",
+      "nome_esteso": "Stacco rumeno con bilanciere",
+      "attrezzi": "Bilanciere",
+      "istruzioni": [
+        "Mantieni le ginocchia leggermente flesse",
+        "Fai scorrere il bilanciere lungo le gambe",
+        "Spingi i fianchi in avanti per risalire"
+      ],
+      "fonti": [
+        "d1:f2:r5"
+      ]
+    },
+    "trazioni_assistite": {
+      "nome": "Trazioni assistite (elastico verde)",
+      "nome_esteso": "Trazioni alla sbarra assistite con elastico",
+      "attrezzi": "Sbarra, elastico verde",
+      "istruzioni": [
+        "Posiziona il ginocchio o il piede nell'elastico",
+        "Tira il mento sopra la sbarra",
+        "Scendi controllando il movimento"
+      ],
+      "fonti": [
+        "d1:f2:r6"
+      ]
+    },
+    "leg_press": {
+      "nome": "Leg press",
+      "nome_esteso": "Leg press orizzontale/inclinata",
+      "attrezzi": "Macchina leg press",
+      "istruzioni": [
+        "Posiziona i piedi larghi sulla pedana",
+        "Scendi controllando fino a 90° circa",
+        "Spingi senza bloccare le ginocchia"
+      ],
+      "fonti": [
+        "d1:f2:r7"
+      ]
+    },
+    "alzate_laterali_manubri": {
+      "nome": "Alzate laterali manubri",
+      "nome_esteso": "Alzate laterali con manubri",
+      "attrezzi": "Manubri",
+      "istruzioni": [
+        "Solleva i manubri lateralmente fino all'altezza delle spalle",
+        "Mantieni un leggero piegamento dei gomiti",
+        "Scendi controllando il movimento"
+      ],
+      "fonti": [
+        "d1:f2:r8"
+      ]
+    },
+    "curl_bilanciere_ez": {
+      "nome": "Curl bilanciere EZ",
+      "nome_esteso": "Curl bicipiti con bilanciere EZ",
+      "attrezzi": "Bilanciere EZ",
+      "istruzioni": [
+        "Mantieni i gomiti fermi lungo i fianchi",
+        "Solleva il bilanciere contraendo i bicipiti",
+        "Scendi controllando il movimento"
+      ],
+      "fonti": [
+        "d1:f2:r9"
+      ]
+    },
+    "burpee": {
+      "nome": "Burpee",
+      "nome_esteso": "Burpee completo",
+      "attrezzi": "",
+      "istruzioni": [
+        "Scendi in accosciata e appoggia le mani",
+        "Salta i piedi indietro in plank e torna avanti",
+        "Salta con le braccia sopra la testa"
+      ],
+      "fonti": [
+        "d1:f2:r13",
+        "d1:f2:r14",
+        "d1:f2:r15",
+        "d1:f2:r16",
+        "d1:f2:A11"
+      ]
+    },
+    "mountain_climber": {
+      "nome": "Mountain climber",
+      "nome_esteso": "Mountain climber in plank",
+      "attrezzi": "",
+      "istruzioni": [
+        "Mantieni la posizione di plank",
+        "Porta alternativamente le ginocchia al petto",
+        "Mantieni il bacino stabile"
+      ],
+      "fonti": [
+        "d1:f2:r13",
+        "d1:f2:r14",
+        "d1:f2:r15",
+        "d1:f2:r16",
+        "d1:f2:A11"
+      ]
+    },
+    "jumping_jack": {
+      "nome": "Jumping jack",
+      "nome_esteso": "Jumping jack",
+      "attrezzi": "",
+      "istruzioni": [
+        "Salta aprendo gambe e braccia contemporaneamente",
+        "Torna alla posizione di partenza saltando",
+        "Mantieni un ritmo costante"
+      ],
+      "fonti": [
+        "d1:f2:r13",
+        "d1:f2:r14",
+        "d1:f2:r15",
+        "d1:f2:r16",
+        "d1:f2:A11"
+      ]
+    },
+    "squat_corpo_libero": {
+      "nome": "Squat a corpo libero",
+      "nome_esteso": "Squat a corpo libero",
+      "attrezzi": "",
+      "istruzioni": [
+        "Scendi flettendo anche e ginocchia",
+        "Mantieni il busto eretto",
+        "Spingi sui talloni per risalire"
+      ],
+      "fonti": [
+        "d1:f2:r13",
+        "d1:f2:r14",
+        "d1:f2:r15",
+        "d1:f2:r16",
+        "d1:f2:A11"
+      ]
+    },
+    "goblet_squat": {
+      "nome": "Kettlebell goblet squat",
+      "nome_esteso": "Goblet squat con kettlebell",
+      "attrezzi": "Kettlebell",
+      "istruzioni": [
+        "Tieni il kettlebell davanti al petto",
+        "Scendi mantenendo il tallone a terra",
+        "Risali spingendo sui talloni"
+      ],
+      "fonti": [
+        "d1:f3:r5"
+      ]
+    },
+    "push_press_manubri": {
+      "nome": "Push press manubri",
+      "nome_esteso": "Push press con manubri",
+      "attrezzi": "Manubri",
+      "istruzioni": [
+        "Fletti leggermente le ginocchia per caricare",
+        "Spingi i manubri sopra la testa con l'aiuto delle gambe",
+        "Scendi controllando il movimento"
+      ],
+      "fonti": [
+        "d1:f3:r6"
+      ]
+    },
+    "box_step_up": {
+      "nome": "Box step-up",
+      "nome_esteso": "Step-up su box",
+      "attrezzi": "Box o rialzo",
+      "istruzioni": [
+        "Sali sul box con un piede alla volta",
+        "Estendi completamente l'anca in alto",
+        "Scendi controllando il movimento"
+      ],
+      "fonti": [
+        "d1:f3:r10",
+        "d1:f3:r11",
+        "d1:f3:r12",
+        "d1:f3:r13"
+      ]
+    },
+    "push_up": {
+      "nome": "Push-up",
+      "nome_esteso": "Piegamenti sulle braccia",
+      "attrezzi": "",
+      "istruzioni": [
+        "Mantieni il corpo allineato",
+        "Scendi flettendo i gomiti",
+        "Spingi per tornare in posizione"
+      ],
+      "fonti": [
+        "d1:f3:r10",
+        "d1:f3:r11",
+        "d1:f3:r12",
+        "d1:f3:r13"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Seduta A - Full Body",
+      "sottotitolo": "Settimana 1",
+      "lettera": "A",
+      "messaggio_fine": "Ottimo lavoro, seduta completata.",
+      "fonti": [
+        "d1:f1:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat_multipower",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B5",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 40,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "40 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B5",
+                "certezza": "alta",
+                "letture": [
+                  40,
+                  40
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Scarpe piatte",
+                  "fonte": "d1:f1:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            },
+            {
+              "esercizio": "panca_piana_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B6",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 40,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "40 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B6",
+                "certezza": "alta",
+                "letture": [
+                  40,
+                  40
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa media",
+                  "fonte": "d1:f1:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r6"
+              ]
+            },
+            {
+              "esercizio": "rematore_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B7",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 35,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "35 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B7",
+                "certezza": "alta",
+                "letture": [
+                  35,
+                  35
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F7",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Schiena neutra",
+                  "fonte": "d1:f1:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r7"
+              ]
+            },
+            {
+              "esercizio": "affondi_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B8",
+                "certezza": "media",
+                "letture": [
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 12,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "12 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B8",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F8",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Gamba sinistra",
+                  "Gamba destra"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "per gamba",
+                  "unita_scritta": null,
+                  "fonte": "d1:f1:B8",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«per gamba» = 2 lati"
+                }
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "12 kg = per manubrio",
+                  "fonte": "d1:f1:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r8"
+              ]
+            },
+            {
+              "esercizio": "military_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B9",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 12,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "12 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B9",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F9",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Seduto, 12 kg per manubrio",
+                  "fonte": "d1:f1:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r9"
+              ]
+            },
+            {
+              "esercizio": "plank",
+              "modo": "tempo",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B10",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "durata": {
+                "valore": 40,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "40''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:B10",
+                "certezza": "media",
+                "letture": [
+                  40
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F10",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Addominali in tensione",
+                  "fonte": "d1:f1:G10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "titolo": "Finisher a cronometro",
+          "note": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flusso": "emom",
+          "giri": {
+            "valore": 10,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "10",
+            "unita_scritta": "'",
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              10
+            ]
+          },
+          "ogni": {
+            "valore": 60,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "ogni minuto sul minuto",
+            "unita_scritta": null,
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              60
+            ],
+            "normalizzazione": "EMOM: un intervallo al minuto"
+          },
+          "fonti": [
+            "d1:f1:r12",
+            "d1:f1:r13",
+            "d1:f1:r19"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B14",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B14",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "tecnica",
+                  "testo": "cambia mano ogni giro",
+                  "fonte": "d1:f1:G14",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r14"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "titolo": "Seduta A - Full Body",
+      "sottotitolo": "Settimana 2",
+      "lettera": "A",
+      "messaggio_fine": "Ottimo lavoro, seduta completata.",
+      "fonti": [
+        "d1:f1:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat_multipower",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C5",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 42.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "42,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:C5",
+                "certezza": "alta",
+                "letture": [
+                  42.5,
+                  42.5
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Scarpe piatte",
+                  "fonte": "d1:f1:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            },
+            {
+              "esercizio": "panca_piana_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C6",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 42.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "42,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:C6",
+                "certezza": "alta",
+                "letture": [
+                  42.5,
+                  42.5
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa media",
+                  "fonte": "d1:f1:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r6"
+              ]
+            },
+            {
+              "esercizio": "rematore_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C7",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 37.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "37,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:C7",
+                "certezza": "alta",
+                "letture": [
+                  37.5,
+                  37.5
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F7",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Schiena neutra",
+                  "fonte": "d1:f1:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r7"
+              ]
+            },
+            {
+              "esercizio": "affondi_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C8",
+                "certezza": "media",
+                "letture": [
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 14,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "14 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:C8",
+                "certezza": "alta",
+                "letture": [
+                  14,
+                  14
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F8",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Gamba sinistra",
+                  "Gamba destra"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "per gamba",
+                  "unita_scritta": null,
+                  "fonte": "d1:f1:C8",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«per gamba» = 2 lati"
+                }
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "12 kg = per manubrio",
+                  "fonte": "d1:f1:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r8"
+              ]
+            },
+            {
+              "esercizio": "military_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C9",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 13,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "13 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:C9",
+                "certezza": "alta",
+                "letture": [
+                  13,
+                  13
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F9",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Seduto, 12 kg per manubrio",
+                  "fonte": "d1:f1:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r9"
+              ]
+            },
+            {
+              "esercizio": "plank",
+              "modo": "tempo",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C10",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "durata": {
+                "valore": 45,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:C10",
+                "certezza": "media",
+                "letture": [
+                  45
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F10",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Addominali in tensione",
+                  "fonte": "d1:f1:G10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "titolo": "Finisher a cronometro",
+          "note": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flusso": "emom",
+          "giri": {
+            "valore": 10,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "10",
+            "unita_scritta": "'",
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              10
+            ]
+          },
+          "ogni": {
+            "valore": 60,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "ogni minuto sul minuto",
+            "unita_scritta": null,
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              60
+            ],
+            "normalizzazione": "EMOM: un intervallo al minuto"
+          },
+          "fonti": [
+            "d1:f1:r12",
+            "d1:f1:r13",
+            "d1:f1:r19"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 9,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "9",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B15",
+                "certezza": "alta",
+                "letture": [
+                  9,
+                  9
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B15",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "fonti": [
+                "d1:f1:r15"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "titolo": "Seduta A - Full Body",
+      "sottotitolo": "Settimana 3",
+      "lettera": "A",
+      "messaggio_fine": "Ottimo lavoro, seduta completata.",
+      "fonti": [
+        "d1:f1:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat_multipower",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D5",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 45,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "45 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:D5",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Scarpe piatte",
+                  "fonte": "d1:f1:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            },
+            {
+              "esercizio": "panca_piana_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D6",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 45,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "45 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:D6",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa media",
+                  "fonte": "d1:f1:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r6"
+              ]
+            },
+            {
+              "esercizio": "rematore_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D7",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 40,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "40 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:D7",
+                "certezza": "alta",
+                "letture": [
+                  40,
+                  40
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F7",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Schiena neutra",
+                  "fonte": "d1:f1:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r7"
+              ]
+            },
+            {
+              "esercizio": "affondi_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D8",
+                "certezza": "media",
+                "letture": [
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:D8",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F8",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Gamba sinistra",
+                  "Gamba destra"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "per gamba",
+                  "unita_scritta": null,
+                  "fonte": "d1:f1:D8",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«per gamba» = 2 lati"
+                }
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "12 kg = per manubrio",
+                  "fonte": "d1:f1:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r8"
+              ]
+            },
+            {
+              "esercizio": "military_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D9",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 14,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "14 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:D9",
+                "certezza": "alta",
+                "letture": [
+                  14,
+                  14
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F9",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Seduto, 12 kg per manubrio",
+                  "fonte": "d1:f1:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r9"
+              ]
+            },
+            {
+              "esercizio": "plank",
+              "modo": "tempo",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D10",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "durata": {
+                "valore": 40,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "40''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:D10",
+                "certezza": "media",
+                "letture": [
+                  40
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F10",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Addominali in tensione",
+                  "fonte": "d1:f1:G10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "titolo": "Finisher a cronometro",
+          "note": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flusso": "emom",
+          "giri": {
+            "valore": 10,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "10",
+            "unita_scritta": "'",
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              10
+            ]
+          },
+          "ogni": {
+            "valore": 60,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "ogni minuto sul minuto",
+            "unita_scritta": null,
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              60
+            ],
+            "normalizzazione": "EMOM: un intervallo al minuto"
+          },
+          "fonti": [
+            "d1:f1:r12",
+            "d1:f1:r13",
+            "d1:f1:r19"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B16",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B16",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "fonti": [
+                "d1:f1:r16"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "titolo": "Seduta A - Full Body",
+      "sottotitolo": "Settimana 4",
+      "lettera": "A",
+      "messaggio_fine": "Ottimo lavoro, seduta completata.",
+      "fonti": [
+        "d1:f1:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat_multipower",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E5",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 47.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "47,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:E5",
+                "certezza": "alta",
+                "letture": [
+                  47.5,
+                  47.5
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Scarpe piatte",
+                  "fonte": "d1:f1:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            },
+            {
+              "esercizio": "panca_piana_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E6",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 47.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "47,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:E6",
+                "certezza": "alta",
+                "letture": [
+                  47.5,
+                  47.5
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa media",
+                  "fonte": "d1:f1:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r6"
+              ]
+            },
+            {
+              "esercizio": "rematore_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E7",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 42.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "42,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:E7",
+                "certezza": "alta",
+                "letture": [
+                  42.5,
+                  42.5
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F7",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Schiena neutra",
+                  "fonte": "d1:f1:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r7"
+              ]
+            },
+            {
+              "esercizio": "affondi_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E8",
+                "certezza": "media",
+                "letture": [
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 18,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "18 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:E8",
+                "certezza": "alta",
+                "letture": [
+                  18,
+                  18
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F8",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Gamba sinistra",
+                  "Gamba destra"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "per gamba",
+                  "unita_scritta": null,
+                  "fonte": "d1:f1:E8",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«per gamba» = 2 lati"
+                }
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "12 kg = per manubrio",
+                  "fonte": "d1:f1:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r8"
+              ]
+            },
+            {
+              "esercizio": "military_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E9",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 15,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "15 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:E9",
+                "certezza": "alta",
+                "letture": [
+                  15,
+                  15
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F9",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Seduto, 12 kg per manubrio",
+                  "fonte": "d1:f1:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r9"
+              ]
+            },
+            {
+              "esercizio": "plank",
+              "modo": "tempo",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:E10",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "durata": {
+                "valore": 45,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:E10",
+                "certezza": "media",
+                "letture": [
+                  45
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f1:F10",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Addominali in tensione",
+                  "fonte": "d1:f1:G10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r10"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "titolo": "Finisher a cronometro",
+          "note": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flusso": "emom",
+          "giri": {
+            "valore": 10,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "10",
+            "unita_scritta": "'",
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              10
+            ]
+          },
+          "ogni": {
+            "valore": 60,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "ogni minuto sul minuto",
+            "unita_scritta": null,
+            "fonte": "d1:f1:A12",
+            "certezza": "media",
+            "letture": [
+              60
+            ],
+            "normalizzazione": "EMOM: un intervallo al minuto"
+          },
+          "fonti": [
+            "d1:f1:r12",
+            "d1:f1:r13",
+            "d1:f1:r19"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B17",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 18,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "18 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B17",
+                "certezza": "alta",
+                "letture": [
+                  18,
+                  18
+                ]
+              },
+              "fonti": [
+                "d1:f1:r17"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "titolo": "Seduta B - Upper Lower",
+      "sottotitolo": "Settimana 1",
+      "lettera": "B",
+      "messaggio_fine": "Seduta completata, ottimo ritmo.",
+      "fonti": [
+        "d1:f2:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f2:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "stacco_rumeno",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B5",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 50,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "50 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:B5",
+                "certezza": "alta",
+                "letture": [
+                  50,
+                  50
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Ginocchia morbide",
+                  "fonte": "d1:f2:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r5"
+              ]
+            },
+            {
+              "esercizio": "trazioni_assistite",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B6",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Stessa resistenza tutte le settimane",
+                  "fonte": "d1:f2:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r6"
+              ]
+            },
+            {
+              "esercizio": "leg_press",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B7",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 100,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "100 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:B7",
+                "certezza": "alta",
+                "letture": [
+                  100,
+                  100
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F7",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Piedi larghi",
+                  "fonte": "d1:f2:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r7"
+              ]
+            },
+            {
+              "esercizio": "alzate_laterali_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 15,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "15",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B8",
+                "certezza": "alta",
+                "letture": [
+                  15,
+                  15
+                ]
+              },
+              "carico": {
+                "valore": 6,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "6 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:B8",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F8",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f2:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r8"
+              ]
+            },
+            {
+              "esercizio": "curl_bilanciere_ez",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f2:B9",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 20,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "20 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:B9",
+                "certezza": "alta",
+                "letture": [
+                  20,
+                  20
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F9",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa stretta",
+                  "fonte": "d1:f2:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "titolo": "Circuito finale a giri",
+          "note": [],
+          "flusso": "circuito",
+          "giri": {
+            "valore": 3,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "3",
+            "unita_scritta": null,
+            "fonte": "d1:f2:B13",
+            "certezza": "alta",
+            "letture": [
+              3,
+              3
+            ]
+          },
+          "fonti": [
+            "d1:f2:r11",
+            "d1:f2:r12"
+          ],
+          "voci": [
+            {
+              "esercizio": "burpee",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  90.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r13",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "mountain_climber",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  90.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r13",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "jumping_jack",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  90.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r13",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "squat_corpo_libero",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:G13",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "fonti": [
+                "d1:f2:r13",
+                "d1:f2:A11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "titolo": "Seduta B - Upper Lower",
+      "sottotitolo": "Settimana 2",
+      "lettera": "B",
+      "messaggio_fine": "Seduta completata, ottimo ritmo.",
+      "fonti": [
+        "d1:f2:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f2:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "stacco_rumeno",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C5",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 52.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "52,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:C5",
+                "certezza": "alta",
+                "letture": [
+                  52.5,
+                  52.5
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Ginocchia morbide",
+                  "fonte": "d1:f2:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r5"
+              ]
+            },
+            {
+              "esercizio": "trazioni_assistite",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 7,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "7",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C6",
+                "certezza": "alta",
+                "letture": [
+                  7,
+                  7
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Stessa resistenza tutte le settimane",
+                  "fonte": "d1:f2:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r6"
+              ]
+            },
+            {
+              "esercizio": "leg_press",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C7",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 110,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "110 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:C7",
+                "certezza": "alta",
+                "letture": [
+                  110,
+                  110
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F7",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Piedi larghi",
+                  "fonte": "d1:f2:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r7"
+              ]
+            },
+            {
+              "esercizio": "alzate_laterali_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 15,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "15",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C8",
+                "certezza": "alta",
+                "letture": [
+                  15,
+                  15
+                ]
+              },
+              "carico": {
+                "valore": 7,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "7 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:C8",
+                "certezza": "alta",
+                "letture": [
+                  7,
+                  7
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F8",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f2:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r8"
+              ]
+            },
+            {
+              "esercizio": "curl_bilanciere_ez",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f2:C9",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 22.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "22,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:C9",
+                "certezza": "alta",
+                "letture": [
+                  22.5,
+                  22.5
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F9",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa stretta",
+                  "fonte": "d1:f2:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "titolo": "Circuito finale a giri",
+          "note": [],
+          "flusso": "circuito",
+          "giri": {
+            "valore": 3,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "3",
+            "unita_scritta": null,
+            "fonte": "d1:f2:B14",
+            "certezza": "alta",
+            "letture": [
+              3,
+              3
+            ]
+          },
+          "fonti": [
+            "d1:f2:r11",
+            "d1:f2:r12"
+          ],
+          "voci": [
+            {
+              "esercizio": "burpee",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  75.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r14",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "mountain_climber",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  75.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r14",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "jumping_jack",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  75.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r14",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "squat_corpo_libero",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:G14",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "fonti": [
+                "d1:f2:r14",
+                "d1:f2:A11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "titolo": "Seduta B - Upper Lower",
+      "sottotitolo": "Settimana 3",
+      "lettera": "B",
+      "messaggio_fine": "Seduta completata, ottimo ritmo.",
+      "fonti": [
+        "d1:f2:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f2:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "stacco_rumeno",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D5",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "carico": {
+                "valore": 55,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "55 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:D5",
+                "certezza": "alta",
+                "letture": [
+                  55,
+                  55
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Ginocchia morbide",
+                  "fonte": "d1:f2:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r5"
+              ]
+            },
+            {
+              "esercizio": "trazioni_assistite",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D6",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Stessa resistenza tutte le settimane",
+                  "fonte": "d1:f2:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r6"
+              ]
+            },
+            {
+              "esercizio": "leg_press",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D7",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 120,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "120 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:D7",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F7",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Piedi larghi",
+                  "fonte": "d1:f2:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r7"
+              ]
+            },
+            {
+              "esercizio": "alzate_laterali_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D8",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 8,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "8 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:D8",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F8",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f2:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r8"
+              ]
+            },
+            {
+              "esercizio": "curl_bilanciere_ez",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D9",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 25,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "25 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:D9",
+                "certezza": "alta",
+                "letture": [
+                  25,
+                  25
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F9",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa stretta",
+                  "fonte": "d1:f2:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "titolo": "Circuito finale a giri",
+          "note": [],
+          "flusso": "circuito",
+          "giri": {
+            "valore": 4,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "4",
+            "unita_scritta": null,
+            "fonte": "d1:f2:B15",
+            "certezza": "alta",
+            "letture": [
+              4,
+              4
+            ]
+          },
+          "fonti": [
+            "d1:f2:r11",
+            "d1:f2:r12"
+          ],
+          "voci": [
+            {
+              "esercizio": "burpee",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  90.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r15",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "mountain_climber",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  90.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r15",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "jumping_jack",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  90.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r15",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "squat_corpo_libero",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:G15",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "fonti": [
+                "d1:f2:r15",
+                "d1:f2:A11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "titolo": "Seduta B - Upper Lower",
+      "sottotitolo": "Settimana 4",
+      "lettera": "B",
+      "messaggio_fine": "Seduta completata, ottimo ritmo.",
+      "fonti": [
+        "d1:f2:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f2:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "stacco_rumeno",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:E5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:f2:E5",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "carico": {
+                "valore": 57.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "57,5 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:E5",
+                "certezza": "alta",
+                "letture": [
+                  57.5,
+                  57.5
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Ginocchia morbide",
+                  "fonte": "d1:f2:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r5"
+              ]
+            },
+            {
+              "esercizio": "trazioni_assistite",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:E6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 9,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "9",
+                "unita_scritta": null,
+                "fonte": "d1:f2:E6",
+                "certezza": "alta",
+                "letture": [
+                  9,
+                  9
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F6",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Stessa resistenza tutte le settimane",
+                  "fonte": "d1:f2:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r6"
+              ]
+            },
+            {
+              "esercizio": "leg_press",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f2:E7",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f2:E7",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 130,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "130 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:E7",
+                "certezza": "alta",
+                "letture": [
+                  130,
+                  130
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F7",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Piedi larghi",
+                  "fonte": "d1:f2:G7",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r7"
+              ]
+            },
+            {
+              "esercizio": "alzate_laterali_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D8",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 8,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "8 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:D8",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 45,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "45''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F8",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f2:G8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r8"
+              ]
+            },
+            {
+              "esercizio": "curl_bilanciere_ez",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f2:D9",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 25,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "25 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f2:D9",
+                "certezza": "alta",
+                "letture": [
+                  25,
+                  25
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:F9",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Presa stretta",
+                  "fonte": "d1:f2:G9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f2:r9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "titolo": "Circuito finale a giri",
+          "note": [],
+          "flusso": "circuito",
+          "giri": {
+            "valore": 4,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "4",
+            "unita_scritta": null,
+            "fonte": "d1:f2:B16",
+            "certezza": "alta",
+            "letture": [
+              4,
+              4
+            ]
+          },
+          "fonti": [
+            "d1:f2:r11",
+            "d1:f2:r12"
+          ],
+          "voci": [
+            {
+              "esercizio": "burpee",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  75.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r16",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "mountain_climber",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  75.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r16",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "jumping_jack",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 15,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "15''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  15,
+                  75.0,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f2:r16",
+                "d1:f2:A11"
+              ]
+            },
+            {
+              "esercizio": "squat_corpo_libero",
+              "modo": "tempo",
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:A11",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f2:G16",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "fonti": [
+                "d1:f2:r16",
+                "d1:f2:A11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "titolo": "Seduta C - Metabolico",
+      "sottotitolo": "Settimana 1",
+      "lettera": "C",
+      "messaggio_fine": "Buon lavoro, recupera bene.",
+      "fonti": [
+        "d1:f3:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f3:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "goblet_squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B5",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:B5",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F5",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Tallone a terra",
+                  "fonte": "d1:f3:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r5"
+              ]
+            },
+            {
+              "esercizio": "push_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B6",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 10,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "10 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:B6",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F6",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f3:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "titolo": "METCON",
+          "note": [
+            "Obiettivo giri: 5 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flusso": "amrap",
+          "tempo_limite": {
+            "valore": 900,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "15'",
+            "unita_scritta": "'",
+            "fonte": "d1:f3:A8",
+            "certezza": "media",
+            "letture": [
+              900
+            ],
+            "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+          },
+          "fonti": [
+            "d1:f3:r8",
+            "d1:f3:r9",
+            "d1:f3:r15"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B10",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:B10",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "fonti": [
+                "d1:f3:r10"
+              ]
+            },
+            {
+              "esercizio": "box_step_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B10",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "fonti": [
+                "d1:f3:r10"
+              ]
+            },
+            {
+              "esercizio": "push_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B10",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "fonti": [
+                "d1:f3:r10"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "titolo": "Seduta C - Metabolico",
+      "sottotitolo": "Settimana 2",
+      "lettera": "C",
+      "messaggio_fine": "Buon lavoro, recupera bene.",
+      "fonti": [
+        "d1:f3:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f3:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "goblet_squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:C5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f3:C5",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 18,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "18 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:C5",
+                "certezza": "alta",
+                "letture": [
+                  18,
+                  18
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F5",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Tallone a terra",
+                  "fonte": "d1:f3:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r5"
+              ]
+            },
+            {
+              "esercizio": "push_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:C6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:C6",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 11,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "11 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:C6",
+                "certezza": "alta",
+                "letture": [
+                  11,
+                  11
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F6",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f3:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "titolo": "METCON",
+          "note": [
+            "Obiettivo giri: 6 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flusso": "amrap",
+          "tempo_limite": {
+            "valore": 900,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "15'",
+            "unita_scritta": "'",
+            "fonte": "d1:f3:A8",
+            "certezza": "media",
+            "letture": [
+              900
+            ],
+            "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+          },
+          "fonti": [
+            "d1:f3:r8",
+            "d1:f3:r9",
+            "d1:f3:r15"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B11",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:B11",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "fonti": [
+                "d1:f3:r11"
+              ]
+            },
+            {
+              "esercizio": "box_step_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B11",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "fonti": [
+                "d1:f3:r11"
+              ]
+            },
+            {
+              "esercizio": "push_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B11",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "fonti": [
+                "d1:f3:r11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "titolo": "Seduta C - Metabolico",
+      "sottotitolo": "Settimana 3",
+      "lettera": "C",
+      "messaggio_fine": "Buon lavoro, recupera bene.",
+      "fonti": [
+        "d1:f3:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f3:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "goblet_squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D5",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 20,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "20 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:D5",
+                "certezza": "alta",
+                "letture": [
+                  20,
+                  20
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F5",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Tallone a terra",
+                  "fonte": "d1:f3:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r5"
+              ]
+            },
+            {
+              "esercizio": "push_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D6",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 12,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "12 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:D6",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F6",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f3:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "titolo": "METCON",
+          "note": [
+            "Obiettivo giri: 6 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flusso": "amrap",
+          "tempo_limite": {
+            "valore": 900,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "15'",
+            "unita_scritta": "'",
+            "fonte": "d1:f3:A8",
+            "certezza": "media",
+            "letture": [
+              900
+            ],
+            "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+          },
+          "fonti": [
+            "d1:f3:r8",
+            "d1:f3:r9",
+            "d1:f3:r15"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B12",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 18,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "18 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:B12",
+                "certezza": "alta",
+                "letture": [
+                  18,
+                  18
+                ]
+              },
+              "fonti": [
+                "d1:f3:r12"
+              ]
+            },
+            {
+              "esercizio": "box_step_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B12",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "fonti": [
+                "d1:f3:r12"
+              ]
+            },
+            {
+              "esercizio": "push_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B12",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "fonti": [
+                "d1:f3:r12"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "titolo": "Seduta C - Metabolico",
+      "sottotitolo": "Settimana 4",
+      "lettera": "C",
+      "messaggio_fine": "Buon lavoro, recupera bene.",
+      "fonti": [
+        "d1:f3:r1"
+      ],
+      "fasi": [
+        {
+          "id": "principale",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f3:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "goblet_squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D5",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 20,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "20 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:D5",
+                "certezza": "alta",
+                "letture": [
+                  20,
+                  20
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F5",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Tallone a terra",
+                  "fonte": "d1:f3:G5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r5"
+              ]
+            },
+            {
+              "esercizio": "push_press_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f3:D6",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 12,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "12 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:D6",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "recupero": {
+                "valore": 75,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "75''",
+                "unita_scritta": "''",
+                "fonte": "d1:f3:F6",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "Per manubrio",
+                  "fonte": "d1:f3:G6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f3:r6"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "titolo": "METCON",
+          "note": [
+            "Obiettivo giri: 7 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flusso": "amrap",
+          "tempo_limite": {
+            "valore": 900,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "15'",
+            "unita_scritta": "'",
+            "fonte": "d1:f3:A8",
+            "certezza": "media",
+            "letture": [
+              900
+            ],
+            "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+          },
+          "fonti": [
+            "d1:f3:r8",
+            "d1:f3:r9",
+            "d1:f3:r15"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B13",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 18,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "18 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f3:B13",
+                "certezza": "alta",
+                "letture": [
+                  18,
+                  18
+                ]
+              },
+              "fonti": [
+                "d1:f3:r13"
+              ]
+            },
+            {
+              "esercizio": "box_step_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B13",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "fonti": [
+                "d1:f3:r13"
+              ]
+            },
+            {
+              "esercizio": "push_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f3:B13",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "fonti": [
+                "d1:f3:r13"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

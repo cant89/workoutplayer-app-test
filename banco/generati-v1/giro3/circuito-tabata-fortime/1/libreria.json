@@ -1,0 +1,196 @@
+{
+  "id": "circuito-tabata-fortime",
+  "api": "v1",
+  "title": "Circuito Tabata Fortime",
+  "lang": "it-IT",
+  "storageKey": "wp-circuito-tabata-fortime",
+  "rules": [],
+  "exercises": {
+    "air_squat": {
+      "name": "Air squat",
+      "it": "Squat a corpo libero",
+      "gear": "",
+      "how": [
+        "Piedi alla larghezza delle spalle",
+        "Scendi controllando il bacino all'indietro",
+        "Mantieni il petto alto",
+        "Spingi sui talloni per risalire"
+      ]
+    },
+    "mountain_climber": {
+      "name": "Mountain climber",
+      "it": "Mountain climber",
+      "gear": "",
+      "how": [
+        "Posizione di plank sulle mani",
+        "Porta un ginocchio al petto alternando le gambe",
+        "Mantieni il bacino stabile",
+        "Ritmo controllato e continuo"
+      ]
+    },
+    "push_up": {
+      "name": "Push-up",
+      "it": "Piegamenti sulle braccia",
+      "gear": "",
+      "how": [
+        "Mani sotto le spalle, corpo in linea",
+        "Scendi fino quasi a sfiorare il petto a terra",
+        "Spingi per tornare alla posizione di partenza"
+      ]
+    },
+    "sit_up": {
+      "name": "Sit-up",
+      "it": "Sit-up",
+      "gear": "",
+      "how": [
+        "Sdraiato supino, ginocchia piegate",
+        "Sali portando il busto verso le ginocchia",
+        "Ridiscendi in modo controllato"
+      ]
+    },
+    "kettlebell_swing": {
+      "name": "Kettlebell swing",
+      "it": "Swing con kettlebell",
+      "gear": "Kettlebell",
+      "how": [
+        "Piedi alla larghezza delle spalle, kettlebell davanti",
+        "Spinta d'anca per far oscillare il kettlebell",
+        "Schiena neutra, braccia rilassate durante lo swing"
+      ]
+    },
+    "burpee": {
+      "name": "Burpee",
+      "it": "Burpee",
+      "gear": "",
+      "how": [
+        "Dalla posizione eretta scendi in plank",
+        "Esegui un piegamento o un appoggio a terra",
+        "Salta i piedi verso le mani e salta verso l'alto"
+      ]
+    },
+    "recupero": {
+      "name": "Recupero fra blocchi",
+      "it": "Recupero attivo fra i blocchi",
+      "gear": "",
+      "how": [
+        "Cammina lentamente senza fermarti",
+        "Mantieni una respirazione regolare"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Circuito Tabata Fortime",
+      "focus": "Tabata, For Time e Ladder",
+      "doneMsg": "Allenamento completato, ottimo lavoro",
+      "phases": [
+        {
+          "id": "tabata_gambe",
+          "title": "Tabata gambe",
+          "notes": [
+            "otto round, via al fischio"
+          ],
+          "flow": "tabata",
+          "rounds": 8,
+          "work": 20,
+          "rest": 10,
+          "items": [
+            {
+              "ex": "air_squat",
+              "mode": "timed"
+            }
+          ]
+        },
+        {
+          "id": "tabata_core",
+          "title": "Tabata core",
+          "notes": [
+            "otto round, via al fischio"
+          ],
+          "flow": "tabata",
+          "rounds": 8,
+          "work": 20,
+          "rest": 10,
+          "items": [
+            {
+              "ex": "mountain_climber",
+              "mode": "timed"
+            }
+          ]
+        },
+        {
+          "id": "for_time",
+          "title": "For Time (cap 12')",
+          "notes": [
+            "cronometro a salire, annota il tempo se finisci prima del cap"
+          ],
+          "flow": "fortime",
+          "rounds": 1,
+          "cap": 720,
+          "items": [
+            {
+              "ex": "push_up",
+              "mode": "reps",
+              "reps": 40
+            },
+            {
+              "ex": "sit_up",
+              "mode": "reps",
+              "reps": 40
+            },
+            {
+              "ex": "air_squat",
+              "mode": "reps",
+              "reps": 40
+            }
+          ]
+        },
+        {
+          "id": "ladder",
+          "title": "Ladder 10-1",
+          "notes": [
+            "scala di 1 ripetizione ad ogni gradino, stesso numero per i due esercizi"
+          ],
+          "flow": "circuit",
+          "rounds": 10,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "text",
+              "sets": 1,
+              "kg": 16,
+              "rest": 0,
+              "text": "Kettlebell swing @16 kg + Burpee, da 10 a 1"
+            },
+            {
+              "ex": "burpee",
+              "mode": "text",
+              "sets": 1,
+              "rest": 0,
+              "text": "Kettlebell swing @16 kg + Burpee, da 10 a 1"
+            }
+          ]
+        },
+        {
+          "id": "recupero_blocchi",
+          "title": "Recupero fra blocchi",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "recupero",
+              "mode": "text",
+              "sets": 1,
+              "rest": 180,
+              "rx": [
+                "cammina, non fermarti"
+              ],
+              "text": "Recupero fra blocchi, cammina, non fermarti"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

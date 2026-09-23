@@ -1,0 +1,545 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "scheda-metodo-sconosciuto",
+  "titolo": "SCHEDA - METODO MISTO",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-scheda-metodo-sconosciuto",
+  "sopratitolo": {
+    "testo": "Palestra Nova Fitness",
+    "fonti": [
+      "d1:p1:r2"
+    ]
+  },
+  "regole": [
+    {
+      "testo": "Nota tecnica: gli esercizi con \"Metodo Kellerman\" seguono la progressione descritta a voce durante la prima seduta; non la ripeto qui, chiedimi se non ricordi.",
+      "fonti": [
+        "d1:p1:r4",
+        "d1:p1:r5",
+        "d1:p1:r6"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "scheda-metodo-sconosciuto.pdf",
+      "formato": "pdf-testo",
+      "sha256": "476a1d59317d6b9c0238b3ac9922cbff5cad8404e80ec99c8598bd0208f8fc55"
+    }
+  ],
+  "fonti": {
+    "d1:p1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Palestra Nova Fitness                                                           ",
+      "pagina": 1
+    },
+    "d1:p1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Nota tecnica: gli esercizi con \"Metodo Kellerman\" seguono la progressione descri",
+      "pagina": 1
+    },
+    "d1:p1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "tta a                                                                           ",
+      "pagina": 1
+    },
+    "d1:p1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "voce durante la prima seduta; non la ripeto qui, chiedimi se non ricordi.       ",
+      "pagina": 1
+    },
+    "d1:p1:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "ALLENAMENTO 1                                                                   ",
+      "pagina": 1
+    },
+    "d1:p1:r9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "- Squat frontale: Metodo Kellerman, 4 serie, carico progressivo                 ",
+      "pagina": 1
+    },
+    "d1:p1:r10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "- Panca piana: 4 x 8, 65 kg, recupero 90''                                      ",
+      "pagina": 1
+    },
+    "d1:p1:r11": {
+      "doc": "d1",
+      "riga": 11,
+      "testo": "- Trazioni alla sbarra: Rx 4x8 strict / Scaled 4x8 assistite con elastico verde,",
+      "pagina": 1
+    },
+    "d1:p1:r12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": " recupero 90''                                                                  ",
+      "pagina": 1
+    },
+    "d1:p1:r14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": "ALLENAMENTO 2                                                                   ",
+      "pagina": 1
+    },
+    "d1:p1:r15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "- Stacco da terra: 3 x 5, 100 kg, recupero 3'                                   ",
+      "pagina": 1
+    },
+    "d1:p1:r16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": "- Push press: Metodo Kellerman, 3 serie                                         ",
+      "pagina": 1
+    },
+    "d1:p1:r17": {
+      "doc": "d1",
+      "riga": 17,
+      "testo": "- Burpee: Rx con salto sopra la sbarra / Scaled senza salto, 4 x 10, recupero 60",
+      "pagina": 1
+    },
+    "d1:p1:r18": {
+      "doc": "d1",
+      "riga": 18,
+      "testo": "''                                                                              ",
+      "pagina": 1
+    }
+  },
+  "esercizi": {
+    "squat_frontale": {
+      "nome": "Squat frontale",
+      "nome_esteso": "Squat frontale con bilanciere",
+      "attrezzi": "bilanciere, rack",
+      "istruzioni": [
+        "Posiziona il bilanciere sulla parte anteriore delle spalle",
+        "Scendi controllando il core",
+        "Risali spingendo sui talloni"
+      ],
+      "fonti": [
+        "d1:p1:r9"
+      ]
+    },
+    "panca_piana": {
+      "nome": "Panca piana",
+      "nome_esteso": "Panca piana con bilanciere",
+      "attrezzi": "bilanciere, panca",
+      "istruzioni": [
+        "Sdraiati sulla panca con presa poco più larga delle spalle",
+        "Scendi il bilanciere al petto",
+        "Spingi verso l'alto senza staccare i glutei"
+      ],
+      "fonti": [
+        "d1:p1:r10"
+      ]
+    },
+    "trazioni_sbarra": {
+      "nome": "Trazioni alla sbarra",
+      "nome_esteso": "Trazioni alla sbarra",
+      "attrezzi": "sbarra",
+      "istruzioni": [
+        "Presa prona poco più larga delle spalle",
+        "Tira fino a portare il mento sopra la sbarra",
+        "Scendi controllando il movimento"
+      ],
+      "fonti": [
+        "d1:p1:r11",
+        "d1:p1:r12"
+      ]
+    },
+    "stacco_terra": {
+      "nome": "Stacco da terra",
+      "nome_esteso": "Stacco da terra con bilanciere",
+      "attrezzi": "bilanciere",
+      "istruzioni": [
+        "Piedi sotto il bilanciere, schiena neutra",
+        "Spingi con le gambe mantenendo il bilanciere vicino al corpo",
+        "Estendi anche e ginocchia insieme"
+      ],
+      "fonti": [
+        "d1:p1:r15"
+      ]
+    },
+    "push_press": {
+      "nome": "Push press",
+      "nome_esteso": "Push press con bilanciere",
+      "attrezzi": "bilanciere",
+      "istruzioni": [
+        "Bilanciere sulle clavicole",
+        "Usa una leggera flessione di gambe per generare slancio",
+        "Spingi il bilanciere sopra la testa"
+      ],
+      "fonti": [
+        "d1:p1:r16"
+      ]
+    },
+    "burpee": {
+      "nome": "Burpee",
+      "nome_esteso": "Burpee con salto sopra la sbarra",
+      "attrezzi": "sbarra",
+      "istruzioni": [
+        "Scendi in piegamento sul pavimento",
+        "Risali con un salto",
+        "Salta sopra la sbarra (o versione senza salto)"
+      ],
+      "fonti": [
+        "d1:p1:r17",
+        "d1:p1:r18"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "ALLENAMENTO 1",
+      "sottotitolo": "Forza su squat, panca e trazioni",
+      "lettera": "A",
+      "messaggio_fine": "Ottimo lavoro, recupera bene prima della prossima seduta",
+      "fonti": [
+        "d1:p1:r8"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r9",
+            "d1:p1:r10",
+            "d1:p1:r11",
+            "d1:p1:r12"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat_frontale",
+              "modo": "testo",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r9",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "altro",
+                  "testo": "carico progressivo",
+                  "fonte": "d1:p1:r9",
+                  "certezza": "media"
+                }
+              ],
+              "testo_scheda": "Metodo Kellerman, 4 serie, carico progressivo",
+              "fonti": [
+                "d1:p1:r9"
+              ]
+            },
+            {
+              "esercizio": "panca_piana",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 65,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "65 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  65,
+                  65
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "fonti": [
+                "d1:p1:r10"
+              ]
+            },
+            {
+              "esercizio": "trazioni_sbarra",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:p1:r12",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "tecnica",
+                  "testo": "strict",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "altro",
+                  "testo": "alternativa: Scaled 4x8 assistite con elastico verde",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r11",
+                "d1:p1:r12"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "titolo": "ALLENAMENTO 2",
+      "sottotitolo": "Forza su stacco e push press, metabolico con burpee",
+      "lettera": "A",
+      "messaggio_fine": "Buon lavoro, idratati e recupera",
+      "fonti": [
+        "d1:p1:r14"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r15",
+            "d1:p1:r16",
+            "d1:p1:r17",
+            "d1:p1:r18"
+          ],
+          "voci": [
+            {
+              "esercizio": "stacco_terra",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "carico": {
+                "valore": 100,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "100 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  100,
+                  100
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3'",
+                "unita_scritta": "'",
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+              },
+              "fonti": [
+                "d1:p1:r15"
+              ]
+            },
+            {
+              "esercizio": "push_press",
+              "modo": "testo",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r16",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "testo_scheda": "Metodo Kellerman, 3 serie",
+              "fonti": [
+                "d1:p1:r16"
+              ]
+            },
+            {
+              "esercizio": "burpee",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "tecnica",
+                  "testo": "con salto sopra la sbarra",
+                  "fonte": "d1:p1:r17",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "altro",
+                  "testo": "alternativa: Scaled senza salto",
+                  "fonte": "d1:p1:r17",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r17",
+                "d1:p1:r18"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "tabla-fuerza-porcentajes",
+  "api": "v1",
+  "title": "PROGRAMA DE FUERZA - CICLO DE 3 SEMANAS",
+  "lang": "es-ES",
+  "storageKey": "wp-tabla-fuerza-porcentajes",
+  "kicker": "Estudio Fuerza Total",
+  "rules": [
+    "1RM de referencia: Sentadilla trasera 140 kg, Press banca plano 100 kg, Peso muerto rumano 120 kg",
+    "Nota: recalcula el 1RM cada 3 semanas con un test de 3 repeticiones."
+  ],
+  "exercises": {
+    "sentadilla": {
+      "name": "Sentadilla trasera",
+      "it": "Sentadilla trasera con barra (back squat)",
+      "gear": "Barra olímpica, rack de sentadillas, discos",
+      "how": [
+        "Coloca la barra sobre los trapecios, pies a la anchura de los hombros",
+        "Desciende flexionando cadera y rodillas manteniendo la espalda neutra",
+        "Baja hasta que los muslos queden paralelos al suelo, o según tu movilidad",
+        "Sube empujando con los talones hasta la extensión completa"
+      ]
+    },
+    "press_banca": {
+      "name": "Press banca plano",
+      "it": "Press de banca plano con barra",
+      "gear": "Barra, banco plano, discos",
+      "how": [
+        "Túmbate en el banco con los pies apoyados en el suelo",
+        "Baja la barra de forma controlada hasta el pecho",
+        "Empuja la barra hacia arriba hasta extender los brazos",
+        "Mantén los omóplatos retraídos durante todo el movimiento"
+      ]
+    },
+    "peso_muerto": {
+      "name": "Peso muerto rumano",
+      "it": "Peso muerto rumano con barra",
+      "gear": "Barra, discos",
+      "how": [
+        "Sujeta la barra con agarre prono a la altura de las caderas",
+        "Flexiona la cadera hacia atrás manteniendo las rodillas ligeramente flexionadas",
+        "Baja la barra pegada a las piernas hasta sentir el estiramiento de isquiotibiales",
+        "Vuelve a la posición inicial extendiendo la cadera"
+      ]
+    },
+    "remo": {
+      "name": "Remo con barra",
+      "it": "Remo con barra inclinado",
+      "gear": "Barra, discos",
+      "how": [
+        "Inclina el tronco hacia adelante manteniendo la espalda recta",
+        "Tira de la barra hacia el abdomen apretando la espalda",
+        "Baja la barra de forma controlada hasta la extensión de brazos"
+      ]
+    }
+  },
+  "workouts": {
+    "S1": {
+      "id": "S1",
+      "title": "Semana 1",
+      "focus": "Fuerza por porcentajes de 1RM",
+      "doneMsg": "Buen trabajo, primera semana completada.",
+      "phases": [
+        {
+          "id": "fuerza",
+          "title": "Fuerza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "sentadilla",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 5,
+              "rest": 180,
+              "rx": [
+                "@70% 1RM",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "press_banca",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "rest": 180,
+              "rx": [
+                "@70% 1RM",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "peso_muerto",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 8,
+              "rest": 120,
+              "rx": [
+                "@60% 1RM",
+                "RIR 3"
+              ]
+            },
+            {
+              "ex": "remo",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "rest": 90,
+              "drops": [
+                {
+                  "reps": "max",
+                  "text": "-10 kg"
+                }
+              ],
+              "dropOn": "last"
+            }
+          ]
+        }
+      ]
+    },
+    "S2": {
+      "id": "S2",
+      "title": "Semana 2",
+      "focus": "Fuerza por porcentajes de 1RM",
+      "doneMsg": "Buen trabajo, segunda semana completada.",
+      "phases": [
+        {
+          "id": "fuerza",
+          "title": "Fuerza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "sentadilla",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 5,
+              "rest": 180,
+              "rx": [
+                "@75% 1RM",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "press_banca",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "rest": 180,
+              "rx": [
+                "@75% 1RM",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "peso_muerto",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 8,
+              "rest": 120,
+              "rx": [
+                "@65% 1RM",
+                "RIR 3"
+              ]
+            },
+            {
+              "ex": "remo",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "rest": 90,
+              "drops": [
+                {
+                  "reps": "max",
+                  "text": "-10 kg"
+                }
+              ],
+              "dropOn": "last"
+            }
+          ]
+        }
+      ]
+    },
+    "S3": {
+      "id": "S3",
+      "title": "Semana 3",
+      "focus": "Fuerza por porcentajes de 1RM",
+      "doneMsg": "Enhorabuena, ciclo de fuerza completado.",
+      "phases": [
+        {
+          "id": "fuerza",
+          "title": "Fuerza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "sentadilla",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 3,
+              "rest": 180,
+              "rx": [
+                "@85% 1RM",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "press_banca",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 4,
+              "rest": 180,
+              "rx": [
+                "@82% 1RM",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "peso_muerto",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 6,
+              "rest": 120,
+              "rx": [
+                "@70% 1RM",
+                "RIR 3"
+              ]
+            },
+            {
+              "ex": "remo",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "rest": 90,
+              "drops": [
+                {
+                  "reps": "max",
+                  "text": "-10 kg"
+                }
+              ],
+              "dropOn": "last"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

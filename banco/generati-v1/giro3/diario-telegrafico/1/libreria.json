@@ -1,0 +1,241 @@
+{
+  "id": "diario-telegrafico",
+  "api": "v1",
+  "title": "Diario Allenamento - Settimana tipo",
+  "lang": "it-IT",
+  "storageKey": "wp-diario-telegrafico",
+  "kicker": "DIARIO ALLENAMENTO - SETTIMANA TIPO",
+  "rules": [
+    "Recupero 2 min sui multiarticolari, 90 sec sugli isolamenti.",
+    "Se il RIR indicato non si raggiunge, scala il carico del 5% alla prossima seduta."
+  ],
+  "exercises": {
+    "squat": {
+      "name": "squat",
+      "it": "Squat con bilanciere",
+      "gear": "Bilanciere, rack",
+      "how": [
+        "Piedi alla larghezza delle spalle",
+        "Scendi mantenendo la schiena neutra",
+        "Spingi sui talloni per risalire"
+      ]
+    },
+    "panca": {
+      "name": "panca",
+      "it": "Panca piana con bilanciere",
+      "gear": "Bilanciere, panca",
+      "how": [
+        "Scapole retratte sulla panca",
+        "Abbassa il bilanciere al petto controllando",
+        "Spingi in alto senza sbattere i gomiti"
+      ]
+    },
+    "rematore_bilanciere": {
+      "name": "rematore bilanciere",
+      "it": "Rematore con bilanciere",
+      "gear": "Bilanciere",
+      "how": [
+        "Busto inclinato in avanti, schiena neutra",
+        "Tira il bilanciere verso l'addome",
+        "Controlla la discesa"
+      ]
+    },
+    "stacco": {
+      "name": "stacco",
+      "it": "Stacco da terra",
+      "gear": "Bilanciere",
+      "how": [
+        "Bilanciere vicino agli stinchi",
+        "Spingi con le gambe mantenendo la schiena neutra",
+        "Estendi anche e ginocchia insieme"
+      ]
+    },
+    "trazioni": {
+      "name": "trazioni",
+      "it": "Trazioni alla sbarra",
+      "gear": "Sbarra",
+      "how": [
+        "Presa prona alla larghezza delle spalle",
+        "Tira il mento sopra la sbarra",
+        "Controlla la discesa"
+      ]
+    },
+    "affondi_bulgari": {
+      "name": "affondi bulgari",
+      "it": "Affondi bulgari con manubri",
+      "gear": "Manubri, panca",
+      "how": [
+        "Piede posteriore appoggiato su una panca",
+        "Scendi in affondo sulla gamba anteriore",
+        "Risali spingendo sul tallone"
+      ]
+    },
+    "military_press": {
+      "name": "military press",
+      "it": "Military press con bilanciere",
+      "gear": "Bilanciere",
+      "how": [
+        "In piedi, bilanciere all'altezza delle spalle",
+        "Spingi sopra la testa senza inarcare troppo la schiena",
+        "Controlla la discesa"
+      ]
+    },
+    "curl_manubri": {
+      "name": "curl manubri",
+      "it": "Curl bicipiti con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Gomiti fermi lungo i fianchi",
+        "Solleva i manubri flettendo il gomito",
+        "Controlla la discesa"
+      ]
+    },
+    "plank": {
+      "name": "plank",
+      "it": "Plank su avambracci",
+      "gear": "",
+      "how": [
+        "Avambracci a terra, corpo in linea retta",
+        "Contrai addome e glutei",
+        "Respira mantenendo la posizione"
+      ]
+    }
+  },
+  "workouts": {
+    "Lun": {
+      "id": "Lun",
+      "title": "Lun",
+      "focus": "Forza parte superiore e inferiore",
+      "doneMsg": "Seduta completata, buon recupero.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 5,
+              "reps": 5,
+              "kg": 100,
+              "rest": 120,
+              "rx": [
+                "@2RIR"
+              ]
+            },
+            {
+              "ex": "panca",
+              "mode": "reps",
+              "sets": 5,
+              "reps": 5,
+              "kg": 70,
+              "rest": 120,
+              "rx": [
+                "@2RIR"
+              ]
+            },
+            {
+              "ex": "rematore_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 60,
+              "rest": 120
+            }
+          ]
+        }
+      ]
+    },
+    "Mer": {
+      "id": "Mer",
+      "title": "Mer",
+      "focus": "Forza catena posteriore",
+      "doneMsg": "Ottimo lavoro, recupera bene.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "stacco",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "kg": 120,
+              "rest": 120,
+              "rx": [
+                "@1RIR"
+              ]
+            },
+            {
+              "ex": "trazioni",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "kg": "BW",
+              "rest": 120
+            },
+            {
+              "ex": "affondi_bulgari",
+              "mode": "reps",
+              "sets": 4,
+              "kg": 16,
+              "rest": 120,
+              "perSide": true,
+              "sides": [
+                "Gamba sinistra",
+                "Gamba destra"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Ven": {
+      "id": "Ven",
+      "title": "Ven",
+      "focus": "Spalle, braccia e core",
+      "doneMsg": "Fine settimana di allenamento completata.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "kg": 40,
+              "rest": 120,
+              "rx": [
+                "@2RIR"
+              ]
+            },
+            {
+              "ex": "curl_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 10,
+              "rest": 90
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 60,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "id": "settimane-trasposta",
+  "api": "v1",
+  "title": "SCHEDA MENSILE — 8 SEDUTE (ottobre 2026)",
+  "lang": "it-IT",
+  "storageKey": "wp-settimane-trasposta",
+  "kicker": "SCHEDA MENSILE — 8 SEDUTE (ottobre 2026)",
+  "rules": [
+    "Schema fisso per esercizio (le celle sotto riportano solo il carico in kg): Squat 4x8 · Affondi 3x10 per lato · Military Press 3x10 · Alzate Laterali 3x12"
+  ],
+  "exercises": {
+    "squat": {
+      "name": "Squat",
+      "it": "Squat con bilanciere",
+      "gear": "Bilanciere, rack",
+      "how": [
+        "Posiziona il bilanciere sulla parte alta della schiena",
+        "Scendi piegando le ginocchia mantenendo la schiena dritta",
+        "Risali spingendo sui talloni"
+      ]
+    },
+    "affondi": {
+      "name": "Affondi",
+      "it": "Affondi con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Fai un passo in avanti con una gamba",
+        "Torna alla posizione di partenza e ripeti sull'altro lato"
+      ]
+    },
+    "military_press": {
+      "name": "Military Press",
+      "it": "Military Press con bilanciere",
+      "gear": "Bilanciere",
+      "how": [
+        "Impugna il bilanciere all'altezza delle spalle",
+        "Spingi il bilanciere sopra la testa fino a distendere le braccia",
+        "Ritorna lentamente alla posizione di partenza"
+      ]
+    },
+    "alzate_laterali": {
+      "name": "Alzate Laterali",
+      "it": "Alzate laterali con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Tieni un manubrio per mano lungo i fianchi",
+        "Solleva le braccia lateralmente fino all'altezza delle spalle",
+        "Abbassa lentamente controllando il movimento"
+      ]
+    }
+  },
+  "workouts": {
+    "seduta1": {
+      "id": "seduta1",
+      "title": "Seduta 1",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 60,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 12,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 25,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 6,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta2": {
+      "id": "seduta2",
+      "title": "Seduta 2",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 62.5,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 12,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 25,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 6,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta3": {
+      "id": "seduta3",
+      "title": "Seduta 3",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 65,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 14,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 27.5,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 7,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta4": {
+      "id": "seduta4",
+      "title": "Seduta 4",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 65,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 14,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 27.5,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 7,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta5": {
+      "id": "seduta5",
+      "title": "Seduta 5",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 67.5,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 16,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 30,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 7,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta6": {
+      "id": "seduta6",
+      "title": "Seduta 6",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 70,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 16,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 30,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 8,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta7": {
+      "id": "seduta7",
+      "title": "Seduta 7",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Allenamento completato, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 70,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 18,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 32.5,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 8,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    },
+    "seduta8": {
+      "id": "seduta8",
+      "title": "Seduta 8",
+      "focus": "Gambe e spalle",
+      "doneMsg": "Fine del mese di allenamento, ottimo lavoro.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 72.5,
+              "rest": 0
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 18,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "military_press",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 32.5,
+              "rest": 0
+            },
+            {
+              "ex": "alzate_laterali",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 8,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

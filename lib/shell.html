@@ -1,0 +1,89 @@
+<!-- WorkoutPlayer · scheletro delle viste e dei dialog (da src/body.html). I testi del piano (intestazione, regole del trainer) li riempie la libreria all'avvio; le parole fisse vengono dai file di lingua (lib/lang/, chiavi in data-i18n*). -->
+<main id="home">
+  <div class="wrap">
+    <header class="masthead">
+      <span class="eyebrow" id="homeKicker"></span>
+      <h1 data-i18n="home.title"></h1>
+      <p data-i18n="home.lead"></p>
+    </header>
+    <div id="resume" class="resume" hidden></div>
+    <div id="choices" class="choices"></div>
+    <section class="rules">
+      <span class="eyebrow" id="rulesHead" data-i18n="home.rules"></span>
+      <ul id="rulesList"></ul>
+      <p class="fine" data-i18n="home.rulesNote"></p>
+    </section>
+  </div>
+</main>
+
+<main id="preview" hidden>
+  <div class="wrap">
+    <button class="back" id="pvBack" type="button" data-i18n="pv.back"></button>
+    <header class="pv-head">
+      <span class="eyebrow" id="pvPeriod"></span>
+      <h1 id="pvTitle"></h1>
+      <p id="pvFocus"></p>
+    </header>
+    <div class="stats" id="pvStats"></div>
+    <div class="plan" id="pvPlan"></div>
+    <div class="cta">
+      <button class="btn ghost" id="pvAudio" type="button" data-i18n="pv.audio"></button>
+      <button class="btn" id="pvStart" type="button" data-i18n="btn.start"></button>
+    </div>
+  </div>
+</main>
+
+<div id="player" hidden data-kind="gate">
+  <div class="topbar">
+    <div class="wrap">
+      <div class="line">
+        <button class="icon-btn" id="btnExit" type="button" data-i18n-aria="aria.exit">✕</button>
+        <div class="where" id="where"></div>
+        <button class="icon-btn" id="btnAudio" type="button" data-i18n-aria="audio.title"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 010 7M19 6a8.5 8.5 0 010 12"/></svg></button>
+        <button class="icon-btn" id="btnList" type="button" data-i18n="list.title"></button>
+      </div>
+      <div class="track" id="track" aria-hidden="true"></div>
+    </div>
+  </div>
+  <div class="wrap stage" id="stage"></div>
+  <div class="bar">
+    <div class="wrap">
+      <button class="nav" id="btnPrev" type="button" data-i18n-aria="aria.prev">‹</button>
+      <button class="btn" id="btnMain" type="button" data-i18n="btn.start"></button>
+      <button class="nav" id="btnNext" type="button" data-i18n-aria="aria.next">›</button>
+    </div>
+  </div>
+</div>
+
+<main id="done" hidden>
+  <div class="wrap">
+    <span class="eyebrow" id="doneKicker"></span>
+    <h1 class="done-mark" data-i18n-html="done.title"></h1>
+    <div class="stats" id="doneStats"></div>
+    <p id="doneMsg" style="color:var(--ink-2)"></p>
+    <div id="doneDiary" hidden></div>
+    <div class="cta"><button class="btn" id="doneHome" type="button" data-i18n="done.home"></button></div>
+  </div>
+</main>
+
+<dialog id="dlgList"><div class="dlg">
+  <header><h3 data-i18n="list.title"></h3><button class="icon-btn" type="button" data-close data-i18n="btn.close"></button></header>
+  <div id="listBody"></div>
+</div></dialog>
+
+<dialog id="dlgAudio"><div class="dlg">
+  <header><h3 data-i18n="audio.title"></h3><button class="icon-btn" type="button" data-close data-i18n="btn.close"></button></header>
+  <div class="set-row"><div data-i18n="audio.beep"><small data-i18n="audio.beepHint"></small></div>
+    <div class="seg" data-set="beep"><button type="button" data-v="1" data-i18n="btn.yes"></button><button type="button" data-v="0" data-i18n="btn.no"></button></div></div>
+  <div class="set-row"><div data-i18n="audio.voice"><small data-i18n="audio.voiceHint"></small></div>
+    <div class="seg" data-set="voice"><button type="button" data-v="1" data-i18n="btn.yes"></button><button type="button" data-v="0" data-i18n="btn.no"></button></div></div>
+  <div class="set-row"><div data-i18n="audio.prep"><small data-i18n="audio.prepHint"></small></div>
+    <div class="seg" data-set="prep"><button type="button" data-v="5">5</button><button type="button" data-v="10">10</button><button type="button" data-v="15">15</button></div></div>
+  <p class="fine" data-i18n="audio.iosNote"></p>
+</div></dialog>
+
+<dialog id="dlgExit"><div class="dlg">
+  <header><h3 data-i18n="exit.title"></h3></header>
+  <p style="color:var(--ink-2)" data-i18n="exit.text"></p>
+  <div class="row"><button class="btn ghost" type="button" data-close data-i18n="exit.stay"></button><button class="btn" id="exitYes" type="button" style="--phase:var(--ink);--on-phase:var(--bg)" data-i18n="exit.leave"></button></div>
+</div></dialog>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>WorkoutPlayer</title>
+<!-- WorkoutPlayer · guscio PWA (T2). Stessa pagina per "I tuoi piani", impostazioni, revisione, anteprima (#…) e per il
+     player di un piano (?p=<id>, un caricamento di pagina per piano). La libreria si carica da ../lib/manifest.json
+     (app/js/avvio.js); gli stili della libreria sono gli stessi file di lib/manifest.json "css" (tests/app.test.js). -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#ECEFEA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1113" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="WorkoutPlayer">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap">
+<link rel="stylesheet" href="../lib/tokens.css">
+<link rel="stylesheet" href="../lib/player.css">
+<link rel="stylesheet" href="app.css">
+<script>try { var s = JSON.parse(localStorage.getItem("workoutplayer-app") || "{}"); if (s.theme === "light" || s.theme === "dark") document.documentElement.dataset.theme = s.theme; } catch (e) {}</script>
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<div id="wp"></div>
+<script src="js/deposito.js"></script>
+<script src="js/revisione.js"></script>
+<script src="js/anteprima.js"></script>
+<script src="js/viste.js"></script>
+<script src="js/avvio.js"></script>
+</body>
+</html>

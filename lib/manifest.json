@@ -1,0 +1,33 @@
+{
+  "about": "File della libreria WorkoutPlayer nell'ordine di caricamento (lang/: un file per lingua dell'interfaccia, T2). Lo leggono build_plan.py e i test. api = versione più recente dell'API; apiSupported = versioni che la libreria legge (regola AC-L7: lib/API-v0.md, lib/API-v1.md).",
+  "api": "v1",
+  "apiSupported": ["v0", "v1"],
+  "css": ["tokens.css", "player.css"],
+  "html": "shell.html",
+  "js": [
+    "util.js",
+    "i18n.js",
+    "lang/it.js",
+    "lang/en.js",
+    "lang/fr.js",
+    "lang/es.js",
+    "lang/de.js",
+    "engine/steps.js",
+    "engine/fallback.js",
+    "engine/isolate.js",
+    "engine/store.js",
+    "engine/texts.js",
+    "engine/audio.js",
+    "engine/wakelock.js",
+    "engine/session.js",
+    "ui/shell.js",
+    "ui/home.js",
+    "ui/preview.js",
+    "ui/player.js",
+    "ui/list.js",
+    "ui/dialogs.js",
+    "ui/done.js",
+    "ui/events.js",
+    "index.js"
+  ]
+}

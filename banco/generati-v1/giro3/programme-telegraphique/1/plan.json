@@ -1,0 +1,439 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "programme-telegraphique",
+  "titolo": "PROGRAMME - SEANCE HAUT DU CORPS",
+  "lingua": "fr-FR",
+  "chiave_memoria": "wp-programme-telegraphique",
+  "regole": [
+    {
+      "testo": "Duree du cycle: 4 semaines",
+      "fonti": [
+        "d1:r2"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "programme-telegraphique.txt",
+      "formato": "testo",
+      "sha256": "fe47006f6a16e5485174c10509ecea066b51afc6bba23c775d6da0b2f57c3900"
+    }
+  ],
+  "fonti": {
+    "d1:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "PROGRAMME - SEANCE HAUT DU CORPS"
+    },
+    "d1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Duree du cycle: 4 semaines"
+    },
+    "d1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "- Developpe couche: 4x8, tempo 3-1-2-0, repos 2'"
+    },
+    "d1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "- Traction a la poulie haute OU tirage poitrine machine (au choix selon le materiel disponible): 4x8, repos 90''"
+    },
+    "d1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "- Elevations laterales en cluster: 4x(4+4+4), repos intra-serie 15'', repos inter-serie 2', charge 8 kg"
+    },
+    "d1:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "- (facultatif) Gainage lateral: 3x30'' par cote, repos 30''"
+    },
+    "d1:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "- Curl barre EZ en myo-reps: 15 + 4x4, repos 5 respirations entre les mini-series, charge 20 kg"
+    }
+  },
+  "esercizi": {
+    "developpe_couche": {
+      "nome": "Developpe couche",
+      "nome_esteso": "Développé couché",
+      "attrezzi": "Banc plat, barre",
+      "istruzioni": [
+        "Allongez-vous sur le banc, pieds au sol",
+        "Saisissez la barre un peu plus large que les épaules",
+        "Descendez la barre jusqu'à la poitrine de façon contrôlée",
+        "Poussez la barre vers le haut jusqu'à l'extension des bras"
+      ],
+      "fonti": [
+        "d1:r4"
+      ]
+    },
+    "traction_poulie": {
+      "nome": "Traction a la poulie haute",
+      "nome_esteso": "Traction à la poulie haute",
+      "attrezzi": "Poulie haute, barre de traction",
+      "istruzioni": [
+        "Asseyez-vous face à la poulie, cuisses bloquées",
+        "Saisissez la barre en prise large",
+        "Tirez la barre vers le haut de la poitrine",
+        "Remontez lentement jusqu'à l'extension complète"
+      ],
+      "fonti": [
+        "d1:r5"
+      ]
+    },
+    "elevations_laterales": {
+      "nome": "Elevations laterales",
+      "nome_esteso": "Élévations latérales avec haltères",
+      "attrezzi": "Haltères",
+      "istruzioni": [
+        "Debout, un haltère dans chaque main le long du corps",
+        "Levez les bras sur les côtés jusqu'à l'horizontale",
+        "Gardez une légère flexion des coudes",
+        "Redescendez de façon contrôlée"
+      ],
+      "fonti": [
+        "d1:r6"
+      ]
+    },
+    "gainage_lateral": {
+      "nome": "Gainage lateral",
+      "nome_esteso": "Gainage latéral",
+      "attrezzi": "Tapis",
+      "istruzioni": [
+        "Allongez-vous sur le côté, appui sur l'avant-bras",
+        "Alignez le corps des pieds à la tête",
+        "Soulevez les hanches du sol",
+        "Maintenez la position sans creuser le dos"
+      ],
+      "fonti": [
+        "d1:r7"
+      ]
+    },
+    "curl_ez_myoreps": {
+      "nome": "Curl barre EZ en myo-reps",
+      "nome_esteso": "Curl avec barre EZ",
+      "attrezzi": "Barre EZ",
+      "istruzioni": [
+        "Debout, barre EZ en prise supination",
+        "Fléchissez les coudes en gardant les bras collés au corps",
+        "Contractez les biceps en haut du mouvement",
+        "Redescendez la barre de façon contrôlée"
+      ],
+      "fonti": [
+        "d1:r8"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Séance Haut du Corps",
+      "sottotitolo": "Force et posture du haut du corps",
+      "messaggio_fine": "Bonne séance terminée, pensez à bien récupérer",
+      "fonti": [
+        "d1:r1",
+        "d1:r2",
+        "d1:r4",
+        "d1:r5",
+        "d1:r6",
+        "d1:r7",
+        "d1:r8"
+      ],
+      "fasi": [
+        {
+          "id": "haut_du_corps",
+          "titolo": "Haut du corps",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r4",
+            "d1:r5",
+            "d1:r6",
+            "d1:r7",
+            "d1:r8"
+          ],
+          "voci": [
+            {
+              "esercizio": "developpe_couche",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2'",
+                "unita_scritta": "'",
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "cadenza",
+                  "testo": "tempo 3-1-2-0",
+                  "fonte": "d1:r4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r4"
+              ]
+            },
+            {
+              "esercizio": "traction_poulie",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "altro",
+                  "testo": "alternativa: tirage poitrine machine (au choix selon le materiel disponible)",
+                  "fonte": "d1:r5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r5"
+              ]
+            },
+            {
+              "esercizio": "elevations_laterales",
+              "modo": "testo",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "carico": {
+                "valore": 8,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "8 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r6",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2'",
+                "unita_scritta": "'",
+                "fonte": "d1:r6",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "tecnica",
+                  "testo": "cluster: 4+4+4",
+                  "fonte": "d1:r6",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "nota",
+                  "testo": "repos intra-serie 15''",
+                  "fonte": "d1:r6",
+                  "certezza": "media"
+                }
+              ],
+              "testo_scheda": "Elevations laterales en cluster: 4x(4+4+4), repos intra-serie 15'', repos inter-serie 2', charge 8 kg",
+              "fonti": [
+                "d1:r6"
+              ]
+            },
+            {
+              "esercizio": "gainage_lateral",
+              "modo": "tempo",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r7",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 30,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:r7",
+                "certezza": "alta",
+                "letture": [
+                  30,
+                  30
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Côté gauche",
+                  "Côté droit"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "par cote",
+                  "unita_scritta": null,
+                  "fonte": "d1:r7",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«par cote» = 2 lati"
+                }
+              },
+              "nota": "(facultatif)",
+              "fonti": [
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "curl_ez_myoreps",
+              "modo": "testo",
+              "carico": {
+                "valore": 20,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "20 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r8",
+                "certezza": "alta",
+                "letture": [
+                  20,
+                  20
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "tecnica",
+                  "testo": "myo-reps: 15 + 4x4",
+                  "fonte": "d1:r8",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "nota",
+                  "testo": "repos 5 respirations entre les mini-series",
+                  "fonte": "d1:r8",
+                  "certezza": "media"
+                }
+              ],
+              "testo_scheda": "Curl barre EZ en myo-reps: 15 + 4x4, repos 5 respirations entre les mini-series, charge 20 kg",
+              "fonti": [
+                "d1:r8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

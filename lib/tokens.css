@@ -1,0 +1,27 @@
+/* WorkoutPlayer · token e temi (chiaro, scuro automatico, scuro forzato). Da src/style.css:1-26. */
+:root {
+  --bg: #ECEFEA; --surface: #FFFFFF; --surface-2: #E1E5DF; --line: #CFD5CD;
+  --ink: #14181A; --ink-2: #49545A; --ink-3: #6F7B80;
+  --work: #D9480B; --rest: #0A8070; --prep: #9A6A00; --on-phase: #FFFFFF;
+  --note-bg: #FFF4D6; --note-ink: #4A3600; --note-line: #E9C767;
+  --img-filter: none; --img-blend: multiply;
+  --phase: var(--ink);
+  --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1113; --surface: #181D20; --surface-2: #232A2E; --line: #2E373B;
+    --ink: #F0F3EE; --ink-2: #B1BBBF; --ink-3: #87939A;
+    --work: #FF6B2C; --rest: #2CC7B0; --prep: #F0B429; --on-phase: #0E1113;
+    --note-bg: #2B2410; --note-ink: #F6E3A6; --note-line: #6B5618;
+    --img-filter: invert(1) hue-rotate(180deg); --img-blend: screen;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1113; --surface: #181D20; --surface-2: #232A2E; --line: #2E373B;
+  --ink: #F0F3EE; --ink-2: #B1BBBF; --ink-3: #87939A;
+  --work: #FF6B2C; --rest: #2CC7B0; --prep: #F0B429; --on-phase: #0E1113;
+  --note-bg: #2B2410; --note-ink: #F6E3A6; --note-line: #6B5618;
+  --img-filter: invert(1) hue-rotate(180deg); --img-blend: screen;
+}

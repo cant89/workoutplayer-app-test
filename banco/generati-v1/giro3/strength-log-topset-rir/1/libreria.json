@@ -1,0 +1,134 @@
+{
+  "id": "strength-log-topset-rir",
+  "api": "v1",
+  "title": "strength-log-topset-rir",
+  "lang": "en-US",
+  "storageKey": "wp-strength-log-topset-rir",
+  "rules": [],
+  "exercises": {
+    "back_squat": {
+      "name": "Back Squat",
+      "it": "Back Squat",
+      "gear": "Barbell, rack",
+      "how": [
+        "Set the bar on your upper back, feet shoulder-width apart",
+        "Brace your core and descend under control",
+        "Keep knees tracking over toes and chest upright",
+        "Drive through the floor to stand back up"
+      ]
+    },
+    "bench_press": {
+      "name": "Bench Press",
+      "it": "Barbell Bench Press",
+      "gear": "Barbell, bench, rack",
+      "how": [
+        "Lie on the bench with feet flat on the floor",
+        "Grip the bar slightly wider than shoulder-width",
+        "Lower the bar to the chest under control",
+        "Press back up to full arm extension"
+      ]
+    },
+    "barbell_row": {
+      "name": "Barbell Row",
+      "it": "Bent-Over Barbell Row",
+      "gear": "Barbell",
+      "how": [
+        "Hinge at the hips with a flat back",
+        "Pull the bar toward the lower ribs",
+        "Squeeze the shoulder blades at the top",
+        "Lower the bar under control"
+      ]
+    },
+    "box_jump": {
+      "name": "Box Jump",
+      "it": "Box Jump",
+      "gear": "Plyo box",
+      "how": [
+        "Stand facing the box with feet hip-width apart",
+        "Swing arms and jump onto the box, landing softly",
+        "Stand fully upright on the box",
+        "Step down, do not jump down"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Sessione di forza",
+      "focus": "Top set e lavoro accessorio",
+      "doneMsg": "Allenamento completato, ottimo lavoro",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "back_squat",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 3,
+              "kg": null,
+              "rest": 180,
+              "rx": [
+                "225 lb",
+                "RIR 1 on top set"
+              ]
+            },
+            {
+              "ex": "back_squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 180,
+              "rx": [
+                "back-off -10%",
+                "Back-off load = top set weight minus 10%, round to nearest 5 lb"
+              ]
+            },
+            {
+              "ex": "bench_press",
+              "mode": "reps",
+              "sets": 5,
+              "reps": 5,
+              "kg": null,
+              "rest": 120,
+              "rx": [
+                "1RM 275 lb",
+                "@70% 1RM",
+                "Working weight = 70% of 275 lb = 192.5 lb, round to 190 lb",
+                "RIR 2"
+              ]
+            },
+            {
+              "ex": "barbell_row",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": null,
+              "rest": 90,
+              "rx": [
+                "155 lb",
+                "RIR 2",
+                "Keep a flat back"
+              ]
+            },
+            {
+              "ex": "box_jump",
+              "mode": "reps",
+              "sets": 5,
+              "reps": 3,
+              "rest": 120,
+              "rx": [
+                "Box height 20 in",
+                "RIR 3",
+                "Step down, do not jump down"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,863 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "powerlifting-scarico-percentuali",
+  "titolo": "Mesociclo Forza - 4 Settimane (Powerlifting)",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-powerlifting-scarico-percentuali",
+  "regole": [
+    {
+      "testo": "Massimali di riferimento: Squat 150 kg, Panca 100 kg, Stacco 180 kg",
+      "fonti": [
+        "d1:p1:r2"
+      ]
+    },
+    {
+      "testo": "Nota: le percentuali sono sul massimale di riferimento indicato sopra, non su un test recente.",
+      "fonti": [
+        "d1:p1:r12",
+        "d1:p1:r13"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "powerlifting-scarico-percentuali.pdf",
+      "formato": "pdf-testo",
+      "sha256": "0269de7b22d6923881a7ce064eef3288cdf7da3b40384813412bbca60e0d01e2"
+    }
+  ],
+  "fonti": {
+    "d1:p1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Massimali di riferimento: Squat 150 kg, Panca 100 kg, Stacco 180 kg             ",
+      "pagina": 1
+    },
+    "d1:p1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Settimana 1: Squat top set 1x3 @80% poi 3x5 back-off -10%; Panca 4x6 @75%; Stacc",
+      "pagina": 1
+    },
+    "d1:p1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "o 3x5 @75%                                                                      ",
+      "pagina": 1
+    },
+    "d1:p1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Settimana 2: Squat top set 1x3 @82,5% poi 3x5 back-off -10%; Panca 4x6 @77,5%; S",
+      "pagina": 1
+    },
+    "d1:p1:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "tacco 3x5 @77,5%                                                                ",
+      "pagina": 1
+    },
+    "d1:p1:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "Settimana 3: Squat top set 1x2 @87,5% poi 3x4 back-off -12,5%; Panca 3x5 @82,5%;",
+      "pagina": 1
+    },
+    "d1:p1:r9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": " Stacco 2x4 @82,5%                                                              ",
+      "pagina": 1
+    },
+    "d1:p1:r10": {
+      "doc": "d1",
+      "riga": 10,
+      "testo": "Settimana 4: SCARICO - Squat 3x5 @60%; Panca 3x5 @60%; Stacco 2x5 @60%          ",
+      "pagina": 1
+    },
+    "d1:p1:r12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": "Nota: le percentuali sono sul massimale di riferimento indicato sopra, non su un",
+      "pagina": 1
+    },
+    "d1:p1:r13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": " test recente.                                                                  ",
+      "pagina": 1
+    }
+  },
+  "esercizi": {
+    "squat": {
+      "nome": "Squat",
+      "nome_esteso": "Squat con bilanciere",
+      "attrezzi": "Bilanciere, rack, dischi",
+      "istruzioni": [
+        "Posiziona il bilanciere sulla parte alta della schiena",
+        "Scendi controllando il movimento mantenendo il busto eretto",
+        "Spingi sui talloni per risalire",
+        "Mantieni la colonna neutra durante tutto il movimento"
+      ],
+      "fonti": [
+        "d1:p1:r4",
+        "d1:p1:r6",
+        "d1:p1:r8",
+        "d1:p1:r10"
+      ]
+    },
+    "panca": {
+      "nome": "Panca",
+      "nome_esteso": "Panca piana con bilanciere",
+      "attrezzi": "Bilanciere, panca piana, dischi",
+      "istruzioni": [
+        "Sdraiati sulla panca con i piedi ben appoggiati",
+        "Abbassa il bilanciere al petto in modo controllato",
+        "Spingi verso l'alto mantenendo le scapole retratte",
+        "Evita di rimbalzare il bilanciere sul petto"
+      ],
+      "fonti": [
+        "d1:p1:r4",
+        "d1:p1:r6",
+        "d1:p1:r8",
+        "d1:p1:r10"
+      ]
+    },
+    "stacco": {
+      "nome": "Stacco",
+      "nome_esteso": "Stacco da terra",
+      "attrezzi": "Bilanciere, dischi",
+      "istruzioni": [
+        "Posizionati con i piedi sotto il bilanciere",
+        "Afferra il bilanciere mantenendo la schiena dritta",
+        "Spingi con le gambe e distendi le anche per sollevare il peso",
+        "Mantieni il bilanciere vicino al corpo durante il sollevamento"
+      ],
+      "fonti": [
+        "d1:p1:r4",
+        "d1:p1:r5",
+        "d1:p1:r6",
+        "d1:p1:r7",
+        "d1:p1:r8",
+        "d1:p1:r9",
+        "d1:p1:r10"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "W1",
+      "titolo": "Settimana 1",
+      "sottotitolo": "Top set e back-off su squat, panca e stacco",
+      "messaggio_fine": "Buon lavoro, recupera bene prima della prossima settimana.",
+      "fonti": [
+        "d1:p1:r4",
+        "d1:p1:r5"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r4",
+            "d1:p1:r5"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 1,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "1",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r4",
+                "certezza": "alta",
+                "letture": [
+                  1,
+                  1
+                ]
+              },
+              "ripetizioni": {
+                "valore": 3,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r4",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@80%",
+                  "fonte": "d1:p1:r4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r4"
+              ]
+            },
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r4",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r4",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "back-off -10%",
+                  "fonte": "d1:p1:r4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r4"
+              ]
+            },
+            {
+              "esercizio": "panca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r4",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r4",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@75%",
+                  "fonte": "d1:p1:r4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r4"
+              ]
+            },
+            {
+              "esercizio": "stacco",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r5",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@75%",
+                  "fonte": "d1:p1:r4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r4",
+                "d1:p1:r5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W2",
+      "titolo": "Settimana 2",
+      "sottotitolo": "Top set e back-off su squat, panca e stacco",
+      "messaggio_fine": "Buon lavoro, recupera bene prima della prossima settimana.",
+      "fonti": [
+        "d1:p1:r6",
+        "d1:p1:r7"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r6",
+            "d1:p1:r7"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 1,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "1",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r6",
+                "certezza": "alta",
+                "letture": [
+                  1,
+                  1
+                ]
+              },
+              "ripetizioni": {
+                "valore": 3,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@82,5%",
+                  "fonte": "d1:p1:r6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r6"
+              ]
+            },
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r6",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "back-off -10%",
+                  "fonte": "d1:p1:r6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r6"
+              ]
+            },
+            {
+              "esercizio": "panca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r6",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r6",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@77,5%",
+                  "fonte": "d1:p1:r6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r6"
+              ]
+            },
+            {
+              "esercizio": "stacco",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r7",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r7",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@77,5%",
+                  "fonte": "d1:p1:r6",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r6",
+                "d1:p1:r7"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W3",
+      "titolo": "Settimana 3",
+      "sottotitolo": "Top set e back-off su squat, panca e stacco",
+      "messaggio_fine": "Buon lavoro, recupera bene prima della prossima settimana.",
+      "fonti": [
+        "d1:p1:r8",
+        "d1:p1:r9"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r8",
+            "d1:p1:r9"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 1,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "1",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r8",
+                "certezza": "alta",
+                "letture": [
+                  1,
+                  1
+                ]
+              },
+              "ripetizioni": {
+                "valore": 2,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "2",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r8",
+                "certezza": "alta",
+                "letture": [
+                  2,
+                  2
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@87,5%",
+                  "fonte": "d1:p1:r8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r8"
+              ]
+            },
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 4,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r8",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "back-off -12,5%",
+                  "fonte": "d1:p1:r8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r8"
+              ]
+            },
+            {
+              "esercizio": "panca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r8",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r8",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@82,5%",
+                  "fonte": "d1:p1:r8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r8"
+              ]
+            },
+            {
+              "esercizio": "stacco",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 2,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "2",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r9",
+                "certezza": "alta",
+                "letture": [
+                  2,
+                  2
+                ]
+              },
+              "ripetizioni": {
+                "valore": 4,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r9",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@82,5%",
+                  "fonte": "d1:p1:r8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r8",
+                "d1:p1:r9"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "W4",
+      "titolo": "Settimana 4",
+      "sottotitolo": "Settimana di scarico",
+      "messaggio_fine": "Settimana di scarico completata, sei pronto per il prossimo ciclo.",
+      "fonti": [
+        "d1:p1:r10"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r10"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@60%",
+                  "fonte": "d1:p1:r10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r10"
+              ]
+            },
+            {
+              "esercizio": "panca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@60%",
+                  "fonte": "d1:p1:r10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r10"
+              ]
+            },
+            {
+              "esercizio": "stacco",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 2,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "2",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  2,
+                  2
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r10",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@60%",
+                  "fonte": "d1:p1:r10",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r10"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

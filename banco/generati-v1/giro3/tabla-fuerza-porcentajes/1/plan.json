@@ -1,0 +1,1011 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "tabla-fuerza-porcentajes",
+  "titolo": "PROGRAMA DE FUERZA - CICLO DE 3 SEMANAS",
+  "lingua": "es-ES",
+  "chiave_memoria": "wp-tabla-fuerza-porcentajes",
+  "sopratitolo": {
+    "testo": "Estudio Fuerza Total",
+    "fonti": [
+      "d1:p1:r2"
+    ]
+  },
+  "regole": [
+    {
+      "testo": "1RM de referencia: Sentadilla trasera 140 kg, Press banca plano 100 kg, Peso muerto rumano 120 kg",
+      "fonti": [
+        "d1:p1:r4",
+        "d1:p1:r5"
+      ]
+    },
+    {
+      "testo": "Nota: recalcula el 1RM cada 3 semanas con un test de 3 repeticiones.",
+      "fonti": [
+        "d1:p1:r20"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "tabla-fuerza-porcentajes.pdf",
+      "formato": "pdf-testo",
+      "sha256": "061c2fc41e20af25a63ba96c4544ac43a3deb93f192abc7babbbd0d3f590ec6f"
+    }
+  ],
+  "fonti": {
+    "d1:p1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Estudio Fuerza Total                                                            ",
+      "pagina": 1
+    },
+    "d1:p1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "1RM de referencia: Sentadilla trasera 140 kg, Press banca plano 100 kg, Peso mue",
+      "pagina": 1
+    },
+    "d1:p1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "rto rumano 120 kg                                                               ",
+      "pagina": 1
+    },
+    "d1:p1:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Ejercicio              Semana 1          Semana 2          Semana 3          RIR",
+      "pagina": 1
+    },
+    "d1:p1:r11": {
+      "doc": "d1",
+      "riga": 11,
+      "testo": "Sentadilla trasera     4x5 @70% 1RM      4x5 @75% 1RM      3x3 @85% 1RM      RIR",
+      "pagina": 1
+    },
+    "d1:p1:r12": {
+      "doc": "d1",
+      "riga": 12,
+      "testo": " 2    3 min                                                                     ",
+      "pagina": 1
+    },
+    "d1:p1:r13": {
+      "doc": "d1",
+      "riga": 13,
+      "testo": "Press banca plano      4x6 @70% 1RM      4x6 @75% 1RM      3x4 @82% 1RM      RIR",
+      "pagina": 1
+    },
+    "d1:p1:r14": {
+      "doc": "d1",
+      "riga": 14,
+      "testo": " 2    3 min                                                                     ",
+      "pagina": 1
+    },
+    "d1:p1:r15": {
+      "doc": "d1",
+      "riga": 15,
+      "testo": "Peso muerto rumano     3x8 @60% 1RM      3x8 @65% 1RM      3x6 @70% 1RM      RIR",
+      "pagina": 1
+    },
+    "d1:p1:r16": {
+      "doc": "d1",
+      "riga": 16,
+      "testo": " 3    2 min                                                                     ",
+      "pagina": 1
+    },
+    "d1:p1:r17": {
+      "doc": "d1",
+      "riga": 17,
+      "testo": "Remo con barra         4x10 + drop set final: -10 kg hasta el fallo             ",
+      "pagina": 1
+    },
+    "d1:p1:r18": {
+      "doc": "d1",
+      "riga": 18,
+      "testo": "       90 seg                                                                   ",
+      "pagina": 1
+    },
+    "d1:p1:r20": {
+      "doc": "d1",
+      "riga": 20,
+      "testo": "Nota: recalcula el 1RM cada 3 semanas con un test de 3 repeticiones.            ",
+      "pagina": 1
+    }
+  },
+  "esercizi": {
+    "sentadilla": {
+      "nome": "Sentadilla trasera",
+      "nome_esteso": "Sentadilla trasera con barra (back squat)",
+      "attrezzi": "Barra olímpica, rack de sentadillas, discos",
+      "istruzioni": [
+        "Coloca la barra sobre los trapecios, pies a la anchura de los hombros",
+        "Desciende flexionando cadera y rodillas manteniendo la espalda neutra",
+        "Baja hasta que los muslos queden paralelos al suelo, o según tu movilidad",
+        "Sube empujando con los talones hasta la extensión completa"
+      ],
+      "fonti": [
+        "d1:p1:r11",
+        "d1:p1:r12"
+      ]
+    },
+    "press_banca": {
+      "nome": "Press banca plano",
+      "nome_esteso": "Press de banca plano con barra",
+      "attrezzi": "Barra, banco plano, discos",
+      "istruzioni": [
+        "Túmbate en el banco con los pies apoyados en el suelo",
+        "Baja la barra de forma controlada hasta el pecho",
+        "Empuja la barra hacia arriba hasta extender los brazos",
+        "Mantén los omóplatos retraídos durante todo el movimiento"
+      ],
+      "fonti": [
+        "d1:p1:r13",
+        "d1:p1:r14"
+      ]
+    },
+    "peso_muerto": {
+      "nome": "Peso muerto rumano",
+      "nome_esteso": "Peso muerto rumano con barra",
+      "attrezzi": "Barra, discos",
+      "istruzioni": [
+        "Sujeta la barra con agarre prono a la altura de las caderas",
+        "Flexiona la cadera hacia atrás manteniendo las rodillas ligeramente flexionadas",
+        "Baja la barra pegada a las piernas hasta sentir el estiramiento de isquiotibiales",
+        "Vuelve a la posición inicial extendiendo la cadera"
+      ],
+      "fonti": [
+        "d1:p1:r15",
+        "d1:p1:r16"
+      ]
+    },
+    "remo": {
+      "nome": "Remo con barra",
+      "nome_esteso": "Remo con barra inclinado",
+      "attrezzi": "Barra, discos",
+      "istruzioni": [
+        "Inclina el tronco hacia adelante manteniendo la espalda recta",
+        "Tira de la barra hacia el abdomen apretando la espalda",
+        "Baja la barra de forma controlada hasta la extensión de brazos"
+      ],
+      "fonti": [
+        "d1:p1:r17",
+        "d1:p1:r18"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "S1",
+      "titolo": "Semana 1",
+      "sottotitolo": "Fuerza por porcentajes de 1RM",
+      "messaggio_fine": "Buen trabajo, primera semana completada.",
+      "fonti": [
+        "d1:p1:r7",
+        "d1:p1:r11",
+        "d1:p1:r12",
+        "d1:p1:r13",
+        "d1:p1:r14",
+        "d1:p1:r15",
+        "d1:p1:r16",
+        "d1:p1:r17",
+        "d1:p1:r18"
+      ],
+      "fasi": [
+        {
+          "id": "fuerza",
+          "titolo": "Fuerza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r7"
+          ],
+          "voci": [
+            {
+              "esercizio": "sentadilla",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r12",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@70% 1RM",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r11",
+                "d1:p1:r12"
+              ]
+            },
+            {
+              "esercizio": "press_banca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r13",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r13",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r14",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@70% 1RM",
+                  "fonte": "d1:p1:r13",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:p1:r13",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r13",
+                "d1:p1:r14"
+              ]
+            },
+            {
+              "esercizio": "peso_muerto",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r16",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@60% 1RM",
+                  "fonte": "d1:p1:r15",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 3",
+                  "fonte": "d1:p1:r15",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r15",
+                "d1:p1:r16"
+              ]
+            },
+            {
+              "esercizio": "remo",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90 seg",
+                "unita_scritta": "seg",
+                "fonte": "d1:p1:r18",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "scalate": {
+                "su": "ultima",
+                "parti": [
+                  {
+                    "ripetizioni": {
+                      "massime": true,
+                      "testo": "cedimento",
+                      "fonte": "d1:p1:r17",
+                      "certezza": "media"
+                    },
+                    "testo": "-10 kg"
+                  }
+                ]
+              },
+              "fonti": [
+                "d1:p1:r17",
+                "d1:p1:r18"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "titolo": "Semana 2",
+      "sottotitolo": "Fuerza por porcentajes de 1RM",
+      "messaggio_fine": "Buen trabajo, segunda semana completada.",
+      "fonti": [
+        "d1:p1:r7",
+        "d1:p1:r11",
+        "d1:p1:r12",
+        "d1:p1:r13",
+        "d1:p1:r14",
+        "d1:p1:r15",
+        "d1:p1:r16",
+        "d1:p1:r17",
+        "d1:p1:r18"
+      ],
+      "fasi": [
+        {
+          "id": "fuerza",
+          "titolo": "Fuerza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r7"
+          ],
+          "voci": [
+            {
+              "esercizio": "sentadilla",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r12",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@75% 1RM",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r11",
+                "d1:p1:r12"
+              ]
+            },
+            {
+              "esercizio": "press_banca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r13",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r13",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r14",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@75% 1RM",
+                  "fonte": "d1:p1:r13",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:p1:r13",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r13",
+                "d1:p1:r14"
+              ]
+            },
+            {
+              "esercizio": "peso_muerto",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r16",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@65% 1RM",
+                  "fonte": "d1:p1:r15",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 3",
+                  "fonte": "d1:p1:r15",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r15",
+                "d1:p1:r16"
+              ]
+            },
+            {
+              "esercizio": "remo",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90 seg",
+                "unita_scritta": "seg",
+                "fonte": "d1:p1:r18",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "scalate": {
+                "su": "ultima",
+                "parti": [
+                  {
+                    "ripetizioni": {
+                      "massime": true,
+                      "testo": "cedimento",
+                      "fonte": "d1:p1:r17",
+                      "certezza": "media"
+                    },
+                    "testo": "-10 kg"
+                  }
+                ]
+              },
+              "fonti": [
+                "d1:p1:r17",
+                "d1:p1:r18"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "titolo": "Semana 3",
+      "sottotitolo": "Fuerza por porcentajes de 1RM",
+      "messaggio_fine": "Enhorabuena, ciclo de fuerza completado.",
+      "fonti": [
+        "d1:p1:r7",
+        "d1:p1:r11",
+        "d1:p1:r12",
+        "d1:p1:r13",
+        "d1:p1:r14",
+        "d1:p1:r15",
+        "d1:p1:r16",
+        "d1:p1:r17",
+        "d1:p1:r18"
+      ],
+      "fasi": [
+        {
+          "id": "fuerza",
+          "titolo": "Fuerza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:p1:r7"
+          ],
+          "voci": [
+            {
+              "esercizio": "sentadilla",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 3,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r11",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r12",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@85% 1RM",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:p1:r11",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r11",
+                "d1:p1:r12"
+              ]
+            },
+            {
+              "esercizio": "press_banca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r13",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 4,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r13",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r14",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@82% 1RM",
+                  "fonte": "d1:p1:r13",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:p1:r13",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r13",
+                "d1:p1:r14"
+              ]
+            },
+            {
+              "esercizio": "peso_muerto",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r15",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:p1:r16",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "min = minuti → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@70% 1RM",
+                  "fonte": "d1:p1:r15",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 3",
+                  "fonte": "d1:p1:r15",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:p1:r15",
+                "d1:p1:r16"
+              ]
+            },
+            {
+              "esercizio": "remo",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:p1:r17",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90 seg",
+                "unita_scritta": "seg",
+                "fonte": "d1:p1:r18",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "scalate": {
+                "su": "ultima",
+                "parti": [
+                  {
+                    "ripetizioni": {
+                      "massime": true,
+                      "testo": "cedimento",
+                      "fonte": "d1:p1:r17",
+                      "certezza": "media"
+                    },
+                    "testo": "-10 kg"
+                  }
+                ]
+              },
+              "fonti": [
+                "d1:p1:r17",
+                "d1:p1:r18"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

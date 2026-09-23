@@ -1,0 +1,801 @@
+{
+  "id": "demo",
+  "api": "v0",
+  "title": "Scheda di esempio",
+  "lang": "it-IT",
+  "storageKey": "scheda-demo-prova",
+  "kicker": "Scheda di esempio · settembre",
+  "rules": [
+    "Nel riscaldamento aumenta l'intensità in modo progressivo: almeno 10 minuti.",
+    "RPE è la scala dello sforzo percepito, da 1 a 10.",
+    "Il giorno in cui alleni le gambe evita la corsa.",
+    "Una volta alla settimana, una seduta di sola aerobica."
+  ],
+  "kgStep": {
+    "cablechest": 1.25,
+    "reversefly": 1.25,
+    "latpull": 5,
+    "pulley": 5,
+    "rdl": 2.5,
+    "legext": 5,
+    "rearfly": 1,
+    "latraise": 1,
+    "straightarm": 2.5,
+    "pushdown": 2.5,
+    "curl": 1
+  },
+  "exercises": {
+    "treadmill": {
+      "name": "Treadmill",
+      "it": "Tapis roulant",
+      "gear": "Tapis roulant",
+      "how": [
+        "Parti camminando e alza velocità o pendenza a ogni blocco: lo sforzo deve crescere in modo graduale.",
+        "Busto alto, sguardo avanti, braccia che oscillano libere: non appoggiarti ai corrimano.",
+        "Regolati sulla scala RPE (sforzo percepito da 1 a 10), non sulla velocità del display."
+      ]
+    },
+    "catcow": {
+      "name": "Cat Cow Mobility",
+      "it": "Gatto-mucca",
+      "gear": "Tappetino",
+      "how": [
+        "In quadrupedia: mani sotto le spalle, ginocchia sotto le anche.",
+        "Espirando spingi il pavimento e incurva la schiena verso l'alto, mento al petto.",
+        "Inspirando lascia scendere l'ombelico, apri il petto e porta lo sguardo avanti.",
+        "Muoviti lento e fermati 1 secondo nel punto di massimo allungamento di ogni fase."
+      ]
+    },
+    "trxfly": {
+      "name": "TRX Fly Mobility",
+      "it": "Aperture al TRX",
+      "gear": "TRX",
+      "how": [
+        "Dai le spalle all'ancoraggio, una maniglia per mano, braccia tese davanti al petto.",
+        "Fai un passo avanti e apri le braccia in fuori lasciando che il petto si allunghi.",
+        "Gomiti morbidi, spalle lontane dalle orecchie, addome attivo per non inarcare la zona lombare.",
+        "Fermati 1 secondo in apertura, poi richiudi le braccia e torna in piedi. Alterna la gamba che avanza."
+      ]
+    },
+    "lateral": {
+      "name": "Lateral Trunk Flexion Mobility",
+      "it": "Flessioni laterali del busto",
+      "gear": "Corpo libero",
+      "how": [
+        "In piedi, piedi uniti o alla larghezza del bacino, braccia sopra la testa con le mani intrecciate.",
+        "Inclina il busto di lato senza ruotare e senza portare il bacino avanti o indietro.",
+        "Allunga tutto il fianco, fermati 1 secondo, torna al centro e cambia lato.",
+        "A ogni giro cerca un po' più di ampiezza."
+      ]
+    },
+    "flexext": {
+      "name": "Flex-Extension Chain Mobility",
+      "it": "Flesso-estensione delle catene",
+      "gear": "Tappetino",
+      "how": [
+        "Parti seduto sui talloni con le mani a terra davanti a te.",
+        "Spingi sulle mani, stendi le gambe e sali con il bacino verso l'alto: V rovesciata, talloni che cercano il pavimento.",
+        "Spingi il petto verso le cosce, fermati 1 secondo in allungamento.",
+        "Piega le ginocchia e torna a sederti sui talloni, poi ripeti in modo fluido."
+      ]
+    },
+    "bbcross": {
+      "name": "Bb cross extension",
+      "it": "Estensioni incrociate",
+      "gear": "Tappetino",
+      "how": [
+        "A terra a pancia in giù, braccia e gambe aperte a X.",
+        "Solleva insieme un braccio e la gamba opposta allungando la diagonale, come se qualcuno ti tirasse da mano e piede.",
+        "Fermati un istante in alto, scendi con controllo e passa all'altra diagonale.",
+        "Collo lungo e sguardo a terra, glutei attivi: il movimento parte dalla schiena, non dallo slancio."
+      ]
+    },
+    "crosssit": {
+      "name": "Cross-Sit",
+      "it": "Crunch incrociato",
+      "gear": "Tappetino",
+      "how": [
+        "Supino, braccia e gambe aperte a X.",
+        "Solleva una gamba tesa e porta la mano opposta verso il piede, staccando spalla e scapola da terra.",
+        "Espira mentre sali, scendi con controllo e alterna la diagonale.",
+        "La zona lombare resta a contatto con il pavimento per tutto il minuto."
+      ]
+    },
+    "cablechest": {
+      "name": "Standing Cable Chest Press",
+      "it": "Spinte ai cavi in piedi",
+      "gear": "Cavi · carrucola 22",
+      "how": [
+        "Carrucole all'altezza 22. Dai le spalle alla macchina, un passo avanti, piedi sfalsati, busto appena inclinato.",
+        "Parti con le maniglie ai lati del petto, gomiti larghi sotto la linea delle spalle.",
+        "Spingi avanti fino a stendere quasi del tutto le braccia, avvicinando le mani.",
+        "Torna indietro lento lasciando aprire bene il petto: l'esecuzione deve essere ampia."
+      ]
+    },
+    "trxchest": {
+      "name": "TRX Chest Press",
+      "it": "Piegamenti al TRX",
+      "gear": "TRX",
+      "how": [
+        "Dai le spalle all'ancoraggio, maniglie in mano a braccia tese, corpo inclinato in avanti e rigido come in un plank.",
+        "Piega i gomiti e scendi con il petto tra le mani: gomiti a circa 45° dal busto.",
+        "Spingi e torna a braccia tese senza perdere l'allineamento testa-bacino-talloni.",
+        "Più sposti i piedi indietro, più è duro: scegli un'inclinazione che ti faccia chiudere bene le 10 ripetizioni."
+      ]
+    },
+    "reversefly": {
+      "name": "Standing cable reverse flyes",
+      "it": "Aperture inverse ai cavi",
+      "gear": "Cavi incrociati",
+      "how": [
+        "In piedi davanti ai cavi, afferra il cavo di destra con la mano sinistra e viceversa: braccia tese davanti a te.",
+        "Apri le braccia in fuori e indietro fino alla linea delle spalle, pollici rivolti dietro.",
+        "Stringi le scapole un istante, poi torna lento senza farti tirare dal peso.",
+        "Carico leggero e niente slancio del busto: devono lavorare i deltoidi posteriori."
+      ]
+    },
+    "situp": {
+      "name": "Sit-up",
+      "it": "Sit-up",
+      "gear": "Tappetino · piedi vincolati",
+      "how": [
+        "Supino, ginocchia piegate, piedi bloccati sotto un appoggio. Mani dietro la nuca, gomiti larghi.",
+        "Espirando sali con il busto fino a sederti, srotolando la schiena dal pavimento.",
+        "Scendi lento, una vertebra alla volta.",
+        "Le mani appoggiano soltanto: non tirare il collo."
+      ]
+    },
+    "latpull": {
+      "name": "Lat Pulldown",
+      "it": "Lat machine",
+      "gear": "Lat machine",
+      "how": [
+        "Presa prona (palmi avanti), poco più larga delle spalle. Blocca le cosce sotto i cuscinetti.",
+        "Petto alto, busto appena inclinato indietro: tira la barra verso la parte alta del petto.",
+        "Guida con i gomiti verso il basso e abbassa le scapole, senza dondolare.",
+        "Risali controllando fino ad avere le braccia quasi distese."
+      ]
+    },
+    "pulley": {
+      "name": "Seated Pulley Row",
+      "it": "Pulley basso",
+      "gear": "Pulley",
+      "how": [
+        "Seduto, piedi sugli appoggi, ginocchia morbide, schiena dritta.",
+        "Tira l'impugnatura verso l'ombelico con i gomiti vicini al corpo.",
+        "Stringi le scapole a fine tirata, poi stendi le braccia lento.",
+        "Il busto resta quasi fermo: non aiutarti oscillando avanti e indietro."
+      ]
+    },
+    "plank": {
+      "name": "Plank",
+      "it": "Plank",
+      "gear": "Tappetino",
+      "how": [
+        "Avambracci a terra, gomiti sotto le spalle, corpo in linea da testa a talloni.",
+        "Addome e glutei attivi, non far cadere il bacino.",
+        "Durante la tenuta alterna: rotazioni del bacino (retroversione e ritorno in neutro)…",
+        "…e movimento delle scapole (lasciale avvicinare, poi spingi il pavimento per allontanarle)."
+      ]
+    },
+    "sideplank": {
+      "name": "Side Plank",
+      "it": "Plank laterale",
+      "gear": "Tappetino",
+      "how": [
+        "Sul fianco, gomito sotto la spalla, piedi sovrapposti.",
+        "Solleva il bacino fino ad avere il corpo in linea retta.",
+        "Non far ruotare il bacino in avanti e non lasciarlo scendere.",
+        "4 serie in tutto: 2 per lato, alternando."
+      ]
+    },
+    "rdl": {
+      "name": "Romanian Deadlift",
+      "it": "Stacco rumeno",
+      "gear": "Bilanciere",
+      "how": [
+        "In piedi, bilanciere davanti alle cosce, piedi alla larghezza del bacino, ginocchia appena sbloccate.",
+        "Porta il bacino indietro e fai scorrere il bilanciere lungo le cosce fin sotto le ginocchia.",
+        "Mantieni le curve naturali della schiena: petto aperto, niente gobba, sguardo un paio di metri avanti.",
+        "Quando senti tirare i femorali, risali spingendo il bacino avanti e stringendo i glutei."
+      ]
+    },
+    "legext": {
+      "name": "Leg Extension",
+      "it": "Leg extension",
+      "gear": "Leg extension · sedile 3 · rullo 2",
+      "how": [
+        "Regola la macchina: sedile 3, rullo 2. Ginocchia allineate al perno, rullo sopra le caviglie.",
+        "Schiena appoggiata, mani sulle maniglie.",
+        "Stendi le gambe fino quasi alla completa estensione e contrai un istante i quadricipiti.",
+        "Scendi in 2-3 secondi senza far sbattere il pacco pesi."
+      ]
+    },
+    "rearfly": {
+      "name": "Incline Rear Fly",
+      "it": "Aperture posteriori su panca",
+      "gear": "Panca a 0° · manubri",
+      "how": [
+        "Panca a 0 gradi. Sdraiati a pancia in giù, manubri leggeri con le braccia che pendono verso il pavimento.",
+        "Apri le braccia in fuori fino alla linea delle spalle, gomiti appena morbidi, pollici rivolti in alto.",
+        "Stringi le scapole un istante e scendi lento.",
+        "Collo in linea, niente slancio: il carico è volutamente basso."
+      ]
+    },
+    "latraise": {
+      "name": "Seated Db Lateral Raise",
+      "it": "Alzate laterali da seduto",
+      "gear": "Panca · manubri",
+      "how": [
+        "Seduto con la schiena dritta, manubri lungo i fianchi.",
+        "Alza le braccia di lato con i gomiti appena piegati, guidando il movimento con i gomiti.",
+        "Spalle basse, lontane dalle orecchie; nessuno slancio del busto.",
+        "Scendi in 2-3 secondi. Per l'ampiezza dell'arco segui quella che ti ha mostrato il trainer."
+      ]
+    },
+    "straightarm": {
+      "name": "Straight Arm Pulldown",
+      "it": "Pulldown a braccia tese",
+      "gear": "Cavo alto · corda",
+      "how": [
+        "Cavo alto con la corda. Un passo indietro, busto appena inclinato avanti, braccia tese verso l'alto.",
+        "Con i gomiti quasi bloccati porta la corda in un arco fino alle cosce.",
+        "Senti lavorare i dorsali, non i tricipiti; addome attivo.",
+        "Risali lento fin sopra la linea delle spalle."
+      ]
+    },
+    "pushdown": {
+      "name": "Pushdown",
+      "it": "Spinte in basso per tricipiti",
+      "gear": "Cavo alto · corda",
+      "how": [
+        "Cavo alto con la corda, gomiti incollati ai fianchi.",
+        "Stendi le braccia verso il basso e a fine corsa apri leggermente la corda in fuori.",
+        "Si muovono solo gli avambracci: spalle e busto restano fermi.",
+        "Risali fin poco sopra i 90° di gomito, controllando."
+      ]
+    },
+    "curl": {
+      "name": "Incline Seated Db Curl",
+      "it": "Curl su panca inclinata",
+      "gear": "Panca inclinata · manubri",
+      "how": [
+        "Panca inclinata a circa 45-60°. Schiena e testa appoggiate, braccia che pendono verticali.",
+        "Fletti i gomiti portando i manubri verso le spalle, palmi rivolti in alto.",
+        "I gomiti restano indietro, fermi: non farli avanzare.",
+        "Scendi lento fino alla completa distensione per sfruttare l'allungamento del bicipite."
+      ]
+    },
+    "steady": {
+      "name": "Ciclica continua",
+      "it": "Camminata / corsa continua",
+      "gear": "Tapis roulant o percorso all'aperto",
+      "how": [
+        "30 minuti senza fermarti, alternando camminata veloce e corsa.",
+        "Scegli un ritmo che riesci a tenere fino alla fine: respiro impegnato ma regolare.",
+        "Se il fiato si spezza, torna alla camminata veloce per un minuto e poi riparti.",
+        "Tieni qualcosa da parte: alla fine ti aspettano le 4 serie di HIIT."
+      ]
+    },
+    "hiit": {
+      "name": "HIIT",
+      "it": "Corsa al 90% della FC max",
+      "gear": "Tapis roulant o percorso all'aperto",
+      "how": [
+        "2 minuti di corsa sostenuta, fino a raggiungere circa il 90% della tua frequenza cardiaca massima.",
+        "Alza la velocità nei primi 20-30 secondi e poi tienila: non partire in sprint.",
+        "Falcata corta e frequente, spalle rilassate, espirazione piena.",
+        "Se hai un cardiofrequenzimetro, controlla i battiti nell'ultimo minuto."
+      ]
+    },
+    "cooldown": {
+      "name": "Defaticamento",
+      "it": "Camminata di recupero",
+      "gear": "Tapis roulant o percorso all'aperto",
+      "how": [
+        "Cammina a passo tranquillo e lascia scendere i battiti.",
+        "Respira a fondo dal naso, espira lungo dalla bocca.",
+        "Questo blocco non è in scheda: è un consiglio per chiudere bene dopo l'HIIT. Puoi saltarlo."
+      ]
+    }
+  },
+  "workouts": {
+    "A": {
+      "id": "A",
+      "title": "Allenamento A",
+      "focus": "Petto · Dorso · Addome",
+      "period": "dal 10/09/26 al 18/10/26",
+      "phases": [
+        {
+          "id": "aerobica",
+          "title": "Aerobica",
+          "kicker": "Riscaldamento",
+          "notes": [
+            "Aumenta progressivamente l'intensità: durata minima 10 minuti.",
+            "RPE è la scala di autovalutazione dello sforzo percepito.",
+            "Il giorno in cui alleni le gambe evita la corsa.",
+            "Evita in ogni caso uno sforzo aerobico eccessivo."
+          ],
+          "flow": "continuous",
+          "items": [
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 4",
+              "cue": "sforzo moderato: parli senza problemi",
+              "note": null
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 5",
+              "cue": "un po' impegnativo: parli a frasi intere",
+              "note": null
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 6",
+              "cue": "impegnativo: respiro profondo, frasi brevi",
+              "note": null
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 7",
+              "cue": "intenso: parli a fatica",
+              "note": null
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 7",
+              "cue": "intenso: parli a fatica",
+              "note": "Blocco aggiunto per arrivare ai 10 minuti minimi chiesti dal trainer. Mantieni lo sforzo del blocco precedente."
+            }
+          ]
+        },
+        {
+          "id": "mobilita",
+          "title": "Circuito mobilità funzionale",
+          "kicker": "Mobilità",
+          "notes": [
+            "Completa 3 giri di circuito aumentando a ogni giro l'ampiezza di movimento."
+          ],
+          "flow": "circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "ex": "catcow",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            },
+            {
+              "ex": "trxfly",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            },
+            {
+              "ex": "lateral",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            },
+            {
+              "ex": "flexext",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            }
+          ],
+          "roundNote": "cerca più ampiezza di movimento rispetto al giro precedente."
+        },
+        {
+          "id": "core",
+          "title": "Core",
+          "kicker": "Core",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "bbcross",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 60,
+              "rest": 60
+            },
+            {
+              "ex": "crosssit",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 60,
+              "rest": 60
+            }
+          ]
+        },
+        {
+          "id": "muscolare",
+          "title": "Allenamento muscolare",
+          "kicker": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "cablechest",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 10,
+              "kg": 7.5,
+              "rest": 60,
+              "note": "In piedi, carrucola 22. Esecuzione ampia."
+            },
+            {
+              "ex": "trxchest",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 10,
+              "kg": null,
+              "rest": 60
+            },
+            {
+              "ex": "reversefly",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 1.25,
+              "rest": 60,
+              "note": "Pollici rivolti dietro."
+            },
+            {
+              "ex": "situp",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": "BW",
+              "rest": 60,
+              "note": "Vincola i piedi. Mani dietro la nuca."
+            },
+            {
+              "ex": "latpull",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 10,
+              "kg": 30,
+              "rest": 60,
+              "note": "Presa prona."
+            },
+            {
+              "ex": "pulley",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 10,
+              "kg": 20,
+              "rest": 60
+            }
+          ]
+        }
+      ],
+      "letter": "A",
+      "periodLabel": "Valida",
+      "doneMsg": "Bevi e segnati i carichi che ti sono sembrati leggeri: la prossima volta puoi ritoccarli dal contatore dei kg."
+    },
+    "B": {
+      "id": "B",
+      "title": "Allenamento B",
+      "focus": "Gambe · Spalle · Braccia",
+      "period": "dal 15/09/26 al 18/10/26",
+      "phases": [
+        {
+          "id": "aerobica",
+          "title": "Aerobica",
+          "kicker": "Riscaldamento",
+          "notes": [
+            "Aumenta progressivamente l'intensità: durata minima 10 minuti.",
+            "RPE è la scala di autovalutazione dello sforzo percepito.",
+            "Il giorno in cui alleni le gambe evita la corsa.",
+            "Evita in ogni caso uno sforzo aerobico eccessivo.",
+            "Oggi è il giorno delle gambe: alza la pendenza invece di correre."
+          ],
+          "flow": "continuous",
+          "items": [
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 4",
+              "cue": "sforzo moderato: parli senza problemi",
+              "note": "Oggi alleni le gambe: cammina in salita, evita la corsa."
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 5",
+              "cue": "un po' impegnativo: parli a frasi intere",
+              "note": "Oggi alleni le gambe: cammina in salita, evita la corsa."
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 6",
+              "cue": "impegnativo: respiro profondo, frasi brevi",
+              "note": "Oggi alleni le gambe: cammina in salita, evita la corsa."
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 7",
+              "cue": "intenso: parli a fatica",
+              "note": "Oggi alleni le gambe: cammina in salita, evita la corsa."
+            },
+            {
+              "ex": "treadmill",
+              "mode": "timed",
+              "dur": 120,
+              "rest": 0,
+              "sets": 1,
+              "label": "RPE 7",
+              "cue": "intenso: parli a fatica",
+              "note": "Blocco aggiunto per arrivare ai 10 minuti minimi chiesti dal trainer. Mantieni lo sforzo del blocco precedente."
+            }
+          ]
+        },
+        {
+          "id": "mobilita",
+          "title": "Circuito mobilità funzionale",
+          "kicker": "Mobilità",
+          "notes": [
+            "Completa 3 giri di circuito aumentando a ogni giro l'ampiezza di movimento."
+          ],
+          "flow": "circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "ex": "catcow",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            },
+            {
+              "ex": "trxfly",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            },
+            {
+              "ex": "lateral",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            },
+            {
+              "ex": "flexext",
+              "mode": "timed",
+              "dur": 30,
+              "rest": 0,
+              "sets": 1,
+              "note": "Stop in stretching di 1 secondo."
+            }
+          ],
+          "roundNote": "cerca più ampiezza di movimento rispetto al giro precedente."
+        },
+        {
+          "id": "core",
+          "title": "Core",
+          "kicker": "Core",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 45,
+              "rest": 60,
+              "note": "Alterna rotazione del bacino e movimento delle scapole."
+            },
+            {
+              "ex": "sideplank",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 30,
+              "rest": 30,
+              "note": "2 serie per lato.",
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "muscolare",
+          "title": "Allenamento muscolare",
+          "kicker": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "rdl",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 30,
+              "rest": 60,
+              "note": "Attenzione a mantenere le curve della schiena."
+            },
+            {
+              "ex": "legext",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 40,
+              "rest": 60,
+              "note": "Sedile 3, rullo 2."
+            },
+            {
+              "ex": "rearfly",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 1,
+              "rest": 60,
+              "note": "Pollici rivolti in alto. Panca a 0 gradi."
+            },
+            {
+              "ex": "latraise",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 4,
+              "rest": 60
+            },
+            {
+              "ex": "straightarm",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 10,
+              "kg": 10,
+              "rest": 90,
+              "note": "Con corda."
+            },
+            {
+              "ex": "pushdown",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 10,
+              "kg": 12.5,
+              "rest": 60,
+              "note": "Con corda."
+            },
+            {
+              "ex": "curl",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 8,
+              "rest": 60
+            }
+          ]
+        }
+      ],
+      "letter": "B",
+      "periodLabel": "Valida",
+      "doneMsg": "Bevi e segnati i carichi che ti sono sembrati leggeri: la prossima volta puoi ritoccarli dal contatore dei kg."
+    },
+    "C": {
+      "id": "C",
+      "title": "Sola aerobica",
+      "focus": "30 min continui + HIIT 4 × 2 min",
+      "period": "una volta alla settimana",
+      "phases": [
+        {
+          "id": "continua",
+          "title": "Ciclica continua",
+          "kicker": "Aerobica",
+          "flow": "continuous",
+          "notes": [
+            "Allenamento di sola aerobica ad alto costo energetico, consigliato una volta alla settimana.",
+            "30 minuti di ciclica continua camminata/corsa, poi HIIT finale."
+          ],
+          "items": [
+            {
+              "ex": "steady",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 1800,
+              "rest": 0,
+              "label": "30 minuti"
+            }
+          ]
+        },
+        {
+          "id": "hiit",
+          "title": "HIIT finale",
+          "kicker": "HIIT",
+          "flow": "sets",
+          "hr": true,
+          "notes": [
+            "4 serie da 2 minuti di corsa raggiungendo il 90% della FC max, intervallate da 2 minuti di recupero."
+          ],
+          "items": [
+            {
+              "ex": "hiit",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 120,
+              "rest": 120,
+              "label": "90% FC max",
+              "restCue": "Cammina, non fermarti: lascia scendere i battiti.",
+              "noRestAfterLast": true
+            }
+          ]
+        },
+        {
+          "id": "defaticamento",
+          "title": "Defaticamento",
+          "kicker": "Extra",
+          "flow": "continuous",
+          "optional": true,
+          "notes": [
+            "Non è in scheda: 3 minuti di camminata per chiudere. Puoi saltarlo."
+          ],
+          "items": [
+            {
+              "ex": "cooldown",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 180,
+              "rest": 0,
+              "label": "Facoltativo"
+            }
+          ]
+        }
+      ],
+      "icon": "run",
+      "periodLabel": "Consigliata",
+      "doneMsg": "Bevi, cammina ancora un paio di minuti e lascia scendere i battiti."
+    }
+  }
+}

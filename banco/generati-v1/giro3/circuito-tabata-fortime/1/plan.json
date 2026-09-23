@@ -1,0 +1,561 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "circuito-tabata-fortime",
+  "titolo": "Circuito Tabata Fortime",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-circuito-tabata-fortime",
+  "regole": [],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "circuito-tabata-fortime.csv",
+      "formato": "csv",
+      "sha256": "8ed2627d4b86ad7ec0cdd6dc0eec05cb4157471f35596cc118f23dfa3913eda9"
+    }
+  ],
+  "fonti": {
+    "d1:f1:A4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "For Time (cap 12')",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "A4"
+    },
+    "d1:f1:B5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Kettlebell swing @16 kg + Burpee",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "B5"
+    },
+    "d1:f1:D2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "20''",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "D2"
+    },
+    "d1:f1:D3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "20''",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "D3"
+    },
+    "d1:f1:D4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "40+40+40",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "D4"
+    },
+    "d1:f1:E2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "10''",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "E2"
+    },
+    "d1:f1:E3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "10''",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "E3"
+    },
+    "d1:f1:E6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "3 min",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "E6"
+    },
+    "d1:f1:F2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "8",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "F2"
+    },
+    "d1:f1:F3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "8",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "F3"
+    },
+    "d1:f1:F4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "1",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "F4"
+    },
+    "d1:f1:F5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "10",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "F5"
+    },
+    "d1:f1:G6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "cammina, non fermarti",
+      "foglio": "circuito-tabata-fortime",
+      "cella": "G6"
+    },
+    "d1:f1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Tabata gambe | Air squat | Tabata | 20'' | 10'' | 8 | otto round, via al fischio",
+      "foglio": "circuito-tabata-fortime"
+    },
+    "d1:f1:r3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Tabata core | Mountain climber | Tabata | 20'' | 10'' | 8 | otto round, via al fischio",
+      "foglio": "circuito-tabata-fortime"
+    },
+    "d1:f1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "For Time (cap 12') | Push-up + Sit-up + Air squat | For Time | 40+40+40 | - | 1 | cronometro a salire, annota il tempo se finisci prima del cap",
+      "foglio": "circuito-tabata-fortime"
+    },
+    "d1:f1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Ladder 10-1 | Kettlebell swing @16 kg + Burpee | Ladder | da 10 a 1 | - | 10 | scala di 1 ripetizione ad ogni gradino, stesso numero per i due esercizi",
+      "foglio": "circuito-tabata-fortime"
+    },
+    "d1:f1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Recupero fra blocchi | - | - | - | 3 min | 1 | cammina, non fermarti",
+      "foglio": "circuito-tabata-fortime"
+    }
+  },
+  "esercizi": {
+    "air_squat": {
+      "nome": "Air squat",
+      "nome_esteso": "Squat a corpo libero",
+      "attrezzi": "",
+      "istruzioni": [
+        "Piedi alla larghezza delle spalle",
+        "Scendi controllando il bacino all'indietro",
+        "Mantieni il petto alto",
+        "Spingi sui talloni per risalire"
+      ],
+      "fonti": [
+        "d1:f1:r2",
+        "d1:f1:r4"
+      ]
+    },
+    "mountain_climber": {
+      "nome": "Mountain climber",
+      "nome_esteso": "Mountain climber",
+      "attrezzi": "",
+      "istruzioni": [
+        "Posizione di plank sulle mani",
+        "Porta un ginocchio al petto alternando le gambe",
+        "Mantieni il bacino stabile",
+        "Ritmo controllato e continuo"
+      ],
+      "fonti": [
+        "d1:f1:r3"
+      ]
+    },
+    "push_up": {
+      "nome": "Push-up",
+      "nome_esteso": "Piegamenti sulle braccia",
+      "attrezzi": "",
+      "istruzioni": [
+        "Mani sotto le spalle, corpo in linea",
+        "Scendi fino quasi a sfiorare il petto a terra",
+        "Spingi per tornare alla posizione di partenza"
+      ],
+      "fonti": [
+        "d1:f1:r4"
+      ]
+    },
+    "sit_up": {
+      "nome": "Sit-up",
+      "nome_esteso": "Sit-up",
+      "attrezzi": "",
+      "istruzioni": [
+        "Sdraiato supino, ginocchia piegate",
+        "Sali portando il busto verso le ginocchia",
+        "Ridiscendi in modo controllato"
+      ],
+      "fonti": [
+        "d1:f1:r4"
+      ]
+    },
+    "kettlebell_swing": {
+      "nome": "Kettlebell swing",
+      "nome_esteso": "Swing con kettlebell",
+      "attrezzi": "Kettlebell",
+      "istruzioni": [
+        "Piedi alla larghezza delle spalle, kettlebell davanti",
+        "Spinta d'anca per far oscillare il kettlebell",
+        "Schiena neutra, braccia rilassate durante lo swing"
+      ],
+      "fonti": [
+        "d1:f1:r5"
+      ]
+    },
+    "burpee": {
+      "nome": "Burpee",
+      "nome_esteso": "Burpee",
+      "attrezzi": "",
+      "istruzioni": [
+        "Dalla posizione eretta scendi in plank",
+        "Esegui un piegamento o un appoggio a terra",
+        "Salta i piedi verso le mani e salta verso l'alto"
+      ],
+      "fonti": [
+        "d1:f1:r5"
+      ]
+    },
+    "recupero": {
+      "nome": "Recupero fra blocchi",
+      "nome_esteso": "Recupero attivo fra i blocchi",
+      "attrezzi": "",
+      "istruzioni": [
+        "Cammina lentamente senza fermarti",
+        "Mantieni una respirazione regolare"
+      ],
+      "fonti": [
+        "d1:f1:r6"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Circuito Tabata Fortime",
+      "sottotitolo": "Tabata, For Time e Ladder",
+      "messaggio_fine": "Allenamento completato, ottimo lavoro",
+      "fonti": [
+        "d1:f1:r2",
+        "d1:f1:r3",
+        "d1:f1:r4",
+        "d1:f1:r5",
+        "d1:f1:r6"
+      ],
+      "fasi": [
+        {
+          "id": "tabata_gambe",
+          "titolo": "Tabata gambe",
+          "note": [
+            "otto round, via al fischio"
+          ],
+          "flusso": "tabata",
+          "giri": {
+            "valore": 8,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "8",
+            "unita_scritta": null,
+            "fonte": "d1:f1:F2",
+            "certezza": "alta",
+            "letture": [
+              8,
+              8
+            ]
+          },
+          "lavoro": {
+            "valore": 20,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "20''",
+            "unita_scritta": "''",
+            "fonte": "d1:f1:D2",
+            "certezza": "media",
+            "letture": [
+              20
+            ]
+          },
+          "pausa": {
+            "valore": 10,
+            "tipo": "recupero",
+            "unita": "s",
+            "scritto": "10''",
+            "unita_scritta": "''",
+            "fonte": "d1:f1:E2",
+            "certezza": "alta",
+            "letture": [
+              10,
+              10
+            ]
+          },
+          "fonti": [
+            "d1:f1:r2",
+            "d1:f1:r3"
+          ],
+          "voci": [
+            {
+              "esercizio": "air_squat",
+              "modo": "tempo",
+              "fonti": [
+                "d1:f1:r2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tabata_core",
+          "titolo": "Tabata core",
+          "note": [
+            "otto round, via al fischio"
+          ],
+          "flusso": "tabata",
+          "giri": {
+            "valore": 8,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "8",
+            "unita_scritta": null,
+            "fonte": "d1:f1:F3",
+            "certezza": "alta",
+            "letture": [
+              8,
+              8
+            ]
+          },
+          "lavoro": {
+            "valore": 20,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "20''",
+            "unita_scritta": "''",
+            "fonte": "d1:f1:D3",
+            "certezza": "media",
+            "letture": [
+              20
+            ]
+          },
+          "pausa": {
+            "valore": 10,
+            "tipo": "recupero",
+            "unita": "s",
+            "scritto": "10''",
+            "unita_scritta": "''",
+            "fonte": "d1:f1:E3",
+            "certezza": "alta",
+            "letture": [
+              10,
+              10
+            ]
+          },
+          "fonti": [
+            "d1:f1:r3",
+            "d1:f1:r2"
+          ],
+          "voci": [
+            {
+              "esercizio": "mountain_climber",
+              "modo": "tempo",
+              "fonti": [
+                "d1:f1:r3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "for_time",
+          "titolo": "For Time (cap 12')",
+          "note": [
+            "cronometro a salire, annota il tempo se finisci prima del cap"
+          ],
+          "flusso": "a_tempo",
+          "giri": {
+            "valore": 1,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "1",
+            "unita_scritta": null,
+            "fonte": "d1:f1:F4",
+            "certezza": "media",
+            "letture": [
+              1
+            ]
+          },
+          "tempo_limite": {
+            "valore": 720,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "12'",
+            "unita_scritta": "'",
+            "fonte": "d1:f1:A4",
+            "certezza": "alta",
+            "letture": [
+              720,
+              720
+            ],
+            "normalizzazione": "' = minuti (convenzione degli apici) → secondi"
+          },
+          "fonti": [
+            "d1:f1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "push_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 40,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "40",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D4",
+                "certezza": "media",
+                "letture": [
+                  40
+                ]
+              },
+              "fonti": [
+                "d1:f1:r4"
+              ]
+            },
+            {
+              "esercizio": "sit_up",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 40,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "40",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D4",
+                "certezza": "media",
+                "letture": [
+                  40
+                ]
+              },
+              "fonti": [
+                "d1:f1:r4"
+              ]
+            },
+            {
+              "esercizio": "air_squat",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 40,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "40",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D4",
+                "certezza": "media",
+                "letture": [
+                  40
+                ]
+              },
+              "fonti": [
+                "d1:f1:r4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ladder",
+          "titolo": "Ladder 10-1",
+          "note": [
+            "scala di 1 ripetizione ad ogni gradino, stesso numero per i due esercizi"
+          ],
+          "flusso": "circuito",
+          "giri": {
+            "valore": 10,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "10",
+            "unita_scritta": null,
+            "fonte": "d1:f1:F5",
+            "certezza": "alta",
+            "letture": [
+              10,
+              10
+            ]
+          },
+          "fonti": [
+            "d1:f1:r5"
+          ],
+          "voci": [
+            {
+              "esercizio": "kettlebell_swing",
+              "modo": "testo",
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:f1:B5",
+                "certezza": "media",
+                "letture": [
+                  16
+                ]
+              },
+              "testo_scheda": "Kettlebell swing @16 kg + Burpee, da 10 a 1",
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            },
+            {
+              "esercizio": "burpee",
+              "modo": "testo",
+              "testo_scheda": "Kettlebell swing @16 kg + Burpee, da 10 a 1",
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "recupero_blocchi",
+          "titolo": "Recupero fra blocchi",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r6"
+          ],
+          "voci": [
+            {
+              "esercizio": "recupero",
+              "modo": "testo",
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:f1:E6",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "nota",
+                  "testo": "cammina, non fermarti",
+                  "fonte": "d1:f1:G6",
+                  "certezza": "media"
+                }
+              ],
+              "testo_scheda": "Recupero fra blocchi, cammina, non fermarti",
+              "fonti": [
+                "d1:f1:r6"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

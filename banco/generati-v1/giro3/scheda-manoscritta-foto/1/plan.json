@@ -1,0 +1,381 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "scheda-manoscritta-foto",
+  "titolo": "Allenamento di oggi",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-scheda-manoscritta-foto",
+  "sopratitolo": {
+    "testo": "Allenamento di oggi",
+    "fonti": [
+      "d1:r1"
+    ]
+  },
+  "regole": [],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "scheda-manoscritta-foto.jpg",
+      "formato": "immagine",
+      "sha256": "41fc10f5352bfd0d34e939f0a0332a98619988fee5c7f73d80c1ad333bc28b4d"
+    }
+  ],
+  "fonti": {
+    "d1:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "Allenamento di oggi"
+    },
+    "d1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Squat 4x8 75kg (nuovo record!)"
+    },
+    "d1:r3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Affondi 3 x lato 15kg"
+    },
+    "d1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Panca manubri 4x10 22,5kg"
+    },
+    "d1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Plank 3x40''"
+    },
+    "d1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Curl bicipiti 3x12 7,5kg"
+    }
+  },
+  "esercizi": {
+    "squat": {
+      "nome": "Squat",
+      "nome_esteso": "Squat con bilanciere",
+      "attrezzi": "Bilanciere",
+      "istruzioni": [
+        "Piedi alla larghezza delle spalle, bilanciere sulle scapole",
+        "Scendi flettendo anche e ginocchia mantenendo il busto eretto",
+        "Scendi fino a coscie parallele al pavimento o oltre",
+        "Risali spingendo sui talloni"
+      ],
+      "fonti": [
+        "d1:r2"
+      ]
+    },
+    "affondi": {
+      "nome": "Affondi",
+      "nome_esteso": "Affondi con manubri",
+      "attrezzi": "Manubri",
+      "istruzioni": [
+        "Il ginocchio posteriore sfiora il pavimento",
+        "Spingi sul tallone anteriore per tornare in piedi",
+        "Alterna o esegui tutte le serie sullo stesso lato come indicato"
+      ],
+      "fonti": [
+        "d1:r3"
+      ]
+    },
+    "panca_manubri": {
+      "nome": "Panca manubri",
+      "nome_esteso": "Panca piana con manubri",
+      "attrezzi": "Manubri, panca",
+      "istruzioni": [
+        "Sdraiati sulla panca con un manubrio per mano all'altezza del petto",
+        "Spingi i manubri verso l'alto estendendo le braccia",
+        "Scendi controllando il movimento fino a sentire lo stiramento del petto"
+      ],
+      "fonti": [
+        "d1:r4"
+      ]
+    },
+    "plank": {
+      "nome": "Plank",
+      "nome_esteso": "Plank sugli avambracci",
+      "attrezzi": "",
+      "istruzioni": [
+        "Appoggia gli avambracci a terra e distendi il corpo in linea retta",
+        "Contrai addome e glutei mantenendo la posizione",
+        "Evita di far cadere i fianchi o alzare il bacino"
+      ],
+      "fonti": [
+        "d1:r5"
+      ]
+    },
+    "curl_bicipiti": {
+      "nome": "Curl bicipiti",
+      "nome_esteso": "Curl bicipiti con manubri",
+      "attrezzi": "Manubri",
+      "istruzioni": [
+        "In piedi, manubri lungo i fianchi con palmi in avanti",
+        "Fletti i gomiti portando i manubri verso le spalle",
+        "Scendi controllando il movimento fino a distendere le braccia"
+      ],
+      "fonti": [
+        "d1:r6"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Allenamento di oggi",
+      "sottotitolo": "Allenamento di forza per tutto il corpo",
+      "lettera": "A",
+      "messaggio_fine": "Ottimo lavoro, allenamento completato!",
+      "fonti": [
+        "d1:r1",
+        "d1:r2",
+        "d1:r3",
+        "d1:r4",
+        "d1:r5",
+        "d1:r6"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Allenamento",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r2",
+            "d1:r3",
+            "d1:r4",
+            "d1:r5",
+            "d1:r6"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r2",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:r2",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 75,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "75kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r2",
+                "certezza": "alta",
+                "letture": [
+                  75,
+                  75
+                ]
+              },
+              "nota": "nuovo record!",
+              "fonti": [
+                "d1:r2"
+              ]
+            },
+            {
+              "esercizio": "affondi",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "carico": {
+                "valore": 15,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "15kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  15,
+                  15
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Lato sinistro",
+                  "Lato destro"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "3 x lato",
+                  "unita_scritta": null,
+                  "fonte": "d1:r3",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«3 x lato» = 2 lati"
+                }
+              },
+              "fonti": [
+                "d1:r3"
+              ]
+            },
+            {
+              "esercizio": "panca_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 22.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "22,5kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  22.5,
+                  22.5
+                ]
+              },
+              "fonti": [
+                "d1:r4"
+              ]
+            },
+            {
+              "esercizio": "plank",
+              "modo": "tempo",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "durata": {
+                "valore": 40,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "40''",
+                "unita_scritta": "''",
+                "fonte": "d1:r5",
+                "certezza": "media",
+                "letture": [
+                  40
+                ]
+              },
+              "fonti": [
+                "d1:r5"
+              ]
+            },
+            {
+              "esercizio": "curl_bicipiti",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r6",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:r6",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 7.5,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "7,5kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r6",
+                "certezza": "alta",
+                "letture": [
+                  7.5,
+                  7.5
+                ]
+              },
+              "fonti": [
+                "d1:r6"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

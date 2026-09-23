@@ -1,0 +1,142 @@
+{
+  "id": "programme-telegraphique",
+  "api": "v1",
+  "title": "PROGRAMME - SEANCE HAUT DU CORPS",
+  "lang": "fr-FR",
+  "storageKey": "wp-programme-telegraphique",
+  "rules": [
+    "Duree du cycle: 4 semaines"
+  ],
+  "exercises": {
+    "developpe_couche": {
+      "name": "Developpe couche",
+      "it": "Développé couché",
+      "gear": "Banc plat, barre",
+      "how": [
+        "Allongez-vous sur le banc, pieds au sol",
+        "Saisissez la barre un peu plus large que les épaules",
+        "Descendez la barre jusqu'à la poitrine de façon contrôlée",
+        "Poussez la barre vers le haut jusqu'à l'extension des bras"
+      ]
+    },
+    "traction_poulie": {
+      "name": "Traction a la poulie haute",
+      "it": "Traction à la poulie haute",
+      "gear": "Poulie haute, barre de traction",
+      "how": [
+        "Asseyez-vous face à la poulie, cuisses bloquées",
+        "Saisissez la barre en prise large",
+        "Tirez la barre vers le haut de la poitrine",
+        "Remontez lentement jusqu'à l'extension complète"
+      ]
+    },
+    "elevations_laterales": {
+      "name": "Elevations laterales",
+      "it": "Élévations latérales avec haltères",
+      "gear": "Haltères",
+      "how": [
+        "Debout, un haltère dans chaque main le long du corps",
+        "Levez les bras sur les côtés jusqu'à l'horizontale",
+        "Gardez une légère flexion des coudes",
+        "Redescendez de façon contrôlée"
+      ]
+    },
+    "gainage_lateral": {
+      "name": "Gainage lateral",
+      "it": "Gainage latéral",
+      "gear": "Tapis",
+      "how": [
+        "Allongez-vous sur le côté, appui sur l'avant-bras",
+        "Alignez le corps des pieds à la tête",
+        "Soulevez les hanches du sol",
+        "Maintenez la position sans creuser le dos"
+      ]
+    },
+    "curl_ez_myoreps": {
+      "name": "Curl barre EZ en myo-reps",
+      "it": "Curl avec barre EZ",
+      "gear": "Barre EZ",
+      "how": [
+        "Debout, barre EZ en prise supination",
+        "Fléchissez les coudes en gardant les bras collés au corps",
+        "Contractez les biceps en haut du mouvement",
+        "Redescendez la barre de façon contrôlée"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Séance Haut du Corps",
+      "focus": "Force et posture du haut du corps",
+      "doneMsg": "Bonne séance terminée, pensez à bien récupérer",
+      "phases": [
+        {
+          "id": "haut_du_corps",
+          "title": "Haut du corps",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "developpe_couche",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "rest": 120,
+              "rx": [
+                "tempo 3-1-2-0"
+              ]
+            },
+            {
+              "ex": "traction_poulie",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "rest": 90,
+              "rx": [
+                "alternativa: tirage poitrine machine (au choix selon le materiel disponible)"
+              ]
+            },
+            {
+              "ex": "elevations_laterales",
+              "mode": "text",
+              "sets": 4,
+              "kg": 8,
+              "rest": 120,
+              "rx": [
+                "cluster: 4+4+4",
+                "repos intra-serie 15''"
+              ],
+              "text": "Elevations laterales en cluster: 4x(4+4+4), repos intra-serie 15'', repos inter-serie 2', charge 8 kg"
+            },
+            {
+              "ex": "gainage_lateral",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 30,
+              "rest": 30,
+              "perSide": true,
+              "sides": [
+                "Côté gauche",
+                "Côté droit"
+              ],
+              "note": "(facultatif)"
+            },
+            {
+              "ex": "curl_ez_myoreps",
+              "mode": "text",
+              "sets": 1,
+              "kg": 20,
+              "rest": 0,
+              "rx": [
+                "myo-reps: 15 + 4x4",
+                "repos 5 respirations entre les mini-series"
+              ],
+              "text": "Curl barre EZ en myo-reps: 15 + 4x4, repos 5 respirations entre les mini-series, charge 20 kg"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

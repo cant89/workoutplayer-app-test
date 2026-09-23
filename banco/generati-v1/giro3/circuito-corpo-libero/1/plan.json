@@ -1,0 +1,513 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "circuito-corpo-libero",
+  "titolo": "Circuito Corpo Libero",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-circuito-corpo-libero",
+  "regole": [],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "circuito-corpo-libero.csv",
+      "formato": "csv",
+      "sha256": "d67c65956917d27a5c725ce071a234fa4a770e032ade9c3acd755c13cebae212"
+    }
+  ],
+  "fonti": {
+    "d1:f1:A3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Circuito principale (3 giri)",
+      "foglio": "circuito-corpo-libero",
+      "cella": "A3"
+    },
+    "d1:f1:A8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "EMOM 8'",
+      "foglio": "circuito-corpo-libero",
+      "cella": "A8"
+    },
+    "d1:f1:C2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "1",
+      "foglio": "circuito-corpo-libero",
+      "cella": "C2"
+    },
+    "d1:f1:D2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "2 min",
+      "foglio": "circuito-corpo-libero",
+      "cella": "D2"
+    },
+    "d1:f1:D3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "12",
+      "foglio": "circuito-corpo-libero",
+      "cella": "D3"
+    },
+    "d1:f1:D4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "15",
+      "foglio": "circuito-corpo-libero",
+      "cella": "D4"
+    },
+    "d1:f1:D5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "20",
+      "foglio": "circuito-corpo-libero",
+      "cella": "D5"
+    },
+    "d1:f1:D6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "10",
+      "foglio": "circuito-corpo-libero",
+      "cella": "D6"
+    },
+    "d1:f1:D8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "5 ogni minuto",
+      "foglio": "circuito-corpo-libero",
+      "cella": "D8"
+    },
+    "d1:f1:E7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "90 sec",
+      "foglio": "circuito-corpo-libero",
+      "cella": "E7"
+    },
+    "d1:f1:F2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "a scelta in base allo spazio disponibile",
+      "foglio": "circuito-corpo-libero",
+      "cella": "F2"
+    },
+    "d1:f1:F8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "corpo libero",
+      "foglio": "circuito-corpo-libero",
+      "cella": "F8"
+    },
+    "d1:f1:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "Blocco | Esercizio | Serie/Giri | Ripetizioni o Durata | Recupero | Note",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Riscaldamento | Jumping jack oppure corda | 1 | 2 min | - | a scelta in base allo spazio disponibile",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Circuito principale (3 giri) | Push-up | 3 giri | 12 | -",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Circuito principale (3 giri) | Squat a corpo libero | 3 giri | 15 | -",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Circuito principale (3 giri) | Mountain climber | 3 giri | 20 | -",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "Circuito principale (3 giri) | (facoltativo) Superman | 3 giri | 10 | - | solo se hai tempo",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Recupero fine giro | - | - | - | 90 sec",
+      "foglio": "circuito-corpo-libero"
+    },
+    "d1:f1:r8": {
+      "doc": "d1",
+      "riga": 8,
+      "testo": "EMOM 8' | Burpee oppure affondi in salto (se ginocchia sensibili) | 8 min | 5 ogni minuto | - | corpo libero",
+      "foglio": "circuito-corpo-libero"
+    }
+  },
+  "esercizi": {
+    "jumping_jack": {
+      "nome": "Jumping jack",
+      "nome_esteso": "Jumping jack (saltelli a stella)",
+      "attrezzi": "corpo libero (oppure corda per saltare)",
+      "istruzioni": [
+        "Parti in piedi con le gambe unite e le braccia lungo i fianchi",
+        "Salta divaricando le gambe e portando le braccia sopra la testa",
+        "Torna alla posizione di partenza con un salto fluido",
+        "Mantieni un ritmo costante e la schiena dritta"
+      ],
+      "fonti": [
+        "d1:f1:r2"
+      ]
+    },
+    "pushup": {
+      "nome": "Push-up",
+      "nome_esteso": "Piegamenti sulle braccia (push-up)",
+      "attrezzi": "corpo libero",
+      "istruzioni": [
+        "Mani a terra leggermente più larghe delle spalle, corpo in linea retta",
+        "Piega i gomiti abbassando il petto verso il pavimento",
+        "Spingi per tornare alla posizione di partenza",
+        "Mantieni addome e glutei contratti durante il movimento"
+      ],
+      "fonti": [
+        "d1:f1:r3"
+      ]
+    },
+    "squat_corpo_libero": {
+      "nome": "Squat a corpo libero",
+      "nome_esteso": "Squat a corpo libero",
+      "attrezzi": "corpo libero",
+      "istruzioni": [
+        "Piedi larghezza spalle, punte leggermente ruotate verso l'esterno",
+        "Piega ginocchia e anche come per sederti su una sedia",
+        "Scendi mantenendo la schiena dritta e il peso sui talloni",
+        "Risali spingendo con le gambe fino alla posizione di partenza"
+      ],
+      "fonti": [
+        "d1:f1:r4"
+      ]
+    },
+    "mountain_climber": {
+      "nome": "Mountain climber",
+      "nome_esteso": "Mountain climber (scalatore)",
+      "attrezzi": "corpo libero",
+      "istruzioni": [
+        "Posizione di plank con le mani sotto le spalle",
+        "Porta alternativamente un ginocchio verso il petto",
+        "Mantieni il bacino stabile e l'addome contratto",
+        "Alterna le gambe con un ritmo rapido e controllato"
+      ],
+      "fonti": [
+        "d1:f1:r5"
+      ]
+    },
+    "superman": {
+      "nome": "Superman",
+      "nome_esteso": "Superman (estensione lombare a terra)",
+      "attrezzi": "corpo libero",
+      "istruzioni": [
+        "Sdraiati a pancia in giù con braccia e gambe distese",
+        "Solleva contemporaneamente braccia, petto e gambe da terra",
+        "Mantieni la posizione per un istante contraendo la schiena",
+        "Torna a terra in modo controllato"
+      ],
+      "fonti": [
+        "d1:f1:r6",
+        "d1:f1:r7"
+      ]
+    },
+    "burpee": {
+      "nome": "Burpee",
+      "nome_esteso": "Burpee (oppure affondi in salto)",
+      "attrezzi": "corpo libero",
+      "istruzioni": [
+        "Da in piedi scendi in accovacciata e appoggia le mani a terra",
+        "Spingi le gambe indietro fino alla posizione di plank",
+        "Torna in accovacciata con un salto e balza in alto",
+        "Ripeti in modo fluido e continuo"
+      ],
+      "fonti": [
+        "d1:f1:r8"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Circuito Corpo Libero",
+      "sottotitolo": "Riscaldamento, circuito a giri ed EMOM finale",
+      "messaggio_fine": "Allenamento completato, ottimo lavoro!",
+      "fonti": [
+        "d1:f1:r1"
+      ],
+      "fasi": [
+        {
+          "id": "riscaldamento",
+          "titolo": "Riscaldamento",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r2"
+          ],
+          "voci": [
+            {
+              "esercizio": "jumping_jack",
+              "modo": "tempo",
+              "serie": {
+                "valore": 1,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "1",
+                "unita_scritta": null,
+                "fonte": "d1:f1:C2",
+                "certezza": "alta",
+                "letture": [
+                  1,
+                  1
+                ]
+              },
+              "durata": {
+                "valore": 120,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:f1:D2",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "altro",
+                  "testo": "alternativa: oppure corda",
+                  "fonte": "d1:f1:C2",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "nota",
+                  "testo": "a scelta in base allo spazio disponibile",
+                  "fonte": "d1:f1:F2",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_principale",
+          "titolo": "Circuito principale",
+          "note": [
+            "Recupero fine giro: 90 sec"
+          ],
+          "flusso": "circuito",
+          "giri": {
+            "valore": 3,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "3",
+            "unita_scritta": null,
+            "fonte": "d1:f1:A3",
+            "certezza": "alta",
+            "letture": [
+              3,
+              3
+            ]
+          },
+          "fonti": [
+            "d1:f1:r3",
+            "d1:f1:r4",
+            "d1:f1:r5",
+            "d1:f1:r6",
+            "d1:f1:r7"
+          ],
+          "voci": [
+            {
+              "esercizio": "pushup",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D3",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "fonti": [
+                "d1:f1:r3"
+              ]
+            },
+            {
+              "esercizio": "squat_corpo_libero",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 15,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "15",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D4",
+                "certezza": "alta",
+                "letture": [
+                  15,
+                  15
+                ]
+              },
+              "fonti": [
+                "d1:f1:r4"
+              ]
+            },
+            {
+              "esercizio": "mountain_climber",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 20,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "20",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D5",
+                "certezza": "alta",
+                "letture": [
+                  20,
+                  20
+                ]
+              },
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            },
+            {
+              "esercizio": "superman",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D6",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90 sec",
+                "unita_scritta": "sec",
+                "fonte": "d1:f1:E7",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "altro",
+                  "testo": "(facoltativo) solo se hai tempo",
+                  "fonte": "d1:f1:D6",
+                  "certezza": "media"
+                }
+              ],
+              "nota": "Esercizio facoltativo",
+              "fonti": [
+                "d1:f1:r6",
+                "d1:f1:r7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emom",
+          "titolo": "EMOM 8'",
+          "note": [],
+          "flusso": "emom",
+          "giri": {
+            "valore": 8,
+            "tipo": "giri",
+            "unita": "giri",
+            "scritto": "8'",
+            "unita_scritta": null,
+            "fonte": "d1:f1:A8",
+            "certezza": "media",
+            "letture": [
+              8
+            ],
+            "normalizzazione": "EMOM: durata totale in minuti, un intervallo per ogni minuto"
+          },
+          "ogni": {
+            "valore": 60,
+            "tipo": "tempo",
+            "unita": "s",
+            "scritto": "ogni minuto",
+            "unita_scritta": null,
+            "fonte": "d1:f1:D8",
+            "certezza": "media",
+            "letture": [
+              60
+            ],
+            "normalizzazione": "EMOM: un intervallo al minuto"
+          },
+          "fonti": [
+            "d1:f1:r8"
+          ],
+          "voci": [
+            {
+              "esercizio": "burpee",
+              "modo": "ripetizioni",
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:f1:D8",
+                "certezza": "media",
+                "letture": [
+                  5
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "altro",
+                  "testo": "alternativa: affondi in salto (se ginocchia sensibili)",
+                  "fonte": "d1:f1:D8",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "nota",
+                  "testo": "corpo libero",
+                  "fonte": "d1:f1:F8",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r8"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

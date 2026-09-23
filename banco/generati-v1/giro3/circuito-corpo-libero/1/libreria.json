@@ -1,0 +1,167 @@
+{
+  "id": "circuito-corpo-libero",
+  "api": "v1",
+  "title": "Circuito Corpo Libero",
+  "lang": "it-IT",
+  "storageKey": "wp-circuito-corpo-libero",
+  "rules": [],
+  "exercises": {
+    "jumping_jack": {
+      "name": "Jumping jack",
+      "it": "Jumping jack (saltelli a stella)",
+      "gear": "corpo libero (oppure corda per saltare)",
+      "how": [
+        "Parti in piedi con le gambe unite e le braccia lungo i fianchi",
+        "Salta divaricando le gambe e portando le braccia sopra la testa",
+        "Torna alla posizione di partenza con un salto fluido",
+        "Mantieni un ritmo costante e la schiena dritta"
+      ]
+    },
+    "pushup": {
+      "name": "Push-up",
+      "it": "Piegamenti sulle braccia (push-up)",
+      "gear": "corpo libero",
+      "how": [
+        "Mani a terra leggermente più larghe delle spalle, corpo in linea retta",
+        "Piega i gomiti abbassando il petto verso il pavimento",
+        "Spingi per tornare alla posizione di partenza",
+        "Mantieni addome e glutei contratti durante il movimento"
+      ]
+    },
+    "squat_corpo_libero": {
+      "name": "Squat a corpo libero",
+      "it": "Squat a corpo libero",
+      "gear": "corpo libero",
+      "how": [
+        "Piedi larghezza spalle, punte leggermente ruotate verso l'esterno",
+        "Piega ginocchia e anche come per sederti su una sedia",
+        "Scendi mantenendo la schiena dritta e il peso sui talloni",
+        "Risali spingendo con le gambe fino alla posizione di partenza"
+      ]
+    },
+    "mountain_climber": {
+      "name": "Mountain climber",
+      "it": "Mountain climber (scalatore)",
+      "gear": "corpo libero",
+      "how": [
+        "Posizione di plank con le mani sotto le spalle",
+        "Porta alternativamente un ginocchio verso il petto",
+        "Mantieni il bacino stabile e l'addome contratto",
+        "Alterna le gambe con un ritmo rapido e controllato"
+      ]
+    },
+    "superman": {
+      "name": "Superman",
+      "it": "Superman (estensione lombare a terra)",
+      "gear": "corpo libero",
+      "how": [
+        "Sdraiati a pancia in giù con braccia e gambe distese",
+        "Solleva contemporaneamente braccia, petto e gambe da terra",
+        "Mantieni la posizione per un istante contraendo la schiena",
+        "Torna a terra in modo controllato"
+      ]
+    },
+    "burpee": {
+      "name": "Burpee",
+      "it": "Burpee (oppure affondi in salto)",
+      "gear": "corpo libero",
+      "how": [
+        "Da in piedi scendi in accovacciata e appoggia le mani a terra",
+        "Spingi le gambe indietro fino alla posizione di plank",
+        "Torna in accovacciata con un salto e balza in alto",
+        "Ripeti in modo fluido e continuo"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Circuito Corpo Libero",
+      "focus": "Riscaldamento, circuito a giri ed EMOM finale",
+      "doneMsg": "Allenamento completato, ottimo lavoro!",
+      "phases": [
+        {
+          "id": "riscaldamento",
+          "title": "Riscaldamento",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "jumping_jack",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 120,
+              "rest": 0,
+              "rx": [
+                "alternativa: oppure corda",
+                "a scelta in base allo spazio disponibile"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_principale",
+          "title": "Circuito principale",
+          "notes": [
+            "Recupero fine giro: 90 sec"
+          ],
+          "flow": "circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "ex": "pushup",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 12,
+              "rest": 0
+            },
+            {
+              "ex": "squat_corpo_libero",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 15,
+              "rest": 0
+            },
+            {
+              "ex": "mountain_climber",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 20,
+              "rest": 0
+            },
+            {
+              "ex": "superman",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 10,
+              "rest": 90,
+              "rx": [
+                "(facoltativo) solo se hai tempo"
+              ],
+              "note": "Esercizio facoltativo"
+            }
+          ]
+        },
+        {
+          "id": "emom",
+          "title": "EMOM 8'",
+          "notes": [],
+          "flow": "emom",
+          "rounds": 8,
+          "every": 60,
+          "items": [
+            {
+              "ex": "burpee",
+              "mode": "reps",
+              "reps": 5,
+              "rx": [
+                "alternativa: affondi in salto (se ginocchia sensibili)",
+                "corpo libero"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

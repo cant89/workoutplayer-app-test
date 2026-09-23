@@ -1,0 +1,801 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "diario-telegrafico",
+  "titolo": "Diario Allenamento - Settimana tipo",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-diario-telegrafico",
+  "sopratitolo": {
+    "testo": "DIARIO ALLENAMENTO - SETTIMANA TIPO",
+    "fonti": [
+      "d1:r1"
+    ]
+  },
+  "regole": [
+    {
+      "testo": "Recupero 2 min sui multiarticolari, 90 sec sugli isolamenti.",
+      "fonti": [
+        "d1:r7"
+      ]
+    },
+    {
+      "testo": "Se il RIR indicato non si raggiunge, scala il carico del 5% alla prossima seduta.",
+      "fonti": [
+        "d1:r7"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "diario-telegrafico.txt",
+      "formato": "testo",
+      "sha256": "3fe4aa72dae02599b3ae675c55ac964fa0ee07f7b4a7775692bce8079e86247d"
+    }
+  ],
+  "fonti": {
+    "d1:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "DIARIO ALLENAMENTO - SETTIMANA TIPO"
+    },
+    "d1:r3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Lun: squat 5x5 100kg @2RIR. Panca 5x5 70kg @2RIR. Rematore bilanciere 4x8 60kg."
+    },
+    "d1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Mer: stacco 3x5 120kg @1RIR. Trazioni 4x6 corpo libero. Affondi bulgari 4 x lato 16kg."
+    },
+    "d1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Ven: military press 4x6 40kg @2RIR. Curl manubri 3x12 10kg. Plank 3 x 1 min."
+    },
+    "d1:r7": {
+      "doc": "d1",
+      "riga": 7,
+      "testo": "Nota: recupero 2 min sui multiarticolari, 90 sec sugli isolamenti. Se il RIR indicato non si raggiunge, scala il carico del 5% alla prossima seduta."
+    }
+  },
+  "esercizi": {
+    "squat": {
+      "nome": "squat",
+      "nome_esteso": "Squat con bilanciere",
+      "attrezzi": "Bilanciere, rack",
+      "istruzioni": [
+        "Piedi alla larghezza delle spalle",
+        "Scendi mantenendo la schiena neutra",
+        "Spingi sui talloni per risalire"
+      ],
+      "fonti": [
+        "d1:r3",
+        "d1:r7"
+      ]
+    },
+    "panca": {
+      "nome": "panca",
+      "nome_esteso": "Panca piana con bilanciere",
+      "attrezzi": "Bilanciere, panca",
+      "istruzioni": [
+        "Scapole retratte sulla panca",
+        "Abbassa il bilanciere al petto controllando",
+        "Spingi in alto senza sbattere i gomiti"
+      ],
+      "fonti": [
+        "d1:r3",
+        "d1:r7"
+      ]
+    },
+    "rematore_bilanciere": {
+      "nome": "rematore bilanciere",
+      "nome_esteso": "Rematore con bilanciere",
+      "attrezzi": "Bilanciere",
+      "istruzioni": [
+        "Busto inclinato in avanti, schiena neutra",
+        "Tira il bilanciere verso l'addome",
+        "Controlla la discesa"
+      ],
+      "fonti": [
+        "d1:r3",
+        "d1:r7"
+      ]
+    },
+    "stacco": {
+      "nome": "stacco",
+      "nome_esteso": "Stacco da terra",
+      "attrezzi": "Bilanciere",
+      "istruzioni": [
+        "Bilanciere vicino agli stinchi",
+        "Spingi con le gambe mantenendo la schiena neutra",
+        "Estendi anche e ginocchia insieme"
+      ],
+      "fonti": [
+        "d1:r4",
+        "d1:r7"
+      ]
+    },
+    "trazioni": {
+      "nome": "trazioni",
+      "nome_esteso": "Trazioni alla sbarra",
+      "attrezzi": "Sbarra",
+      "istruzioni": [
+        "Presa prona alla larghezza delle spalle",
+        "Tira il mento sopra la sbarra",
+        "Controlla la discesa"
+      ],
+      "fonti": [
+        "d1:r4",
+        "d1:r7"
+      ]
+    },
+    "affondi_bulgari": {
+      "nome": "affondi bulgari",
+      "nome_esteso": "Affondi bulgari con manubri",
+      "attrezzi": "Manubri, panca",
+      "istruzioni": [
+        "Piede posteriore appoggiato su una panca",
+        "Scendi in affondo sulla gamba anteriore",
+        "Risali spingendo sul tallone"
+      ],
+      "fonti": [
+        "d1:r4",
+        "d1:r7"
+      ]
+    },
+    "military_press": {
+      "nome": "military press",
+      "nome_esteso": "Military press con bilanciere",
+      "attrezzi": "Bilanciere",
+      "istruzioni": [
+        "In piedi, bilanciere all'altezza delle spalle",
+        "Spingi sopra la testa senza inarcare troppo la schiena",
+        "Controlla la discesa"
+      ],
+      "fonti": [
+        "d1:r5",
+        "d1:r7"
+      ]
+    },
+    "curl_manubri": {
+      "nome": "curl manubri",
+      "nome_esteso": "Curl bicipiti con manubri",
+      "attrezzi": "Manubri",
+      "istruzioni": [
+        "Gomiti fermi lungo i fianchi",
+        "Solleva i manubri flettendo il gomito",
+        "Controlla la discesa"
+      ],
+      "fonti": [
+        "d1:r5",
+        "d1:r7"
+      ]
+    },
+    "plank": {
+      "nome": "plank",
+      "nome_esteso": "Plank su avambracci",
+      "attrezzi": "",
+      "istruzioni": [
+        "Avambracci a terra, corpo in linea retta",
+        "Contrai addome e glutei",
+        "Respira mantenendo la posizione"
+      ],
+      "fonti": [
+        "d1:r5"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "Lun",
+      "titolo": "Lun",
+      "sottotitolo": "Forza parte superiore e inferiore",
+      "messaggio_fine": "Seduta completata, buon recupero.",
+      "fonti": [
+        "d1:r3"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r3"
+          ],
+          "voci": [
+            {
+              "esercizio": "squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 5,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "carico": {
+                "valore": 100,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "100kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  100,
+                  100
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "rir",
+                  "testo": "@2RIR",
+                  "fonte": "d1:r3",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r3",
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "panca",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 5,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "carico": {
+                "valore": 70,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "70kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  70,
+                  70
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "rir",
+                  "testo": "@2RIR",
+                  "fonte": "d1:r3",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r3",
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "rematore_bilanciere",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 60,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "60kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "fonti": [
+                "d1:r3",
+                "d1:r7"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Mer",
+      "titolo": "Mer",
+      "sottotitolo": "Forza catena posteriore",
+      "messaggio_fine": "Ottimo lavoro, recupera bene.",
+      "fonti": [
+        "d1:r4"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "stacco",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "carico": {
+                "valore": 120,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "120kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "rir",
+                  "testo": "@1RIR",
+                  "fonte": "d1:r4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r4",
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "trazioni",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "carico": {
+                "corpo_libero": true,
+                "fonte": "d1:r4"
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "fonti": [
+                "d1:r4",
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "affondi_bulgari",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "carico": {
+                "valore": 16,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "16kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  16,
+                  16
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Gamba sinistra",
+                  "Gamba destra"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "4 x lato",
+                  "unita_scritta": null,
+                  "fonte": "d1:r4",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«4 x lato» = 2 lati"
+                }
+              },
+              "fonti": [
+                "d1:r4",
+                "d1:r7"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Ven",
+      "titolo": "Ven",
+      "sottotitolo": "Spalle, braccia e core",
+      "messaggio_fine": "Fine settimana di allenamento completata.",
+      "fonti": [
+        "d1:r5"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r5"
+          ],
+          "voci": [
+            {
+              "esercizio": "military_press",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 6,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "6",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  6,
+                  6
+                ]
+              },
+              "carico": {
+                "valore": 40,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "40kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  40,
+                  40
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "rir",
+                  "testo": "@2RIR",
+                  "fonte": "d1:r5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r5",
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "curl_manubri",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 12,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "12",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  12,
+                  12
+                ]
+              },
+              "carico": {
+                "valore": 10,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "10kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90 sec",
+                "unita_scritta": "sec",
+                "fonte": "d1:r7",
+                "certezza": "media",
+                "letture": [
+                  90
+                ]
+              },
+              "fonti": [
+                "d1:r5",
+                "d1:r7"
+              ]
+            },
+            {
+              "esercizio": "plank",
+              "modo": "tempo",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "durata": {
+                "valore": 60,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "1 min",
+                "unita_scritta": "min",
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "fonti": [
+                "d1:r5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

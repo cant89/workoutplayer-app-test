@@ -1,0 +1,164 @@
+{
+  "id": "scheda-metodo-sconosciuto",
+  "api": "v1",
+  "title": "SCHEDA - METODO MISTO",
+  "lang": "it-IT",
+  "storageKey": "wp-scheda-metodo-sconosciuto",
+  "kicker": "Palestra Nova Fitness",
+  "rules": [
+    "Nota tecnica: gli esercizi con \"Metodo Kellerman\" seguono la progressione descritta a voce durante la prima seduta; non la ripeto qui, chiedimi se non ricordi."
+  ],
+  "exercises": {
+    "squat_frontale": {
+      "name": "Squat frontale",
+      "it": "Squat frontale con bilanciere",
+      "gear": "bilanciere, rack",
+      "how": [
+        "Posiziona il bilanciere sulla parte anteriore delle spalle",
+        "Scendi controllando il core",
+        "Risali spingendo sui talloni"
+      ]
+    },
+    "panca_piana": {
+      "name": "Panca piana",
+      "it": "Panca piana con bilanciere",
+      "gear": "bilanciere, panca",
+      "how": [
+        "Sdraiati sulla panca con presa poco più larga delle spalle",
+        "Scendi il bilanciere al petto",
+        "Spingi verso l'alto senza staccare i glutei"
+      ]
+    },
+    "trazioni_sbarra": {
+      "name": "Trazioni alla sbarra",
+      "it": "Trazioni alla sbarra",
+      "gear": "sbarra",
+      "how": [
+        "Presa prona poco più larga delle spalle",
+        "Tira fino a portare il mento sopra la sbarra",
+        "Scendi controllando il movimento"
+      ]
+    },
+    "stacco_terra": {
+      "name": "Stacco da terra",
+      "it": "Stacco da terra con bilanciere",
+      "gear": "bilanciere",
+      "how": [
+        "Piedi sotto il bilanciere, schiena neutra",
+        "Spingi con le gambe mantenendo il bilanciere vicino al corpo",
+        "Estendi anche e ginocchia insieme"
+      ]
+    },
+    "push_press": {
+      "name": "Push press",
+      "it": "Push press con bilanciere",
+      "gear": "bilanciere",
+      "how": [
+        "Bilanciere sulle clavicole",
+        "Usa una leggera flessione di gambe per generare slancio",
+        "Spingi il bilanciere sopra la testa"
+      ]
+    },
+    "burpee": {
+      "name": "Burpee",
+      "it": "Burpee con salto sopra la sbarra",
+      "gear": "sbarra",
+      "how": [
+        "Scendi in piegamento sul pavimento",
+        "Risali con un salto",
+        "Salta sopra la sbarra (o versione senza salto)"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "ALLENAMENTO 1",
+      "focus": "Forza su squat, panca e trazioni",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, recupera bene prima della prossima seduta",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat_frontale",
+              "mode": "text",
+              "sets": 4,
+              "rest": 0,
+              "rx": [
+                "carico progressivo"
+              ],
+              "text": "Metodo Kellerman, 4 serie, carico progressivo"
+            },
+            {
+              "ex": "panca_piana",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 65,
+              "rest": 90
+            },
+            {
+              "ex": "trazioni_sbarra",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "rest": 90,
+              "rx": [
+                "strict",
+                "alternativa: Scaled 4x8 assistite con elastico verde"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "A2": {
+      "id": "A2",
+      "title": "ALLENAMENTO 2",
+      "focus": "Forza su stacco e push press, metabolico con burpee",
+      "letter": "A",
+      "doneMsg": "Buon lavoro, idratati e recupera",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "stacco_terra",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "kg": 100,
+              "rest": 180
+            },
+            {
+              "ex": "push_press",
+              "mode": "text",
+              "sets": 3,
+              "rest": 0,
+              "text": "Metodo Kellerman, 3 serie"
+            },
+            {
+              "ex": "burpee",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "rest": 60,
+              "rx": [
+                "con salto sopra la sbarra",
+                "alternativa: Scaled senza salto"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

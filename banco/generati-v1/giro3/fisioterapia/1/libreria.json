@@ -1,0 +1,221 @@
+{
+  "id": "fisioterapia",
+  "api": "v1",
+  "title": "Programma di riabilitazione post-intervento di riparazione della cuffia dei rotatori",
+  "lang": "it-IT",
+  "storageKey": "wp-fisioterapia",
+  "rules": [
+    "Le indicazioni valgono per le prossime otto settimane; ci rivediamo in studio ogni due settimane per adattare gli esercizi.",
+    "Interrompa l'esercizio se il dolore supera 4 su una scala da 0 a 10.",
+    "Non sollevi nulla sopra la testa con un peso superiore a 2 kg prima della settimana 6, comprese le buste della spesa e i pensili di casa.",
+    "Applichi ghiaccio per 15 minuti dopo ogni seduta di rinforzo.",
+    "Se nota gonfiore, calore o febbre, mi contatti subito e non aspetti la visita programmata."
+  ],
+  "exercises": {
+    "pendolamento": {
+      "name": "pendolamento di Codman",
+      "it": "Pendolamento di Codman",
+      "gear": "Tavolo di appoggio",
+      "how": [
+        "Si pieghi in avanti appoggiando il braccio sano su un tavolo",
+        "Lasci oscillare liberamente il braccio operato",
+        "Non contragga la spalla durante il movimento",
+        "Non sollevi il braccio sopra la linea delle spalle"
+      ]
+    },
+    "elevazione_assistita": {
+      "name": "elevazione assistita con bastone",
+      "it": "Elevazione assistita con bastone",
+      "gear": "Bastone",
+      "how": [
+        "Tenga il bastone con entrambe le mani",
+        "Usi il braccio sano per guidare il sollevamento del braccio operato",
+        "Mantenga il movimento lento e indolore",
+        "Si fermi se compare dolore acuto"
+      ]
+    },
+    "retrazione_scapolare": {
+      "name": "retrazione scapolare a corpo libero",
+      "it": "Retrazione scapolare a corpo libero",
+      "gear": "",
+      "how": [
+        "Stia in piedi con le braccia rilassate",
+        "Avvicini le scapole verso la colonna",
+        "Mantenga brevemente la posizione e rilasci",
+        "Eviti di sollevare le spalle verso le orecchie"
+      ]
+    },
+    "extrarotazione_elastico": {
+      "name": "extrarotazione con elastico verde",
+      "it": "Extrarotazione di spalla con elastico",
+      "gear": "Elastico verde",
+      "how": [
+        "Tenga il gomito fermo lungo il fianco",
+        "Afferri l'elastico e ruoti l'avambraccio verso l'esterno",
+        "Mantenga la contrazione isometrica per il tempo indicato",
+        "Torni lentamente alla posizione di partenza"
+      ]
+    },
+    "sleeper_stretch": {
+      "name": "stretching capsulare posteriore (sleeper stretch)",
+      "it": "Stretching capsulare posteriore (sleeper stretch)",
+      "gear": "",
+      "how": [
+        "Si sdrai sul fianco del braccio operato",
+        "Con la mano opposta spinga delicatamente l'avambraccio verso il basso",
+        "Mantenga uno stiramento leggero, senza dolore",
+        "Respiri regolarmente durante la tenuta"
+      ]
+    },
+    "rinforzo_manubrio": {
+      "name": "rinforzo con manubrio",
+      "it": "Rinforzo con manubrio leggero",
+      "gear": "Manubrio da 1 kg",
+      "how": [
+        "Esegua i movimenti già appresi con l'elastico",
+        "Mantenga il controllo del peso durante tutto il movimento",
+        "Non superi il carico indicato",
+        "Interrompa se compare dolore"
+      ]
+    }
+  },
+  "workouts": {
+    "S1": {
+      "id": "S1",
+      "title": "Settimane 1-2",
+      "focus": "Mobilizzazione passiva",
+      "doneMsg": "Fase di mobilizzazione passiva completata, prosegua con calma.",
+      "phases": [
+        {
+          "id": "mobilizzazione_passiva",
+          "title": "Mobilizzazione passiva",
+          "notes": [
+            "Non sollevi mai il braccio attivamente sopra la linea delle spalle."
+          ],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "pendolamento",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 120,
+              "rest": 0,
+              "rx": [
+                "3 volte al giorno",
+                "si pieghi in avanti appoggiandosi con il braccio sano a un tavolo e lasci oscillare il braccio operato, senza contrarre la spalla",
+                "in questa fase non sollevi mai il braccio attivamente sopra la linea delle spalle"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "S2": {
+      "id": "S2",
+      "title": "Settimane 3-4",
+      "focus": "Mobilizzazione attiva assistita",
+      "doneMsg": "Ottimo lavoro, continui a rispettare i limiti di dolore indicati.",
+      "phases": [
+        {
+          "id": "mobilizzazione_attiva_assistita",
+          "title": "Mobilizzazione attiva assistita",
+          "notes": [
+            "Se compare dolore acuto, si fermi e scriva alla dottoressa prima della seduta successiva."
+          ],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "elevazione_assistita",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "rest": 0,
+              "rx": [
+                "2 volte al giorno",
+                "con l'aiuto di un bastone tenuto con entrambe le mani",
+                "il movimento deve restare indolore: se compare dolore acuto, si fermi e mi scriva prima della seduta successiva"
+              ]
+            },
+            {
+              "ex": "retrazione_scapolare",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 15,
+              "rest": 0,
+              "rx": [
+                "una volta al giorno"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "S3": {
+      "id": "S3",
+      "title": "Settimane 5-6",
+      "focus": "Rinforzo isometrico",
+      "doneMsg": "Bene, la cuffia si sta rinforzando gradualmente.",
+      "phases": [
+        {
+          "id": "rinforzo_isometrico",
+          "title": "Rinforzo isometrico",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "extrarotazione_elastico",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 8,
+              "rest": 0,
+              "hold": 10,
+              "rx": [
+                "usando l'elastico verde per l'extrarotazione a gomito fermo lungo il fianco"
+              ]
+            },
+            {
+              "ex": "sleeper_stretch",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 30,
+              "rest": 0,
+              "rx": [
+                "da sdraiato sul fianco operato",
+                "tutti i giorni"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "S4": {
+      "id": "S4",
+      "title": "Settimane 7-8",
+      "focus": "Rinforzo progressivo",
+      "doneMsg": "Ottimo, ci vediamo alla visita di controllo per i prossimi passi.",
+      "phases": [
+        {
+          "id": "rinforzo_progressivo",
+          "title": "Rinforzo progressivo",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "rinforzo_manubrio",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 1,
+              "rest": 0,
+              "rx": [
+                "3 volte a settimana",
+                "negli stessi movimenti già visti con l'elastico",
+                "Non superi 1 kg prima della nostra visita di controllo, anche se le sembra facile."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "strength-log-topset-rir",
+  "titolo": "strength-log-topset-rir",
+  "lingua": "en-US",
+  "chiave_memoria": "wp-strength-log-topset-rir",
+  "regole": [],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "strength-log-topset-rir.csv",
+      "formato": "csv",
+      "sha256": "8fba4b1235cf670c18154f9f56e36505db11d115cc2adf48936d89a99b7126bb"
+    }
+  ],
+  "fonti": {
+    "d1:f1:B2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Top set 1x3, then 3x5 back-off -10%",
+      "foglio": "strength-log-topset-rir",
+      "cella": "B2"
+    },
+    "d1:f1:B3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "5x5 @70% 1RM",
+      "foglio": "strength-log-topset-rir",
+      "cella": "B3"
+    },
+    "d1:f1:B4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "4x8",
+      "foglio": "strength-log-topset-rir",
+      "cella": "B4"
+    },
+    "d1:f1:B5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "5x3",
+      "foglio": "strength-log-topset-rir",
+      "cella": "B5"
+    },
+    "d1:f1:C2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Top set 225 lb",
+      "foglio": "strength-log-topset-rir",
+      "cella": "C2"
+    },
+    "d1:f1:C3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "1RM 275 lb",
+      "foglio": "strength-log-topset-rir",
+      "cella": "C3"
+    },
+    "d1:f1:C4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "155 lb",
+      "foglio": "strength-log-topset-rir",
+      "cella": "C4"
+    },
+    "d1:f1:C5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Box height 20 in",
+      "foglio": "strength-log-topset-rir",
+      "cella": "C5"
+    },
+    "d1:f1:D2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "RIR 1 on top set",
+      "foglio": "strength-log-topset-rir",
+      "cella": "D2"
+    },
+    "d1:f1:D3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "RIR 2",
+      "foglio": "strength-log-topset-rir",
+      "cella": "D3"
+    },
+    "d1:f1:D4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "RIR 2",
+      "foglio": "strength-log-topset-rir",
+      "cella": "D4"
+    },
+    "d1:f1:D5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "RIR 3",
+      "foglio": "strength-log-topset-rir",
+      "cella": "D5"
+    },
+    "d1:f1:E2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "3 min",
+      "foglio": "strength-log-topset-rir",
+      "cella": "E2"
+    },
+    "d1:f1:E3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "2 min",
+      "foglio": "strength-log-topset-rir",
+      "cella": "E3"
+    },
+    "d1:f1:E4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "90 sec",
+      "foglio": "strength-log-topset-rir",
+      "cella": "E4"
+    },
+    "d1:f1:E5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "2 min",
+      "foglio": "strength-log-topset-rir",
+      "cella": "E5"
+    },
+    "d1:f1:F2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Back-off load = top set weight minus 10%, round to nearest 5 lb",
+      "foglio": "strength-log-topset-rir",
+      "cella": "F2"
+    },
+    "d1:f1:F3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Working weight = 70% of 275 lb = 192.5 lb, round to 190 lb",
+      "foglio": "strength-log-topset-rir",
+      "cella": "F3"
+    },
+    "d1:f1:F4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Keep a flat back",
+      "foglio": "strength-log-topset-rir",
+      "cella": "F4"
+    },
+    "d1:f1:F5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Step down, do not jump down",
+      "foglio": "strength-log-topset-rir",
+      "cella": "F5"
+    },
+    "d1:f1:r1": {
+      "doc": "d1",
+      "riga": 1,
+      "testo": "Exercise | Scheme | Load | RIR/Buffer | Rest | Notes",
+      "foglio": "strength-log-topset-rir"
+    },
+    "d1:f1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "Back Squat | Top set 1x3, then 3x5 back-off -10% | Top set 225 lb | RIR 1 on top set | 3 min | Back-off load = top set weight minus 10%, round to nearest 5 lb",
+      "foglio": "strength-log-topset-rir"
+    },
+    "d1:f1:r3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "Bench Press | 5x5 @70% 1RM | 1RM 275 lb | RIR 2 | 2 min | Working weight = 70% of 275 lb = 192.5 lb, round to 190 lb",
+      "foglio": "strength-log-topset-rir"
+    },
+    "d1:f1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "Barbell Row | 4x8 | 155 lb | RIR 2 | 90 sec | Keep a flat back",
+      "foglio": "strength-log-topset-rir"
+    },
+    "d1:f1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "Box Jump | 5x3 | Box height 20 in | RIR 3 | 2 min | Step down, do not jump down",
+      "foglio": "strength-log-topset-rir"
+    }
+  },
+  "esercizi": {
+    "back_squat": {
+      "nome": "Back Squat",
+      "nome_esteso": "Back Squat",
+      "attrezzi": "Barbell, rack",
+      "istruzioni": [
+        "Set the bar on your upper back, feet shoulder-width apart",
+        "Brace your core and descend under control",
+        "Keep knees tracking over toes and chest upright",
+        "Drive through the floor to stand back up"
+      ],
+      "fonti": [
+        "d1:f1:r2"
+      ]
+    },
+    "bench_press": {
+      "nome": "Bench Press",
+      "nome_esteso": "Barbell Bench Press",
+      "attrezzi": "Barbell, bench, rack",
+      "istruzioni": [
+        "Lie on the bench with feet flat on the floor",
+        "Grip the bar slightly wider than shoulder-width",
+        "Lower the bar to the chest under control",
+        "Press back up to full arm extension"
+      ],
+      "fonti": [
+        "d1:f1:r3"
+      ]
+    },
+    "barbell_row": {
+      "nome": "Barbell Row",
+      "nome_esteso": "Bent-Over Barbell Row",
+      "attrezzi": "Barbell",
+      "istruzioni": [
+        "Hinge at the hips with a flat back",
+        "Pull the bar toward the lower ribs",
+        "Squeeze the shoulder blades at the top",
+        "Lower the bar under control"
+      ],
+      "fonti": [
+        "d1:f1:r4"
+      ]
+    },
+    "box_jump": {
+      "nome": "Box Jump",
+      "nome_esteso": "Box Jump",
+      "attrezzi": "Plyo box",
+      "istruzioni": [
+        "Stand facing the box with feet hip-width apart",
+        "Swing arms and jump onto the box, landing softly",
+        "Stand fully upright on the box",
+        "Step down, do not jump down"
+      ],
+      "fonti": [
+        "d1:f1:r5"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Sessione di forza",
+      "sottotitolo": "Top set e lavoro accessorio",
+      "messaggio_fine": "Allenamento completato, ottimo lavoro",
+      "fonti": [
+        "d1:f1:r1",
+        "d1:f1:r2",
+        "d1:f1:r3",
+        "d1:f1:r4",
+        "d1:f1:r5"
+      ],
+      "fasi": [
+        {
+          "id": "forza",
+          "titolo": "Forza",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:f1:r2",
+            "d1:f1:r3",
+            "d1:f1:r4",
+            "d1:f1:r5"
+          ],
+          "voci": [
+            {
+              "esercizio": "back_squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 1,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "1",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B2",
+                "certezza": "alta",
+                "letture": [
+                  1,
+                  1
+                ]
+              },
+              "ripetizioni": {
+                "valore": 3,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B2",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "carico": {
+                "valore": 225,
+                "tipo": "carico",
+                "unita": "lb",
+                "scritto": "225 lb",
+                "unita_scritta": "lb",
+                "fonte": "d1:f1:C2",
+                "certezza": "alta",
+                "letture": [
+                  225,
+                  225
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:f1:E2",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 1 on top set",
+                  "fonte": "d1:f1:D2",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r2"
+              ]
+            },
+            {
+              "esercizio": "back_squat",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B2",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B2",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "recupero": {
+                "valore": 180,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "3 min",
+                "unita_scritta": "min",
+                "fonte": "d1:f1:E2",
+                "certezza": "alta",
+                "letture": [
+                  180,
+                  180
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "back-off -10%",
+                  "fonte": "d1:f1:B2",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "nota",
+                  "testo": "Back-off load = top set weight minus 10%, round to nearest 5 lb",
+                  "fonte": "d1:f1:F2",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r2"
+              ]
+            },
+            {
+              "esercizio": "bench_press",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 5,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B3",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "ripetizioni": {
+                "valore": 5,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B3",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "carico": {
+                "valore": 275,
+                "tipo": "carico",
+                "unita": "lb",
+                "scritto": "1RM 275 lb",
+                "unita_scritta": "lb",
+                "fonte": "d1:f1:C3",
+                "certezza": "media",
+                "letture": [
+                  275,
+                  70.0,
+                  275
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:f1:E3",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "percentuale",
+                  "testo": "@70% 1RM",
+                  "fonte": "d1:f1:B3",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "nota",
+                  "testo": "Working weight = 70% of 275 lb = 192.5 lb, round to 190 lb",
+                  "fonte": "d1:f1:F3",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:f1:D3",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r3"
+              ]
+            },
+            {
+              "esercizio": "barbell_row",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B4",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B4",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 155,
+                "tipo": "carico",
+                "unita": "lb",
+                "scritto": "155 lb",
+                "unita_scritta": "lb",
+                "fonte": "d1:f1:C4",
+                "certezza": "alta",
+                "letture": [
+                  155,
+                  155
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90 sec",
+                "unita_scritta": "sec",
+                "fonte": "d1:f1:E4",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 2",
+                  "fonte": "d1:f1:D4",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "tecnica",
+                  "testo": "Keep a flat back",
+                  "fonte": "d1:f1:F4",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r4"
+              ]
+            },
+            {
+              "esercizio": "box_jump",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 5,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "5",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B5",
+                "certezza": "alta",
+                "letture": [
+                  5,
+                  5
+                ]
+              },
+              "ripetizioni": {
+                "valore": 3,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:f1:B5",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "recupero": {
+                "valore": 120,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "2 min",
+                "unita_scritta": "min",
+                "fonte": "d1:f1:E5",
+                "certezza": "alta",
+                "letture": [
+                  120,
+                  120
+                ],
+                "normalizzazione": "min = minuti (convenzione degli apici) → secondi"
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "regolazione",
+                  "testo": "Box height 20 in",
+                  "fonte": "d1:f1:C5",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "rir",
+                  "testo": "RIR 3",
+                  "fonte": "d1:f1:D5",
+                  "certezza": "media"
+                },
+                {
+                  "tipo": "tecnica",
+                  "testo": "Step down, do not jump down",
+                  "fonte": "d1:f1:F5",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:f1:r5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

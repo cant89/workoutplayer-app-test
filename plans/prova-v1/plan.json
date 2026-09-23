@@ -1,0 +1,501 @@
+{
+ "id": "prova-v1",
+ "api": "v1",
+ "title": "Scheda di prova v1",
+ "lang": "it-IT",
+ "storageKey": "workoutplayer-prova-v1",
+ "kicker": "Scheda di prova · componenti v1",
+ "rules": [
+  "Scheda sintetica per le prove della libreria: nessuna persona reale.",
+  "Ogni componente nuovo della libreria compare almeno una volta."
+ ],
+ "kgStep": {
+  "panca": 2.5,
+  "lat": 2.5
+ },
+ "exercises": {
+  "squat_bulgaro": {
+   "name": "Squat bulgaro",
+   "it": "Squat bulgaro con manubri",
+   "gear": "Panca, manubri",
+   "how": [
+    "Piede dietro appoggiato sulla panca, busto dritto.",
+    "Scendi finché la coscia davanti è parallela al pavimento.",
+    "Risali spingendo sul tallone davanti."
+   ]
+  },
+  "panca": {
+   "name": "Panca piana",
+   "it": "Distensioni su panca piana con bilanciere",
+   "gear": "Panca, bilanciere",
+   "how": [
+    "Scapole addotte, piedi a terra.",
+    "Porta il bilanciere al petto e spingi verso l'alto."
+   ]
+  },
+  "lat": {
+   "name": "Lat machine",
+   "it": "Lat machine presa larga",
+   "gear": "Lat machine",
+   "how": [
+    "Tira la barra al petto portando i gomiti in basso.",
+    "Risali controllando."
+   ]
+  },
+  "curl": {
+   "name": "Curl manubri",
+   "it": "Curl con manubri",
+   "gear": "Manubri",
+   "how": [
+    "Gomiti fermi ai fianchi.",
+    "Sali e scendi con controllo."
+   ]
+  },
+  "plank_lat": {
+   "name": "Plank laterale",
+   "it": "Plank laterale sull'avambraccio",
+   "gear": "Tappetino",
+   "how": [
+    "Gomito sotto la spalla, corpo in linea.",
+    "Tieni il bacino alto."
+   ]
+  },
+  "trazioni": {
+   "name": "Trazioni",
+   "it": "Trazioni alla sbarra",
+   "gear": "Sbarra",
+   "how": [
+    "Presa prona poco più larga delle spalle.",
+    "Tira fino al mento sopra la sbarra."
+   ]
+  },
+  "pushup": {
+   "name": "Piegamenti",
+   "it": "Piegamenti sulle braccia",
+   "gear": "Tappetino",
+   "how": [
+    "Mani sotto le spalle, corpo in linea.",
+    "Scendi con il petto vicino a terra e risali."
+   ]
+  },
+  "jumping_jack": {
+   "name": "Jumping jack",
+   "it": "Saltelli a gambe e braccia aperte",
+   "gear": "Nessuno",
+   "how": [
+    "Salta aprendo gambe e braccia, poi richiudi."
+   ]
+  },
+  "squat_cl": {
+   "name": "Squat a corpo libero",
+   "it": "Squat a corpo libero",
+   "gear": "Nessuno",
+   "how": [
+    "Piedi alla larghezza delle spalle.",
+    "Scendi con il bacino indietro e risali."
+   ]
+  },
+  "affondi": {
+   "name": "Affondi",
+   "it": "Affondi alternati",
+   "gear": "Nessuno",
+   "how": [
+    "Passo avanti, ginocchio dietro verso terra.",
+    "Torna in piedi e cambia gamba."
+   ]
+  },
+  "kb_swing": {
+   "name": "Kettlebell swing",
+   "it": "Slancio con kettlebell",
+   "gear": "Kettlebell",
+   "how": [
+    "Spinta di anche, braccia rilassate.",
+    "Porta la kettlebell all'altezza del petto."
+   ]
+  },
+  "burpee": {
+   "name": "Burpee",
+   "it": "Burpee",
+   "gear": "Nessuno",
+   "how": [
+    "Giù in appoggio, petto a terra, su con un salto."
+   ]
+  },
+  "mountain": {
+   "name": "Mountain climber",
+   "it": "Scalatore",
+   "gear": "Nessuno",
+   "how": [
+    "In appoggio sulle mani, porta le ginocchia al petto alternando veloce."
+   ]
+  },
+  "thruster": {
+   "name": "Thruster",
+   "it": "Thruster con bilanciere",
+   "gear": "Bilanciere",
+   "how": [
+    "Front squat e, risalendo, spingi il bilanciere sopra la testa."
+   ]
+  },
+  "cyclette": {
+   "name": "Cyclette",
+   "it": "Cyclette",
+   "gear": "Cyclette",
+   "how": [
+    "Pedala a ritmo sostenuto."
+   ]
+  },
+  "ponte": {
+   "name": "Ponte gluteo",
+   "it": "Ponte gluteo isometrico",
+   "gear": "Tappetino",
+   "how": [
+    "Supino, piedi a terra.",
+    "Solleva il bacino e tienilo in alto."
+   ]
+  },
+  "chin_tuck": {
+   "name": "Chin tuck",
+   "it": "Retrazione del mento",
+   "gear": "Nessuno",
+   "how": [
+    "Porta il mento indietro senza abbassare la testa.",
+    "Tieni la posizione."
+   ]
+  },
+  "stretch_misto": {
+   "name": "Sequenza del trainer",
+   "it": "Sequenza di allungamento del trainer",
+   "gear": "Tappetino",
+   "how": [
+    "Come mostrata in palestra."
+   ]
+  }
+ },
+ "workouts": {
+  "A": {
+   "id": "A",
+   "title": "Forza",
+   "focus": "Tutto il corpo, con le tecniche nuove",
+   "letter": "A",
+   "periodLabel": "Valida",
+   "period": "dal 01/10 al 31/10",
+   "doneMsg": "Bevi e annota come sono andati i carichi.",
+   "phases": [
+    {
+     "id": "forza",
+     "title": "Forza",
+     "notes": [
+      "Recupero completo fra un esercizio e l'altro."
+     ],
+     "flow": "sets",
+     "items": [
+      {
+       "ex": "squat_bulgaro",
+       "mode": "reps",
+       "sets": 4,
+       "reps": 10,
+       "kg": 12,
+       "rest": 90,
+       "perSide": true,
+       "sides": [
+        "Gamba sinistra",
+        "Gamba destra"
+       ],
+       "rx": [
+        "RPE 8"
+       ],
+       "note": "4 serie per gamba: prima la sinistra, poi subito la destra."
+      },
+      {
+       "ex": "panca",
+       "mode": "reps",
+       "sets": 3,
+       "reps": {
+        "min": 8,
+        "max": 10
+       },
+       "kg": 60,
+       "rest": 120,
+       "rx": [
+        "Cadenza 3-0-1-0",
+        "RIR 2"
+       ]
+      },
+      {
+       "ex": "lat",
+       "mode": "reps",
+       "sets": 3,
+       "reps": 12,
+       "kg": 45,
+       "rest": 90,
+       "drops": [
+        {
+         "reps": 8,
+         "kg": 35
+        },
+        {
+         "reps": 8
+        }
+       ],
+       "dropOn": "last",
+       "note": "Nell'ultima serie scala due volte senza pausa."
+      },
+      {
+       "ex": "curl",
+       "mode": "reps",
+       "sets": 3,
+       "kg": 10,
+       "rest": 60,
+       "parts": [
+        {
+         "reps": 8,
+         "text": "con tenuta di 3 s a metà"
+        },
+        {
+         "reps": 8,
+         "text": "esplosive"
+        }
+       ]
+      },
+      {
+       "ex": "plank_lat",
+       "mode": "timed",
+       "sets": 2,
+       "dur": 30,
+       "rest": 30,
+       "perSide": true,
+       "sides": [
+        "Lato sinistro",
+        "Lato destro"
+       ]
+      },
+      {
+       "ex": "trazioni",
+       "mode": "reps",
+       "sets": 2,
+       "reps": "max",
+       "kg": "BW",
+       "restText": "a sensazione"
+      },
+      {
+       "ex": "pushup",
+       "mode": "reps",
+       "sets": 1,
+       "reps": {
+        "min": 10
+       },
+       "kg": "BW"
+      }
+     ]
+    }
+   ]
+  },
+  "B": {
+   "id": "B",
+   "title": "Condizionamento",
+   "focus": "Circuito e blocchi a cronometro",
+   "letter": "B",
+   "doneMsg": "Ottimo: annota i giri dell'AMRAP e il tempo del For Time.",
+   "phases": [
+    {
+     "id": "circuito",
+     "title": "Circuito di riscaldamento",
+     "notes": [
+      "Recupero decrescente fra i giri."
+     ],
+     "flow": "circuit",
+     "rounds": 3,
+     "roundRest": [
+      60,
+      45
+     ],
+     "roundNote": "prova ad andare un po' più veloce.",
+     "items": [
+      {
+       "ex": "jumping_jack",
+       "mode": "timed",
+       "sets": 1,
+       "dur": 30,
+       "rest": 0
+      },
+      {
+       "ex": "squat_cl",
+       "mode": "reps",
+       "sets": 1,
+       "reps": 15,
+       "kg": "BW",
+       "rest": 0
+      },
+      {
+       "ex": "affondi",
+       "mode": "reps",
+       "sets": 1,
+       "reps": 8,
+       "kg": "BW",
+       "perSide": true,
+       "sides": [
+        "Gamba sinistra",
+        "Gamba destra"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "emom",
+     "title": "EMOM 8 minuti",
+     "notes": [
+      "A ogni minuto: minuti dispari swing, minuti pari burpee."
+     ],
+     "flow": "emom",
+     "every": 60,
+     "rounds": 8,
+     "perInterval": "one",
+     "items": [
+      {
+       "ex": "kb_swing",
+       "mode": "reps",
+       "reps": 12,
+       "kg": 16
+      },
+      {
+       "ex": "burpee",
+       "mode": "reps",
+       "reps": 8,
+       "kg": "BW"
+      }
+     ]
+    },
+    {
+     "id": "tabata",
+     "title": "Tabata",
+     "notes": [],
+     "flow": "tabata",
+     "work": 20,
+     "rest": 10,
+     "rounds": 8,
+     "items": [
+      {
+       "ex": "mountain",
+       "mode": "timed",
+       "dur": 20
+      }
+     ]
+    },
+    {
+     "id": "amrap",
+     "title": "AMRAP 12 minuti",
+     "notes": [
+      "Più giri possibile in 12 minuti: conta i giri."
+     ],
+     "flow": "amrap",
+     "time": 720,
+     "items": [
+      {
+       "ex": "trazioni",
+       "mode": "reps",
+       "reps": 5,
+       "kg": "BW"
+      },
+      {
+       "ex": "pushup",
+       "mode": "reps",
+       "reps": 10,
+       "kg": "BW"
+      },
+      {
+       "ex": "squat_cl",
+       "mode": "reps",
+       "reps": 15,
+       "kg": "BW"
+      }
+     ]
+    },
+    {
+     "id": "fortime",
+     "title": "For Time",
+     "notes": [
+      "3 giri il più veloce possibile, tempo limite 10 minuti."
+     ],
+     "flow": "fortime",
+     "rounds": 3,
+     "cap": 600,
+     "items": [
+      {
+       "ex": "thruster",
+       "mode": "reps",
+       "reps": 12,
+       "kg": 30
+      },
+      {
+       "ex": "burpee",
+       "mode": "reps",
+       "reps": 10,
+       "kg": "BW"
+      }
+     ]
+    },
+    {
+     "id": "intervalli",
+     "title": "Intervalli in cyclette",
+     "notes": [],
+     "flow": "intervals",
+     "work": 60,
+     "rest": 30,
+     "rounds": 4,
+     "hr": true,
+     "optional": true,
+     "items": [
+      {
+       "ex": "cyclette",
+       "mode": "timed",
+       "dur": 60,
+       "label": "RPE 8"
+      }
+     ]
+    }
+   ]
+  },
+  "C": {
+   "id": "C",
+   "title": "Posturale",
+   "focus": "Tenute e mobilità",
+   "letter": "C",
+   "phases": [
+    {
+     "id": "tenute",
+     "title": "Tenute",
+     "notes": [
+      "Respira durante la tenuta."
+     ],
+     "flow": "sets",
+     "items": [
+      {
+       "ex": "ponte",
+       "mode": "reps",
+       "sets": 2,
+       "reps": 10,
+       "hold": 10,
+       "holdRest": 5,
+       "rest": 60
+      },
+      {
+       "ex": "chin_tuck",
+       "mode": "reps",
+       "sets": 2,
+       "reps": 8,
+       "hold": 5,
+       "rest": 30
+      },
+      {
+       "ex": "stretch_misto",
+       "mode": "text",
+       "sets": 1,
+       "text": "Sequenza di allungamento come vista insieme in palestra."
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

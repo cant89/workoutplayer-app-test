@@ -1,0 +1,489 @@
+{
+  "schema": "wp-plan/1",
+  "api": "v1",
+  "id": "whatsapp-scheda",
+  "titolo": "Scheda settimanale",
+  "lingua": "it-IT",
+  "chiave_memoria": "wp-whatsapp-scheda",
+  "regole": [
+    {
+      "testo": "questa settimana è di scarico, fai il 70% dei carichi soliti su tutto",
+      "fonti": [
+        "d1:r6"
+      ]
+    }
+  ],
+  "documenti": [
+    {
+      "id": "d1",
+      "nome": "whatsapp-scheda.txt",
+      "formato": "testo",
+      "sha256": "cd50ddca423387ba71137010e31ecd0feed925349c825da64aa050777db7ae76"
+    }
+  ],
+  "fonti": {
+    "d1:r2": {
+      "doc": "d1",
+      "riga": 2,
+      "testo": "[15/09/26, 18:33] Marco Trainer: Petto: panca piana 4x8 @60kg, poi drop set finale: togli 10 kg e vai a cedimento"
+    },
+    "d1:r3": {
+      "doc": "d1",
+      "riga": 3,
+      "testo": "[15/09/26, 18:34] Marco Trainer: Gambe: affondi in cammino 4 x lato, 14 kg per mano, rec 90''"
+    },
+    "d1:r4": {
+      "doc": "d1",
+      "riga": 4,
+      "testo": "[15/09/26, 18:34] Marco Trainer: Femorali: curl su fitball 3 per gamba, corpo libero, rec 60''"
+    },
+    "d1:r5": {
+      "doc": "d1",
+      "riga": 5,
+      "testo": "[15/09/26, 18:35] Marco Trainer: Core: plank laterale 2 dx + 2 sx da 30'' ciascuna, rec 30''"
+    },
+    "d1:r6": {
+      "doc": "d1",
+      "riga": 6,
+      "testo": "[15/09/26, 18:36] Marco Trainer: Attenzione: questa settimana è di scarico, fai il 70% dei carichi soliti su tutto"
+    },
+    "d1:r9": {
+      "doc": "d1",
+      "riga": 9,
+      "testo": "[16/09/26, 09:15] Marco Trainer: Solo sulla piana per ora, l'inclinata la lasciamo pulita: 3x10 @45kg senza drop set"
+    }
+  },
+  "esercizi": {
+    "panca_piana": {
+      "nome": "panca piana",
+      "nome_esteso": "Panca piana con bilanciere",
+      "attrezzi": "panca piana, bilanciere",
+      "istruzioni": [
+        "Sdraiati sulla panca con i piedi ben appoggiati a terra",
+        "Abbassa il bilanciere controllato fino al petto",
+        "Spingi verso l'alto mantenendo le scapole retratte"
+      ],
+      "fonti": [
+        "d1:r2"
+      ]
+    },
+    "panca_inclinata": {
+      "nome": "panca inclinata",
+      "nome_esteso": "Panca inclinata con bilanciere",
+      "attrezzi": "panca inclinata, bilanciere",
+      "istruzioni": [
+        "Regola la panca con inclinazione moderata",
+        "Abbassa il bilanciere verso la parte alta del petto",
+        "Spingi in alto senza bloccare di scatto i gomiti"
+      ],
+      "fonti": [
+        "d1:r9"
+      ]
+    },
+    "affondi_cammino": {
+      "nome": "affondi in cammino",
+      "nome_esteso": "Affondi camminati con manubri",
+      "attrezzi": "manubri",
+      "istruzioni": [
+        "Tieni un manubrio per mano lungo i fianchi",
+        "Esegui un passo lungo in avanti flettendo entrambe le ginocchia",
+        "Spingi sul piede avanti per avanzare al passo successivo"
+      ],
+      "fonti": [
+        "d1:r3"
+      ]
+    },
+    "curl_fitball": {
+      "nome": "curl su fitball",
+      "nome_esteso": "Curl femorale su fitball",
+      "attrezzi": "fitball",
+      "istruzioni": [
+        "Sdraiati supino con i talloni appoggiati sulla fitball",
+        "Solleva il bacino da terra",
+        "Fletti le ginocchia portando la palla verso i glutei"
+      ],
+      "fonti": [
+        "d1:r4"
+      ]
+    },
+    "plank_laterale": {
+      "nome": "plank laterale",
+      "nome_esteso": "Plank laterale",
+      "attrezzi": "",
+      "istruzioni": [
+        "Appoggiati su avambraccio e bordo del piede, corpo in linea",
+        "Mantieni il bacino sollevato senza cedere",
+        "Respira in modo regolare durante la tenuta"
+      ],
+      "fonti": [
+        "d1:r5"
+      ]
+    }
+  },
+  "sedute": [
+    {
+      "id": "A1",
+      "titolo": "Allenamento del giorno",
+      "sottotitolo": "Petto, gambe e core",
+      "lettera": "A",
+      "messaggio_fine": "Buon lavoro, recuperati bene prima della prossima seduta",
+      "fonti": [
+        "d1:r2",
+        "d1:r3",
+        "d1:r4",
+        "d1:r5",
+        "d1:r9"
+      ],
+      "fasi": [
+        {
+          "id": "petto",
+          "titolo": "Petto",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r2",
+            "d1:r9"
+          ],
+          "voci": [
+            {
+              "esercizio": "panca_piana",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r2",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "ripetizioni": {
+                "valore": 8,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "8",
+                "unita_scritta": null,
+                "fonte": "d1:r2",
+                "certezza": "alta",
+                "letture": [
+                  8,
+                  8
+                ]
+              },
+              "carico": {
+                "valore": 60,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "@60kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r2",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "scalate": {
+                "su": "ultima",
+                "parti": [
+                  {
+                    "ripetizioni": {
+                      "massime": true,
+                      "testo": "cedimento",
+                      "fonte": "d1:r2",
+                      "certezza": "media"
+                    },
+                    "testo": "togli 10 kg"
+                  }
+                ]
+              },
+              "fonti": [
+                "d1:r2"
+              ]
+            },
+            {
+              "esercizio": "panca_inclinata",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r9",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "ripetizioni": {
+                "valore": 10,
+                "tipo": "ripetizioni",
+                "unita": "rip",
+                "scritto": "10",
+                "unita_scritta": null,
+                "fonte": "d1:r9",
+                "certezza": "alta",
+                "letture": [
+                  10,
+                  10
+                ]
+              },
+              "carico": {
+                "valore": 45,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "@45kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r9",
+                "certezza": "alta",
+                "letture": [
+                  45,
+                  45
+                ]
+              },
+              "prescrizioni": [
+                {
+                  "tipo": "altro",
+                  "testo": "senza drop set",
+                  "fonte": "d1:r9",
+                  "certezza": "media"
+                }
+              ],
+              "fonti": [
+                "d1:r9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gambe",
+          "titolo": "Gambe",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r3"
+          ],
+          "voci": [
+            {
+              "esercizio": "affondi_cammino",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 4,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "4",
+                "unita_scritta": null,
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  4,
+                  4
+                ]
+              },
+              "carico": {
+                "valore": 14,
+                "tipo": "carico",
+                "unita": "kg",
+                "scritto": "14 kg",
+                "unita_scritta": "kg",
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  14,
+                  14
+                ]
+              },
+              "recupero": {
+                "valore": 90,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "90''",
+                "unita_scritta": "''",
+                "fonte": "d1:r3",
+                "certezza": "alta",
+                "letture": [
+                  90,
+                  90
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Lato sinistro",
+                  "Lato destro"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "4 x lato",
+                  "unita_scritta": null,
+                  "fonte": "d1:r3",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«4 x lato» = 2 lati"
+                }
+              },
+              "nota": "per mano",
+              "fonti": [
+                "d1:r3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "femorali",
+          "titolo": "Femorali",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r4"
+          ],
+          "voci": [
+            {
+              "esercizio": "curl_fitball",
+              "modo": "ripetizioni",
+              "serie": {
+                "valore": 3,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "3",
+                "unita_scritta": null,
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  3,
+                  3
+                ]
+              },
+              "carico": {
+                "corpo_libero": true,
+                "fonte": "d1:r4"
+              },
+              "recupero": {
+                "valore": 60,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "60''",
+                "unita_scritta": "''",
+                "fonte": "d1:r4",
+                "certezza": "alta",
+                "letture": [
+                  60,
+                  60
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Lato sinistro",
+                  "Lato destro"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "3 per gamba",
+                  "unita_scritta": null,
+                  "fonte": "d1:r4",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«3 per gamba» = 2 lati"
+                }
+              },
+              "fonti": [
+                "d1:r4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "core",
+          "titolo": "Core",
+          "note": [],
+          "flusso": "serie",
+          "fonti": [
+            "d1:r5"
+          ],
+          "voci": [
+            {
+              "esercizio": "plank_laterale",
+              "modo": "tempo",
+              "serie": {
+                "valore": 2,
+                "tipo": "serie",
+                "unita": "serie",
+                "scritto": "2",
+                "unita_scritta": null,
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  2,
+                  2
+                ]
+              },
+              "durata": {
+                "valore": 30,
+                "tipo": "tempo",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:r5",
+                "certezza": "media",
+                "letture": [
+                  30
+                ]
+              },
+              "recupero": {
+                "valore": 30,
+                "tipo": "recupero",
+                "unita": "s",
+                "scritto": "30''",
+                "unita_scritta": "''",
+                "fonte": "d1:r5",
+                "certezza": "alta",
+                "letture": [
+                  30,
+                  30
+                ]
+              },
+              "lato": {
+                "modo": "serie_per_lato",
+                "nomi": [
+                  "Lato sinistro",
+                  "Lato destro"
+                ],
+                "lati": {
+                  "valore": 2,
+                  "tipo": "lati",
+                  "unita": "lati",
+                  "scritto": "2 dx + 2 sx",
+                  "unita_scritta": null,
+                  "fonte": "d1:r5",
+                  "certezza": "media",
+                  "letture": [
+                    2
+                  ],
+                  "normalizzazione": "«2 dx + 2 sx» = 2 lati"
+                }
+              },
+              "fonti": [
+                "d1:r5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

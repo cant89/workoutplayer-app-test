@@ -1,0 +1,1338 @@
+{
+  "id": "settimane-emom",
+  "api": "v1",
+  "title": "MICROCICLO 4 SETTIMANE",
+  "lang": "it-IT",
+  "storageKey": "wp-settimane-emom",
+  "kicker": "Palestra Nova Fitness — rivalutazione carichi ogni 4 settimane",
+  "rules": [
+    "Rivalutazione carichi ogni 4 settimane"
+  ],
+  "exercises": {
+    "squat_multipower": {
+      "name": "Squat al multipower",
+      "it": "Squat al multipower",
+      "gear": "Multipower (squat guidato)",
+      "how": [
+        "Posiziona il bilanciere sulle spalle sotto il supporto guidato",
+        "Scendi controllando ginocchia e busto",
+        "Spingi sui talloni per risalire"
+      ]
+    },
+    "panca_piana_bilanciere": {
+      "name": "Panca piana bilanciere",
+      "it": "Panca piana con bilanciere",
+      "gear": "Panca piana, bilanciere",
+      "how": [
+        "Sdraiati sulla panca con i piedi ben appoggiati",
+        "Scendi il bilanciere al petto controllando il movimento",
+        "Spingi verso l'alto senza bloccare di scatto i gomiti"
+      ]
+    },
+    "rematore_bilanciere": {
+      "name": "Rematore bilanciere",
+      "it": "Rematore con bilanciere",
+      "gear": "Bilanciere",
+      "how": [
+        "Busto inclinato in avanti, schiena neutra",
+        "Tira il bilanciere verso l'addome",
+        "Controlla la fase di ritorno"
+      ]
+    },
+    "affondi_manubri": {
+      "name": "Affondi con manubri",
+      "it": "Affondi camminati o in loco con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Fai un passo avanti e scendi flettendo entrambe le ginocchia",
+        "Mantieni il busto eretto",
+        "Spingi per tornare alla posizione di partenza"
+      ]
+    },
+    "military_press_manubri": {
+      "name": "Military Press manubri",
+      "it": "Military press con manubri da seduto",
+      "gear": "Manubri, panca con schienale",
+      "how": [
+        "Siediti con schiena appoggiata",
+        "Spingi i manubri sopra la testa",
+        "Scendi controllando fino all'altezza delle spalle"
+      ]
+    },
+    "plank": {
+      "name": "Plank",
+      "it": "Plank su avambracci",
+      "gear": "",
+      "how": [
+        "Appoggiati sugli avambracci e sulle punte dei piedi",
+        "Mantieni il corpo allineato",
+        "Contrai l'addome per tutta la durata"
+      ]
+    },
+    "kettlebell_swing": {
+      "name": "Kettlebell swing",
+      "it": "Kettlebell swing a due mani",
+      "gear": "Kettlebell",
+      "how": [
+        "Spingi i fianchi indietro per caricare",
+        "Estendi i fianchi con forza per portare il kettlebell in avanti",
+        "Mantieni la schiena neutra"
+      ]
+    },
+    "stacco_rumeno": {
+      "name": "Stacco rumeno bilanciere",
+      "it": "Stacco rumeno con bilanciere",
+      "gear": "Bilanciere",
+      "how": [
+        "Mantieni le ginocchia leggermente flesse",
+        "Fai scorrere il bilanciere lungo le gambe",
+        "Spingi i fianchi in avanti per risalire"
+      ]
+    },
+    "trazioni_assistite": {
+      "name": "Trazioni assistite (elastico verde)",
+      "it": "Trazioni alla sbarra assistite con elastico",
+      "gear": "Sbarra, elastico verde",
+      "how": [
+        "Posiziona il ginocchio o il piede nell'elastico",
+        "Tira il mento sopra la sbarra",
+        "Scendi controllando il movimento"
+      ]
+    },
+    "leg_press": {
+      "name": "Leg press",
+      "it": "Leg press orizzontale/inclinata",
+      "gear": "Macchina leg press",
+      "how": [
+        "Posiziona i piedi larghi sulla pedana",
+        "Scendi controllando fino a 90° circa",
+        "Spingi senza bloccare le ginocchia"
+      ]
+    },
+    "alzate_laterali_manubri": {
+      "name": "Alzate laterali manubri",
+      "it": "Alzate laterali con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Solleva i manubri lateralmente fino all'altezza delle spalle",
+        "Mantieni un leggero piegamento dei gomiti",
+        "Scendi controllando il movimento"
+      ]
+    },
+    "curl_bilanciere_ez": {
+      "name": "Curl bilanciere EZ",
+      "it": "Curl bicipiti con bilanciere EZ",
+      "gear": "Bilanciere EZ",
+      "how": [
+        "Mantieni i gomiti fermi lungo i fianchi",
+        "Solleva il bilanciere contraendo i bicipiti",
+        "Scendi controllando il movimento"
+      ]
+    },
+    "burpee": {
+      "name": "Burpee",
+      "it": "Burpee completo",
+      "gear": "",
+      "how": [
+        "Scendi in accosciata e appoggia le mani",
+        "Salta i piedi indietro in plank e torna avanti",
+        "Salta con le braccia sopra la testa"
+      ]
+    },
+    "mountain_climber": {
+      "name": "Mountain climber",
+      "it": "Mountain climber in plank",
+      "gear": "",
+      "how": [
+        "Mantieni la posizione di plank",
+        "Porta alternativamente le ginocchia al petto",
+        "Mantieni il bacino stabile"
+      ]
+    },
+    "jumping_jack": {
+      "name": "Jumping jack",
+      "it": "Jumping jack",
+      "gear": "",
+      "how": [
+        "Salta aprendo gambe e braccia contemporaneamente",
+        "Torna alla posizione di partenza saltando",
+        "Mantieni un ritmo costante"
+      ]
+    },
+    "squat_corpo_libero": {
+      "name": "Squat a corpo libero",
+      "it": "Squat a corpo libero",
+      "gear": "",
+      "how": [
+        "Scendi flettendo anche e ginocchia",
+        "Mantieni il busto eretto",
+        "Spingi sui talloni per risalire"
+      ]
+    },
+    "goblet_squat": {
+      "name": "Kettlebell goblet squat",
+      "it": "Goblet squat con kettlebell",
+      "gear": "Kettlebell",
+      "how": [
+        "Tieni il kettlebell davanti al petto",
+        "Scendi mantenendo il tallone a terra",
+        "Risali spingendo sui talloni"
+      ]
+    },
+    "push_press_manubri": {
+      "name": "Push press manubri",
+      "it": "Push press con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Fletti leggermente le ginocchia per caricare",
+        "Spingi i manubri sopra la testa con l'aiuto delle gambe",
+        "Scendi controllando il movimento"
+      ]
+    },
+    "box_step_up": {
+      "name": "Box step-up",
+      "it": "Step-up su box",
+      "gear": "Box o rialzo",
+      "how": [
+        "Sali sul box con un piede alla volta",
+        "Estendi completamente l'anca in alto",
+        "Scendi controllando il movimento"
+      ]
+    },
+    "push_up": {
+      "name": "Push-up",
+      "it": "Piegamenti sulle braccia",
+      "gear": "",
+      "how": [
+        "Mantieni il corpo allineato",
+        "Scendi flettendo i gomiti",
+        "Spingi per tornare in posizione"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Seduta A - Full Body",
+      "focus": "Settimana 1",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, seduta completata.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat_multipower",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 40,
+              "rest": 90,
+              "rx": [
+                "Scarpe piatte"
+              ]
+            },
+            {
+              "ex": "panca_piana_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 40,
+              "rest": 90,
+              "rx": [
+                "Presa media"
+              ]
+            },
+            {
+              "ex": "rematore_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 35,
+              "rest": 75,
+              "rx": [
+                "Schiena neutra"
+              ]
+            },
+            {
+              "ex": "affondi_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 12,
+              "rest": 60,
+              "perSide": true,
+              "sides": [
+                "Gamba sinistra",
+                "Gamba destra"
+              ],
+              "rx": [
+                "12 kg = per manubrio"
+              ]
+            },
+            {
+              "ex": "military_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 12,
+              "rest": 75,
+              "rx": [
+                "Seduto, 12 kg per manubrio"
+              ]
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 40,
+              "rest": 45,
+              "rx": [
+                "Addominali in tensione"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "title": "Finisher a cronometro",
+          "notes": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flow": "emom",
+          "rounds": 10,
+          "every": 60,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 8,
+              "kg": 16,
+              "rx": [
+                "cambia mano ogni giro"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "A2": {
+      "id": "A2",
+      "title": "Seduta A - Full Body",
+      "focus": "Settimana 2",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, seduta completata.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat_multipower",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 42.5,
+              "rest": 90,
+              "rx": [
+                "Scarpe piatte"
+              ]
+            },
+            {
+              "ex": "panca_piana_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 42.5,
+              "rest": 90,
+              "rx": [
+                "Presa media"
+              ]
+            },
+            {
+              "ex": "rematore_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 37.5,
+              "rest": 75,
+              "rx": [
+                "Schiena neutra"
+              ]
+            },
+            {
+              "ex": "affondi_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 14,
+              "rest": 60,
+              "perSide": true,
+              "sides": [
+                "Gamba sinistra",
+                "Gamba destra"
+              ],
+              "rx": [
+                "12 kg = per manubrio"
+              ]
+            },
+            {
+              "ex": "military_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 13,
+              "rest": 75,
+              "rx": [
+                "Seduto, 12 kg per manubrio"
+              ]
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 45,
+              "rest": 45,
+              "rx": [
+                "Addominali in tensione"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "title": "Finisher a cronometro",
+          "notes": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flow": "emom",
+          "rounds": 10,
+          "every": 60,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 9,
+              "kg": 16
+            }
+          ]
+        }
+      ]
+    },
+    "A3": {
+      "id": "A3",
+      "title": "Seduta A - Full Body",
+      "focus": "Settimana 3",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, seduta completata.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat_multipower",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 45,
+              "rest": 90,
+              "rx": [
+                "Scarpe piatte"
+              ]
+            },
+            {
+              "ex": "panca_piana_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 45,
+              "rest": 90,
+              "rx": [
+                "Presa media"
+              ]
+            },
+            {
+              "ex": "rematore_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 40,
+              "rest": 75,
+              "rx": [
+                "Schiena neutra"
+              ]
+            },
+            {
+              "ex": "affondi_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 16,
+              "rest": 60,
+              "perSide": true,
+              "sides": [
+                "Gamba sinistra",
+                "Gamba destra"
+              ],
+              "rx": [
+                "12 kg = per manubrio"
+              ]
+            },
+            {
+              "ex": "military_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 14,
+              "rest": 75,
+              "rx": [
+                "Seduto, 12 kg per manubrio"
+              ]
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 40,
+              "rest": 45,
+              "rx": [
+                "Addominali in tensione"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "title": "Finisher a cronometro",
+          "notes": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flow": "emom",
+          "rounds": 10,
+          "every": 60,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 10,
+              "kg": 16
+            }
+          ]
+        }
+      ]
+    },
+    "A4": {
+      "id": "A4",
+      "title": "Seduta A - Full Body",
+      "focus": "Settimana 4",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, seduta completata.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat_multipower",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 47.5,
+              "rest": 90,
+              "rx": [
+                "Scarpe piatte"
+              ]
+            },
+            {
+              "ex": "panca_piana_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 47.5,
+              "rest": 90,
+              "rx": [
+                "Presa media"
+              ]
+            },
+            {
+              "ex": "rematore_bilanciere",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 42.5,
+              "rest": 75,
+              "rx": [
+                "Schiena neutra"
+              ]
+            },
+            {
+              "ex": "affondi_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 18,
+              "rest": 60,
+              "perSide": true,
+              "sides": [
+                "Gamba sinistra",
+                "Gamba destra"
+              ],
+              "rx": [
+                "12 kg = per manubrio"
+              ]
+            },
+            {
+              "ex": "military_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 15,
+              "rest": 75,
+              "rx": [
+                "Seduto, 12 kg per manubrio"
+              ]
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 4,
+              "dur": 45,
+              "rest": 45,
+              "rx": [
+                "Addominali in tensione"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "finisher_emom",
+          "title": "Finisher a cronometro",
+          "notes": [
+            "Se restano secondi nel minuto: riposo. Se non si finisce in tempo: il minuto successivo parte comunque."
+          ],
+          "flow": "emom",
+          "rounds": 10,
+          "every": 60,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 10,
+              "kg": 18
+            }
+          ]
+        }
+      ]
+    },
+    "B1": {
+      "id": "B1",
+      "title": "Seduta B - Upper Lower",
+      "focus": "Settimana 1",
+      "letter": "B",
+      "doneMsg": "Seduta completata, ottimo ritmo.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "stacco_rumeno",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 50,
+              "rest": 90,
+              "rx": [
+                "Ginocchia morbide"
+              ]
+            },
+            {
+              "ex": "trazioni_assistite",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "rest": 90,
+              "rx": [
+                "Stessa resistenza tutte le settimane"
+              ]
+            },
+            {
+              "ex": "leg_press",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 12,
+              "kg": 100,
+              "rest": 90,
+              "rx": [
+                "Piedi larghi"
+              ]
+            },
+            {
+              "ex": "alzate_laterali_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 15,
+              "kg": 6,
+              "rest": 45,
+              "rx": [
+                "Per manubrio"
+              ]
+            },
+            {
+              "ex": "curl_bilanciere_ez",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 20,
+              "rest": 60,
+              "rx": [
+                "Presa stretta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "title": "Circuito finale a giri",
+          "notes": [],
+          "flow": "circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "ex": "burpee",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "mountain_climber",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "jumping_jack",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "squat_corpo_libero",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 90
+            }
+          ]
+        }
+      ]
+    },
+    "B2": {
+      "id": "B2",
+      "title": "Seduta B - Upper Lower",
+      "focus": "Settimana 2",
+      "letter": "B",
+      "doneMsg": "Seduta completata, ottimo ritmo.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "stacco_rumeno",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 52.5,
+              "rest": 90,
+              "rx": [
+                "Ginocchia morbide"
+              ]
+            },
+            {
+              "ex": "trazioni_assistite",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 7,
+              "rest": 90,
+              "rx": [
+                "Stessa resistenza tutte le settimane"
+              ]
+            },
+            {
+              "ex": "leg_press",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 12,
+              "kg": 110,
+              "rest": 90,
+              "rx": [
+                "Piedi larghi"
+              ]
+            },
+            {
+              "ex": "alzate_laterali_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 15,
+              "kg": 7,
+              "rest": 45,
+              "rx": [
+                "Per manubrio"
+              ]
+            },
+            {
+              "ex": "curl_bilanciere_ez",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 22.5,
+              "rest": 60,
+              "rx": [
+                "Presa stretta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "title": "Circuito finale a giri",
+          "notes": [],
+          "flow": "circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "ex": "burpee",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "mountain_climber",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "jumping_jack",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "squat_corpo_libero",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 75
+            }
+          ]
+        }
+      ]
+    },
+    "B3": {
+      "id": "B3",
+      "title": "Seduta B - Upper Lower",
+      "focus": "Settimana 3",
+      "letter": "B",
+      "doneMsg": "Seduta completata, ottimo ritmo.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "stacco_rumeno",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "kg": 55,
+              "rest": 90,
+              "rx": [
+                "Ginocchia morbide"
+              ]
+            },
+            {
+              "ex": "trazioni_assistite",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "rest": 90,
+              "rx": [
+                "Stessa resistenza tutte le settimane"
+              ]
+            },
+            {
+              "ex": "leg_press",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 120,
+              "rest": 90,
+              "rx": [
+                "Piedi larghi"
+              ]
+            },
+            {
+              "ex": "alzate_laterali_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 8,
+              "rest": 45,
+              "rx": [
+                "Per manubrio"
+              ]
+            },
+            {
+              "ex": "curl_bilanciere_ez",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 25,
+              "rest": 60,
+              "rx": [
+                "Presa stretta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "title": "Circuito finale a giri",
+          "notes": [],
+          "flow": "circuit",
+          "rounds": 4,
+          "items": [
+            {
+              "ex": "burpee",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "mountain_climber",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "jumping_jack",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "squat_corpo_libero",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 90
+            }
+          ]
+        }
+      ]
+    },
+    "B4": {
+      "id": "B4",
+      "title": "Seduta B - Upper Lower",
+      "focus": "Settimana 4",
+      "letter": "B",
+      "doneMsg": "Seduta completata, ottimo ritmo.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "stacco_rumeno",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "kg": 57.5,
+              "rest": 90,
+              "rx": [
+                "Ginocchia morbide"
+              ]
+            },
+            {
+              "ex": "trazioni_assistite",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 9,
+              "rest": 90,
+              "rx": [
+                "Stessa resistenza tutte le settimane"
+              ]
+            },
+            {
+              "ex": "leg_press",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 130,
+              "rest": 90,
+              "rx": [
+                "Piedi larghi"
+              ]
+            },
+            {
+              "ex": "alzate_laterali_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 8,
+              "rest": 45,
+              "rx": [
+                "Per manubrio"
+              ]
+            },
+            {
+              "ex": "curl_bilanciere_ez",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 25,
+              "rest": 60,
+              "rx": [
+                "Presa stretta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "circuito_finale",
+          "title": "Circuito finale a giri",
+          "notes": [],
+          "flow": "circuit",
+          "rounds": 4,
+          "items": [
+            {
+              "ex": "burpee",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "mountain_climber",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "jumping_jack",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 15
+            },
+            {
+              "ex": "squat_corpo_libero",
+              "mode": "timed",
+              "sets": 1,
+              "dur": 30,
+              "rest": 75
+            }
+          ]
+        }
+      ]
+    },
+    "C1": {
+      "id": "C1",
+      "title": "Seduta C - Metabolico",
+      "focus": "Settimana 1",
+      "letter": "C",
+      "doneMsg": "Buon lavoro, recupera bene.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "goblet_squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 16,
+              "rest": 60,
+              "rx": [
+                "Tallone a terra"
+              ]
+            },
+            {
+              "ex": "push_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 10,
+              "rest": 75,
+              "rx": [
+                "Per manubrio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "title": "METCON",
+          "notes": [
+            "Obiettivo giri: 5 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flow": "amrap",
+          "time": 900,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 10,
+              "kg": 16
+            },
+            {
+              "ex": "box_step_up",
+              "mode": "reps",
+              "reps": 10
+            },
+            {
+              "ex": "push_up",
+              "mode": "reps",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "id": "C2",
+      "title": "Seduta C - Metabolico",
+      "focus": "Settimana 2",
+      "letter": "C",
+      "doneMsg": "Buon lavoro, recupera bene.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "goblet_squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 18,
+              "rest": 60,
+              "rx": [
+                "Tallone a terra"
+              ]
+            },
+            {
+              "ex": "push_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 11,
+              "rest": 75,
+              "rx": [
+                "Per manubrio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "title": "METCON",
+          "notes": [
+            "Obiettivo giri: 6 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flow": "amrap",
+          "time": 900,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 10,
+              "kg": 16
+            },
+            {
+              "ex": "box_step_up",
+              "mode": "reps",
+              "reps": 10
+            },
+            {
+              "ex": "push_up",
+              "mode": "reps",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    "C3": {
+      "id": "C3",
+      "title": "Seduta C - Metabolico",
+      "focus": "Settimana 3",
+      "letter": "C",
+      "doneMsg": "Buon lavoro, recupera bene.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "goblet_squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 20,
+              "rest": 60,
+              "rx": [
+                "Tallone a terra"
+              ]
+            },
+            {
+              "ex": "push_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 8,
+              "kg": 12,
+              "rest": 75,
+              "rx": [
+                "Per manubrio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "title": "METCON",
+          "notes": [
+            "Obiettivo giri: 6 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flow": "amrap",
+          "time": 900,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 12,
+              "kg": 18
+            },
+            {
+              "ex": "box_step_up",
+              "mode": "reps",
+              "reps": 10
+            },
+            {
+              "ex": "push_up",
+              "mode": "reps",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    "C4": {
+      "id": "C4",
+      "title": "Seduta C - Metabolico",
+      "focus": "Settimana 4",
+      "letter": "C",
+      "doneMsg": "Buon lavoro, recupera bene.",
+      "phases": [
+        {
+          "id": "principale",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "goblet_squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 10,
+              "kg": 20,
+              "rest": 60,
+              "rx": [
+                "Tallone a terra"
+              ]
+            },
+            {
+              "ex": "push_press_manubri",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 8,
+              "kg": 12,
+              "rest": 75,
+              "rx": [
+                "Per manubrio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metcon",
+          "title": "METCON",
+          "notes": [
+            "Obiettivo giri: 7 giri",
+            "Annota il numero di giri completati a fine blocco: serve per la progressione della settimana successiva."
+          ],
+          "flow": "amrap",
+          "time": 900,
+          "items": [
+            {
+              "ex": "kettlebell_swing",
+              "mode": "reps",
+              "reps": 12,
+              "kg": 18
+            },
+            {
+              "ex": "box_step_up",
+              "mode": "reps",
+              "reps": 10
+            },
+            {
+              "ex": "push_up",
+              "mode": "reps",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+/* WorkoutPlayer · app: stili delle viste del guscio (T2). Solo token di lib/tokens.css e gli stessi caratteri del player;
+   i componenti del player (.choice, .note, .btn, .seg, .set-row, .plan .row, .figure, .icon-btn, .back) si riusano così come sono. */
+#app[hidden] { display: none !important; }
+.app-view { padding-block: 24px 48px; display: flex; flex-direction: column; gap: 20px; }
+.app-head { display: flex; flex-direction: column; gap: 6px; }
+.app-head h1 { font: 700 34px/0.98 var(--display); text-transform: uppercase; letter-spacing: -.005em; overflow-wrap: anywhere; }
+.app-lead { color: var(--ink-2); max-width: 52ch; }
+.app-h2 { font: 600 13px/1.2 var(--body); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+.app-attn { color: var(--work) !important; font-weight: 600; }
+.app-actions { display: flex; flex-direction: column; gap: 10px; }
+.app-actions .btn { flex: 0 0 auto; width: 100%; }
+.app-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.app-row .btn { flex: 1 1 auto; font-size: 19px; min-height: 50px; padding: 13px 16px; }
+
+/* I tuoi piani, banco */
+.app-card { display: flex; flex-direction: column; gap: 8px; }
+.app-card .choice .t { overflow-wrap: anywhere; }
+.app-list { display: flex; flex-direction: column; gap: 12px; }
+.app-entry { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; gap: 12px; }
+.app-entry .focus { display: block; color: var(--ink-3); font-size: 13.5px; margin-top: 4px; overflow-wrap: anywhere; }
+.app-entry-title { display: block; font: 600 21px/1.1 var(--display); text-transform: uppercase; overflow-wrap: anywhere; }
+
+/* impostazioni */
+.app-section { display: flex; flex-direction: column; gap: 10px; }
+.app-section .set-row > div:first-child { min-width: 0; }
+.app-select { font: 600 15px/1 var(--body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 9px 10px; max-width: 48%; }
+.app-section .seg { flex-wrap: wrap; }
+
+/* revisione */
+.app-field { display: flex; flex-direction: column; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; }
+.app-field-open { border-color: var(--work); box-shadow: inset 4px 0 0 var(--work); }
+.app-field-title { font: 700 26px/1.02 var(--display); text-transform: uppercase; overflow-wrap: anywhere; }
+.app-source { display: flex; flex-direction: column; gap: 4px; background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 10px 12px; }
+.app-source q { font-weight: 500; overflow-wrap: anywhere; }
+.app-source small { color: var(--ink-3); font-size: 13px; }
+.app-status { font-weight: 600; color: var(--rest); }
+.app-editor { display: flex; flex-direction: column; gap: 10px; }
+.app-input { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.app-input span { min-width: 72px; color: var(--ink-2); font-size: 15px; }
+.app-input input { width: 110px; font: 600 24px/1 var(--display); padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--ink); }
+.app-input small { color: var(--ink-3); font-size: 14px; }
+.app-details { border-bottom: 1px solid var(--line); padding: 4px 0; }
+.app-details summary { cursor: pointer; padding: 10px 0; font-weight: 600; }
+.app-details[open] { display: flex; flex-direction: column; gap: 8px; padding-bottom: 12px; }
+.app-value { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 0; border-top: 1px solid var(--line); }
+.app-value > span { display: flex; flex-direction: column; min-width: 0; font-size: 14px; color: var(--ink-2); overflow-wrap: anywhere; }
+.app-value b { font: 600 20px/1.1 var(--display); color: var(--ink); }
+.app-value small { color: var(--rest); font-weight: 600; font-size: 12.5px; }
+
+/* anteprima */
+.app-disclaimer { font-size: 14px; line-height: 1.45; color: var(--ink-2); border-left: 3px solid var(--line); padding-left: 12px; }
+.app-outline section { gap: 0; }
+.app-outline h3 { margin-top: 6px; }
+.app-phase { font: 600 12.5px/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); padding: 12px 0 4px; }
+.app-outline .row span:first-child { min-width: 0; overflow-wrap: anywhere; display: flex; flex-direction: column; gap: 6px; }
+.app-open { color: var(--work) !important; font-weight: 600; }
+.app-locked > span:first-child { color: var(--ink-2); }
+.lock { color: transparent !important; background: var(--surface-2); border-radius: 3px; filter: blur(2.5px); user-select: none; -webkit-user-select: none; }
+.lock-line { display: block; width: 70%; height: 9px; }

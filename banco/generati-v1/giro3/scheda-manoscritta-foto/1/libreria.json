@@ -1,0 +1,125 @@
+{
+  "id": "scheda-manoscritta-foto",
+  "api": "v1",
+  "title": "Allenamento di oggi",
+  "lang": "it-IT",
+  "storageKey": "wp-scheda-manoscritta-foto",
+  "kicker": "Allenamento di oggi",
+  "rules": [],
+  "exercises": {
+    "squat": {
+      "name": "Squat",
+      "it": "Squat con bilanciere",
+      "gear": "Bilanciere",
+      "how": [
+        "Piedi alla larghezza delle spalle, bilanciere sulle scapole",
+        "Scendi flettendo anche e ginocchia mantenendo il busto eretto",
+        "Scendi fino a coscie parallele al pavimento o oltre",
+        "Risali spingendo sui talloni"
+      ]
+    },
+    "affondi": {
+      "name": "Affondi",
+      "it": "Affondi con manubri",
+      "gear": "Manubri",
+      "how": [
+        "Il ginocchio posteriore sfiora il pavimento",
+        "Spingi sul tallone anteriore per tornare in piedi",
+        "Alterna o esegui tutte le serie sullo stesso lato come indicato"
+      ]
+    },
+    "panca_manubri": {
+      "name": "Panca manubri",
+      "it": "Panca piana con manubri",
+      "gear": "Manubri, panca",
+      "how": [
+        "Sdraiati sulla panca con un manubrio per mano all'altezza del petto",
+        "Spingi i manubri verso l'alto estendendo le braccia",
+        "Scendi controllando il movimento fino a sentire lo stiramento del petto"
+      ]
+    },
+    "plank": {
+      "name": "Plank",
+      "it": "Plank sugli avambracci",
+      "gear": "",
+      "how": [
+        "Appoggia gli avambracci a terra e distendi il corpo in linea retta",
+        "Contrai addome e glutei mantenendo la posizione",
+        "Evita di far cadere i fianchi o alzare il bacino"
+      ]
+    },
+    "curl_bicipiti": {
+      "name": "Curl bicipiti",
+      "it": "Curl bicipiti con manubri",
+      "gear": "Manubri",
+      "how": [
+        "In piedi, manubri lungo i fianchi con palmi in avanti",
+        "Fletti i gomiti portando i manubri verso le spalle",
+        "Scendi controllando il movimento fino a distendere le braccia"
+      ]
+    }
+  },
+  "workouts": {
+    "A1": {
+      "id": "A1",
+      "title": "Allenamento di oggi",
+      "focus": "Allenamento di forza per tutto il corpo",
+      "letter": "A",
+      "doneMsg": "Ottimo lavoro, allenamento completato!",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Allenamento",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 8,
+              "kg": 75,
+              "rest": 0,
+              "note": "nuovo record!"
+            },
+            {
+              "ex": "affondi",
+              "mode": "reps",
+              "sets": 3,
+              "kg": 15,
+              "rest": 0,
+              "perSide": true,
+              "sides": [
+                "Lato sinistro",
+                "Lato destro"
+              ]
+            },
+            {
+              "ex": "panca_manubri",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 10,
+              "kg": 22.5,
+              "rest": 0
+            },
+            {
+              "ex": "plank",
+              "mode": "timed",
+              "sets": 3,
+              "dur": 40,
+              "rest": 0
+            },
+            {
+              "ex": "curl_bicipiti",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 12,
+              "kg": 7.5,
+              "rest": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "id": "powerlifting-scarico-percentuali",
+  "api": "v1",
+  "title": "Mesociclo Forza - 4 Settimane (Powerlifting)",
+  "lang": "it-IT",
+  "storageKey": "wp-powerlifting-scarico-percentuali",
+  "rules": [
+    "Massimali di riferimento: Squat 150 kg, Panca 100 kg, Stacco 180 kg",
+    "Nota: le percentuali sono sul massimale di riferimento indicato sopra, non su un test recente."
+  ],
+  "exercises": {
+    "squat": {
+      "name": "Squat",
+      "it": "Squat con bilanciere",
+      "gear": "Bilanciere, rack, dischi",
+      "how": [
+        "Posiziona il bilanciere sulla parte alta della schiena",
+        "Scendi controllando il movimento mantenendo il busto eretto",
+        "Spingi sui talloni per risalire",
+        "Mantieni la colonna neutra durante tutto il movimento"
+      ]
+    },
+    "panca": {
+      "name": "Panca",
+      "it": "Panca piana con bilanciere",
+      "gear": "Bilanciere, panca piana, dischi",
+      "how": [
+        "Sdraiati sulla panca con i piedi ben appoggiati",
+        "Abbassa il bilanciere al petto in modo controllato",
+        "Spingi verso l'alto mantenendo le scapole retratte",
+        "Evita di rimbalzare il bilanciere sul petto"
+      ]
+    },
+    "stacco": {
+      "name": "Stacco",
+      "it": "Stacco da terra",
+      "gear": "Bilanciere, dischi",
+      "how": [
+        "Posizionati con i piedi sotto il bilanciere",
+        "Afferra il bilanciere mantenendo la schiena dritta",
+        "Spingi con le gambe e distendi le anche per sollevare il peso",
+        "Mantieni il bilanciere vicino al corpo durante il sollevamento"
+      ]
+    }
+  },
+  "workouts": {
+    "W1": {
+      "id": "W1",
+      "title": "Settimana 1",
+      "focus": "Top set e back-off su squat, panca e stacco",
+      "doneMsg": "Buon lavoro, recupera bene prima della prossima settimana.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 3,
+              "rest": 0,
+              "rx": [
+                "@80%"
+              ]
+            },
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "back-off -10%"
+              ]
+            },
+            {
+              "ex": "panca",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "rest": 0,
+              "rx": [
+                "@75%"
+              ]
+            },
+            {
+              "ex": "stacco",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "@75%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "W2": {
+      "id": "W2",
+      "title": "Settimana 2",
+      "focus": "Top set e back-off su squat, panca e stacco",
+      "doneMsg": "Buon lavoro, recupera bene prima della prossima settimana.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 3,
+              "rest": 0,
+              "rx": [
+                "@82,5%"
+              ]
+            },
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "back-off -10%"
+              ]
+            },
+            {
+              "ex": "panca",
+              "mode": "reps",
+              "sets": 4,
+              "reps": 6,
+              "rest": 0,
+              "rx": [
+                "@77,5%"
+              ]
+            },
+            {
+              "ex": "stacco",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "@77,5%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "W3": {
+      "id": "W3",
+      "title": "Settimana 3",
+      "focus": "Top set e back-off su squat, panca e stacco",
+      "doneMsg": "Buon lavoro, recupera bene prima della prossima settimana.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 1,
+              "reps": 2,
+              "rest": 0,
+              "rx": [
+                "@87,5%"
+              ]
+            },
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 4,
+              "rest": 0,
+              "rx": [
+                "back-off -12,5%"
+              ]
+            },
+            {
+              "ex": "panca",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "@82,5%"
+              ]
+            },
+            {
+              "ex": "stacco",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 4,
+              "rest": 0,
+              "rx": [
+                "@82,5%"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "W4": {
+      "id": "W4",
+      "title": "Settimana 4",
+      "focus": "Settimana di scarico",
+      "doneMsg": "Settimana di scarico completata, sei pronto per il prossimo ciclo.",
+      "phases": [
+        {
+          "id": "forza",
+          "title": "Forza",
+          "notes": [],
+          "flow": "sets",
+          "items": [
+            {
+              "ex": "squat",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "@60%"
+              ]
+            },
+            {
+              "ex": "panca",
+              "mode": "reps",
+              "sets": 3,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "@60%"
+              ]
+            },
+            {
+              "ex": "stacco",
+              "mode": "reps",
+              "sets": 2,
+              "reps": 5,
+              "rest": 0,
+              "rx": [
+                "@60%"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
