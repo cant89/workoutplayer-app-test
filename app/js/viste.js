@@ -19,7 +19,8 @@
   const $app = () => document.getElementById("app");
   const UNIT = { tempo: "app.unit.seconds", recupero: "app.unit.seconds", serie: "app.unit.sets", ripetizioni: "app.unit.reps", giri: "app.unit.rounds", lati: "app.unit.sides" };
   const INTEGER = ["serie", "ripetizioni", "giri", "lati"];
-  const state = { openKey: null, error: null, pendingDelete: null, busy: null, catalog: null };
+  // openGroups: sezioni dei "Valori letti" aperte (per posizione), conservate fra un ridisegno e l'altro della stessa revisione
+  const state = { openKey: null, error: null, pendingDelete: null, busy: null, catalog: null, openGroups: new Set() };
 
   // nome della lingua di un piano nella lingua dell'interfaccia ("it-IT" → "italiano", "Italian"): solo la lingua, senza il paese
   const langName = tag => { const l = String(tag || "").split("-")[0]; try { return new Intl.DisplayNames([App.lang()], { type: "language" }).of(l) || l; } catch (e) { return l; } };
@@ -167,13 +168,13 @@
     const actions = state.openKey === c.key ? editor(rec, c, r) : '<div class="app-row">' +
       (r ? "" : '<button type="button" class="btn" data-confirm="' + esc(c.key) + '">' + esc(T("app.review.confirm", { value: read })) + "</button>") +
       '<button type="button" class="btn ghost" data-fix="' + esc(c.key) + '">' + esc(T(r ? "app.review.change" : "app.review.fix")) + "</button></div>";
-    return '<article class="app-field' + (c.uncertain && !r ? " app-field-open" : "") + '" id="f-' + esc(c.key.replace(/\//g, "-")) + '"><span class="eyebrow">' + esc(where) + "</span>" +
+    return '<article class="app-field' + (c.uncertain && !r ? " app-field-open" : "") + '" id="f-' + esc(c.key.replace(/\//g, "-")) + '" data-key="' + esc(c.key) + '"><span class="eyebrow">' + esc(where) + "</span>" +
       '<h3 class="app-field-title">' + esc(fieldLabel(c) + ": " + RV.testoCampo(c, null, lang, true)) + "</h3>" + crop(rec, c.where.esercizio) + source(rec, c) + (c.uncertain ? why(c) : "") + status + noEffect + actions + "</article>";
   }
   function valueRow(rec, c) {
     const r = (rec.review.fields || {})[c.key], lang = App.lang();
     const value = r ? RV.testoCampo(c, r.values, lang) : RV.testoCampo(c, null, lang);
-    return '<div class="app-value"><span>' + esc([exerciseName(rec, c.where.esercizio) || c.where.fase, fieldLabel(c)].join(" · ")) + "<b>" + esc(value) + "</b>" +
+    return '<div class="app-value" data-key="' + esc(c.key) + '"><span>' + esc([exerciseName(rec, c.where.esercizio) || c.where.fase, fieldLabel(c)].join(" · ")) + "<b>" + esc(value) + "</b>" +
       (r ? "<small>" + esc(T(r.state === "corrected" ? "app.review.tagCorrected" : "app.review.tagConfirmed")) + "</small>" : "") + "</span>" +
       '<button type="button" class="icon-btn" data-fix="' + esc(c.key) + '">' + esc(T("app.review.fix")) + "</button></div>";
   }
@@ -188,7 +189,7 @@
       : '<button class="btn" type="button" data-conclude="' + esc(id) + '"' + (n ? " disabled" : "") + ">" + esc(T("app.review.conclude")) + "</button>";
     const groups = {};
     cs.forEach(c => { (groups[c.where.seduta] = groups[c.where.seduta] || []).push(c); });
-    const all = Object.keys(groups).map(k => '<details class="app-details"' + (groups[k].some(c => c.key === state.openKey && !c.uncertain) ? " open" : "") + "><summary>" +
+    const all = Object.keys(groups).map((k, gi) => '<details class="app-details" data-group="' + gi + '"' + (state.openGroups.has(gi) || groups[k].some(c => c.key === state.openKey && !c.uncertain) ? " open" : "") + "><summary>" +
       esc(k + " · " + T("app.review.count", { n: groups[k].length })) + "</summary>" +
       groups[k].map(c => (c.key === state.openKey && !c.uncertain ? fieldCard(rec, c) : valueRow(rec, c))).join("") + "</details>").join("");
     return page(rec.title, T(ok ? "app.review.eyebrowDone" : "app.review.eyebrow"), "#plans", top +
@@ -226,7 +227,18 @@
     }
     state.openKey = null; state.error = null;
     await D.put(rec);
-    route();
+    return route();
+  }
+  // dopo "Correggi", "Annulla", "Conferma", "Salva" la revisione si ridisegna: la riga o la scheda toccata resta nello stesso punto
+  // dello schermo (difetto del 24/09: dopo "Salva" le sezioni si richiudevano e la riga usciva dallo schermo); se l'editor del campo
+  // si apre altrove (valore incerto: nella sua scheda in alto), è la scheda con l'editor a prendere il posto della riga toccata
+  async function keepRow(t, redraw) {
+    const el = t.closest("[data-key]"), key = el && el.dataset.key, inDetails = !!(el && el.closest("details")), top = el ? el.getBoundingClientRect().top : 0;
+    await redraw();
+    const mine = el ? [...$app().querySelectorAll("[data-key]")].filter(x => x.dataset.key === key) : [];
+    const again = mine.find(x => x.querySelector(".app-editor")) || mine.find(x => !!x.closest("details") === inDetails);
+    const d = again ? Math.round(again.getBoundingClientRect().top - top) : 0;
+    if (d) window.scrollBy(0, d);
   }
 
   /* ---- anteprima ---- */
@@ -285,10 +297,10 @@
         return go(RV.playable(rec) ? "#plans" : "#review/" + enc(rec.id));
       } catch (err) { state.busy = null; $app().innerHTML = page(T("app.error.title"), "", "#bank", '<p class="app-lead">' + esc(T("app.error.text", { msg: err.message })) + "</p>"); return; }
     }
-    if (d.fix) { state.openKey = d.fix; state.error = null; return route(); }
-    if (d.cancel) { state.openKey = null; state.error = null; return route(); }
-    if (d.confirm) return reviewAction("confirm", d.confirm);
-    if (d.save) return reviewAction("save", d.save);
+    if (d.fix) { state.openKey = d.fix; state.error = null; return keepRow(t, route); }
+    if (d.cancel) { state.openKey = null; state.error = null; return keepRow(t, route); }
+    if (d.confirm) return keepRow(t, () => reviewAction("confirm", d.confirm));
+    if (d.save) return keepRow(t, () => reviewAction("save", d.save));
     if (d.conclude) {
       const rec = await D.get(d.conclude);
       if (RV.concludi(rec)) { await D.put(rec); location.href = "index.html?p=" + enc(rec.id); }
@@ -304,7 +316,13 @@
     const box = $app();
     box.addEventListener("click", e => { onClick(e).catch(err => console.error(err)); });
     box.addEventListener("change", onChange);
-    window.addEventListener("hashchange", () => { state.openKey = null; state.error = null; route().then(() => window.scrollTo(0, 0)); });
+    // sezioni dei "Valori letti" aperte o chiuse dall'utente (anche quelle aperte perché c'è un valore in modifica)
+    box.addEventListener("toggle", e => {
+      const g = e.target.matches && e.target.matches("details.app-details") ? Number(e.target.dataset.group) : null;
+      if (g == null || !isFinite(g)) return;
+      if (e.target.open) state.openGroups.add(g); else state.openGroups.delete(g);
+    }, true);
+    window.addEventListener("hashchange", () => { state.openKey = null; state.error = null; state.openGroups.clear(); route().then(() => window.scrollTo(0, 0)); });
     return route();
   }
 

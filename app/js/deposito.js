@@ -48,12 +48,13 @@
   };
   // la memoria del player per un piano (carichi ritoccati, ultima volta, seduta in corso, diario)
   const forgetPlayer = storageKey => { try { localStorage.removeItem(storageKey); } catch (e) { /* ignora */ } };
-  // carichi ritoccati nel player ("−/+", memoria del piano: kg per esercizio, lib/engine/texts.js) che una correzione in revisione
-  // ha superato: si tolgono, così il player mostra il carico corretto; gli altri ritocchi restano
+  // carichi ritoccati nel player ("−/+", memoria del piano: kgDiff = differenza dal carico in scheda per esercizio, lib/engine/store.js;
+  // kg = carico assoluto nella memoria salvata prima del passo 9) che una correzione in revisione ha superato: si tolgono, così il
+  // player mostra il carico corretto; gli altri ritocchi restano
   function forgetKg(storageKey, exercises) {
-    const mem = readJSON(storageKey);
-    if (!exercises.length || !mem.kg || !exercises.some(ex => ex in mem.kg)) return;
-    exercises.forEach(ex => { delete mem.kg[ex]; });
+    const mem = readJSON(storageKey), maps = ["kgDiff", "kg"].map(k => mem[k]).filter(m => m && typeof m === "object");
+    if (!exercises.length || !maps.some(m => exercises.some(ex => ex in m))) return;
+    maps.forEach(m => exercises.forEach(ex => { delete m[ex]; }));
     writeJSON(storageKey, mem);
   }
 

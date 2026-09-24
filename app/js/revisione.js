@@ -13,8 +13,10 @@
        dropOn    serie che portano la scalata: 1 = l'ultima, tutte le serie = tutte; un altro numero non si può rendere;
        durRange  durata a intervallo ("30 - 45’"): alla conferma o alla correzione la voce diventa a tempo con
                  dur: { min, max } (conto alla rovescia sul massimo, minimo segnato);
-       lb        carico in libbre: il testo del carico nella voce ("225 lb") prende il valore corretto, sempre in libbre; la
-                 conversione in kg si mostra come tale (1 lb = 0,45359237 kg), mai come carico guidato;
+       lb        carico in libbre: nel testo del carico nella voce cambia solo il numero, il resto resta com'è scritto ("1RM 275 lb"
+                 → "1RM 277.5 lb": qualificatore e unità restano), con i decimali nella lingua del piano (virgola in italiano,
+                 punto in inglese); sempre in libbre; la conversione in kg si mostra come tale (1 lb = 0,45359237 kg), mai come
+                 carico guidato;
      nessuna destinazione per le serie dentro intervalli e blocchi a cronometro (lì le serie sono i giri della fase): la
      correzione resta nella revisione e il segno nel player lo dice;
    - finché un campo incerto non è confermato o corretto il piano è "da rivedere" e non si apre nel player (D-U7);
@@ -139,6 +141,20 @@
   }
   function concludi(rec) { if (pending(rec)) return false; reviewOf(rec).confirmedAt = reviewOf(rec).confirmedAt || Date.now(); return true; }
 
+  // un numero scritto nella lingua del piano: "277,5" in italiano, francese, spagnolo, tedesco; "277.5" in inglese
+  function numero(v, lang) {
+    let sep = ".";
+    try { const d = new Intl.NumberFormat(lang || "en").formatToParts(1.5).find(x => x.type === "decimal"); if (d) sep = d.value; } catch (e) { /* lingua sconosciuta: punto */ }
+    return String(v).replace(".", sep);
+  }
+  // nel testo della scheda sostituisce solo il numero che vale quanto il valore letto (se ce n'è più di uno, quello attaccato all'unità)
+  // con il valore nuovo; prefissi, suffissi e unità restano ("1RM 275 lb" → "1RM 277.5 lb"); null se il numero non c'è
+  function conNumero(text, old, value, lang, unit) {
+    const found = [...String(text).matchAll(/\d+(?:[.,]\d+)?/g)].filter(m => Number(m[0].replace(",", ".")) === old);
+    if (!found.length) return null;
+    const m = found.find(x => new RegExp("^\\s*" + unit, "i").test(text.slice(x.index + x[0].length))) || found[0];
+    return text.slice(0, m.index) + numero(value, lang) + text.slice(m.index + m[0].length);
+  }
   const itemOf = (lib, t) => { const w = lib.workouts[t.wid], ph = w && w.phases[t.pi]; return ph && t.ii != null ? ph.items[t.ii] : null; };
   const specialOf = c => { const p = c.parts.find(x => x.target && x.target.special); return p ? p.target : null; };
   // un campo speciale nel piano per il player: true se applicato, false se la libreria non lo può rendere (effetto() dice perché)
@@ -165,8 +181,9 @@
     }
     if (t.special === "lb") {
       const written = c.parts[0].n.scritto, i = Array.isArray(it.rx) ? it.rx.indexOf(written) : -1;
-      if (i < 0) return false;
-      it.rx[i] = n + " lb";
+      const text = i < 0 ? null : conNumero(written, c.parts[0].n.valore, n, lib.lang, "lb");
+      if (text == null) return false;
+      it.rx[i] = text;
       return true;
     }
     return false;
@@ -258,5 +275,5 @@
     return Object.assign({ docName: doc ? doc.nome : f.doc }, f);
   }
 
-  App.revisione = { FIELD, LB_KG, numeri, target, campi, pending, playable, registra, concludi, applica, carichiCambiati, effetto, segni, formato, testoCampo, perche, fonte, getAt };
+  App.revisione = { FIELD, LB_KG, numeri, target, campi, pending, playable, registra, concludi, applica, carichiCambiati, effetto, segni, formato, testoCampo, perche, fonte, getAt, conNumero };
 })(globalThis.WorkoutPlayerApp = globalThis.WorkoutPlayerApp || {});
