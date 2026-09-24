@@ -197,10 +197,21 @@
       '<div class="app-actions">' + cta + "</div>" +
       (cs.length ? '<section class="app-section"><h2 class="app-h2">' + esc(T("app.review.allTitle")) + '</h2><p class="fine">' + esc(T("app.review.allLead")) + "</p>" + all + "</section>" : ""));
   }
+  // conferma o correzione di un campo. Il player tiene i carichi ritoccati con "−/+" per esercizio nella sua memoria del piano e li
+  // preferisce al carico della scheda: se la correzione cambia il carico di un esercizio, o salva un carico diverso da quello letto
+  // (anche uguale alla correzione di prima: così si sistema un ritocco rimasto da prima di questa regola), il ritocco si scarta
+  // (difetto del 24/09: lo squat corretto in revisione restava al valore ritoccato nel player); una semplice conferma no
+  function registra(rec, c, values) {
+    const prima = RV.applica(rec), r = RV.registra(rec, c, values);
+    const w = rec.lib.workouts[c.pos.wid], ph = w && w.phases[c.pos.pi], it = ph && c.pos.ii != null ? ph.items[c.pos.ii] : null;
+    const mine = r.state === "corrected" && c.libField === "kg" && it ? [it.ex] : [];
+    D.forgetKg(rec.lib.storageKey || "workoutplayer-" + rec.lib.id, RV.carichiCambiati(prima, RV.applica(rec)).concat(mine));
+    return r;
+  }
   async function reviewAction(kind, key) {
     const id = decodeURIComponent(location.hash.split("/").slice(1).join("/")), rec = await D.get(id);
     const c = RV.campi(rec.data, rec.lib).find(x => x.key === key);
-    if (kind === "confirm") RV.registra(rec, c, null);
+    if (kind === "confirm") registra(rec, c, null);
     if (kind === "save") {
       const values = {};
       let bad = false;
@@ -211,7 +222,7 @@
       });
       if (!bad && values.min != null && values.max != null && values.min > values.max) bad = true;
       if (bad) { state.error = key; return route(); }
-      RV.registra(rec, c, values);
+      registra(rec, c, values);
     }
     state.openKey = null; state.error = null;
     await D.put(rec);
@@ -297,5 +308,5 @@
     return route();
   }
 
-  App.viste = { avvia, route, importa };
+  App.viste = { avvia, route, importa, registra };
 })(globalThis.WorkoutPlayerApp = globalThis.WorkoutPlayerApp || {});

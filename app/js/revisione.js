@@ -185,6 +185,16 @@
     });
     return lib;
   }
+  // esercizi con un carico in kg (voce.kg) diverso fra due piani per il player, per esempio prima e dopo una correzione: il ritocco
+  // fatto prima nel player per quegli esercizi non vale più (app/js/viste.js, registra)
+  function carichiCambiati(prima, dopo) {
+    const out = new Set();
+    Object.keys(dopo.workouts).forEach(wid => dopo.workouts[wid].phases.forEach((ph, pi) => ph.items.forEach((it, ii) => {
+      const w = prima.workouts[wid], was = w && w.phases[pi] && w.phases[pi].items[ii];
+      if (typeof it.kg === "number" && (!was || was.kg !== it.kg)) out.add(it.ex);
+    })));
+    return [...out];
+  }
   // se una correzione (o i valori letti, senza revisione) arriva al player: null = sì; altrimenti la chiave del motivo
   function effetto(rec, c, values) {
     const sp = specialOf(c);
@@ -248,5 +258,5 @@
     return Object.assign({ docName: doc ? doc.nome : f.doc }, f);
   }
 
-  App.revisione = { FIELD, LB_KG, numeri, target, campi, pending, playable, registra, concludi, applica, effetto, segni, formato, testoCampo, perche, fonte, getAt };
+  App.revisione = { FIELD, LB_KG, numeri, target, campi, pending, playable, registra, concludi, applica, carichiCambiati, effetto, segni, formato, testoCampo, perche, fonte, getAt };
 })(globalThis.WorkoutPlayerApp = globalThis.WorkoutPlayerApp || {});

@@ -48,6 +48,14 @@
   };
   // la memoria del player per un piano (carichi ritoccati, ultima volta, seduta in corso, diario)
   const forgetPlayer = storageKey => { try { localStorage.removeItem(storageKey); } catch (e) { /* ignora */ } };
+  // carichi ritoccati nel player ("−/+", memoria del piano: kg per esercizio, lib/engine/texts.js) che una correzione in revisione
+  // ha superato: si tolgono, così il player mostra il carico corretto; gli altri ritocchi restano
+  function forgetKg(storageKey, exercises) {
+    const mem = readJSON(storageKey);
+    if (!exercises.length || !mem.kg || !exercises.some(ex => ex in mem.kg)) return;
+    exercises.forEach(ex => { delete mem.kg[ex]; });
+    writeJSON(storageKey, mem);
+  }
 
-  App.deposito = { all, get, put, del, settings, audio, forgetPlayer, AUDIO_KEY };
+  App.deposito = { all, get, put, del, settings, audio, forgetPlayer, forgetKg, AUDIO_KEY };
 })(globalThis.WorkoutPlayerApp = globalThis.WorkoutPlayerApp || {});
