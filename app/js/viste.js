@@ -1,7 +1,8 @@
 /* WorkoutPlayer · app: viste (T2). Una vista per indirizzo dopo "#":
      (vuoto) / #plans      I tuoi piani: piani del deposito locale, stato (da rivedere, pronto, anteprima), apri, elimina
      #bank                aggiungi un piano del banco (solo prove: dist/banco-catalogo.json, app/catalogo_banco.py)
-     #settings            lingua dell'interfaccia, tema, audio (comuni a tutti i piani), stato dell'offline
+     #settings            lingua dell'app, lingua del player (della scheda o dell'app, #61), tema, audio (comuni a tutti i piani),
+                          stato dell'offline
      #review/<id>      valori incerti accanto al ritaglio o alla riga del documento, conferma o correzione (AC-R1…R4);
                           finché ne manca uno il piano non si apre (D-U7); poi tutti i valori restano correggibili
      #preview/<id>      anteprima (AC-V3-1): avviso di copertura e disclaimer in alto, i primi 2 esercizi giocabili,
@@ -123,6 +124,7 @@
     return page(T("app.settings.title"), "", "#plans",
       '<section class="app-section">' +
         row(T("app.settings.lang"), T("app.settings.langHint"), langs) +
+        row(T("app.settings.playerLang"), T("app.settings.playerLangHint"), seg("app", "playerLang", [["plan", T("app.settings.playerLangPlan")], ["app", T("app.settings.playerLangApp")]], s.playerLang)) +
         row(T("app.settings.theme"), "", seg("app", "theme", [["auto", T("app.settings.themeAuto")], ["light", T("app.settings.themeLight")], ["dark", T("app.settings.themeDark")]], s.theme)) +
       '</section><section class="app-section"><h2 class="app-h2">' + esc(T("audio.title")) + "</h2>" +
         row(T("audio.beep"), T("audio.beepHint"), seg("audio", "beep", yesNo, a.beep)) +

@@ -5,7 +5,7 @@
          data: dati con provenienza e certezza (schema wp-plan/1) o null,            solo "plan"
          review: { fields: { chiave: { state, values, originals, at } }, confirmedAt } solo "plan"
          outline, coverage                                                          solo "preview" }
-   - Impostazioni dell'app in localStorage ("workoutplayer-app": lingua, tema); impostazioni audio comuni a tutti i piani
+   - Impostazioni dell'app in localStorage ("workoutplayer-app": lingua dell'app, tema, lingua del player); impostazioni audio comuni a tutti i piani
      in "workoutplayer-audio" (le legge e scrive anche il player, opzione settingsKey). */
 (function (App) {
   "use strict";
@@ -38,7 +38,8 @@
   function readJSON(key) { try { return JSON.parse(localStorage.getItem(key) || "null") || {}; } catch (e) { return {}; } }
   function writeJSON(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch (e) { /* memoria piena o non disponibile */ } }
   const settings = {
-    get: () => Object.assign({ lang: "auto", theme: "auto" }, readJSON(SETTINGS_KEY)),
+    // playerLang (#61): "plan" = il player nella lingua della scheda (predefinito), "app" = nella lingua dell'app
+    get: () => Object.assign({ lang: "auto", theme: "auto", playerLang: "plan" }, readJSON(SETTINGS_KEY)),
     set: patch => writeJSON(SETTINGS_KEY, Object.assign(settings.get(), patch))
   };
   // stesse impostazioni predefinite del player (lib/engine/store.js)
